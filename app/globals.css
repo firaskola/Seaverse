@@ -1,0 +1,341 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 195 100% 13%;
+    --foreground: 0 0% 98%;
+    --card: 187 96% 23%;
+    --card-foreground: 0 0% 98%;
+    --popover: 195 100% 13%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 187 96% 23%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 187 49% 43%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 195 50% 20%;
+    --muted-foreground: 0 0% 80%;
+    --accent: 187 49% 43%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 187 30% 30%;
+    --input: 187 30% 30%;
+    --ring: 187 96% 23%;
+    --radius: 0.5rem;
+
+    /* Custom colors as CSS variables */
+    --dark-sapphire: #012e40;
+    --abyssal-teal: #026873;
+    --seafoam-blue: #38a3a5;
+    --coral-orange: #ff6b6b;
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 195 100% 13%;
+    --card: 0 0% 98%;
+    --card-foreground: 195 100% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 195 100% 13%;
+    --primary: 187 96% 23%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 187 49% 43%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 195 50% 40%;
+    --accent: 187 49% 43%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 187 96% 23%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-dark-sapphire text-foreground font-outfit;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-space-grotesk;
+  }
+}
+
+/* Custom cursor styles */
+.custom-cursor {
+  @apply fixed w-8 h-8 rounded-full pointer-events-none z-50 mix-blend-difference;
+  transform: translate(-50%, -50%);
+}
+
+.cursor-ripple {
+  @apply absolute w-8 h-8 bg-seafoam-blue rounded-full opacity-50;
+  animation: ripple-effect 1s ease-out;
+}
+
+@keyframes ripple-effect {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Wave separator */
+.wave-separator {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wave-separator::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  background-size: 20px 40px;
+  background-image: radial-gradient(circle at 10px -15px, transparent 20px, var(--seafoam-blue) 20px);
+}
+
+.wave-separator::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 15px;
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle at 10px 26px, var(--seafoam-blue) 20px, transparent 20px);
+}
+
+/* Progress indicator */
+.progress-indicator {
+  @apply fixed top-0 left-0 h-1 bg-coral-orange z-50;
+  width: 0%;
+  transition: width 0.2s ease-out;
+}
+
+/* Depth effect */
+.depth-effect {
+  @apply relative overflow-hidden;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+}
+
+.depth-effect::before {
+  content: "";
+  @apply absolute inset-0 bg-gradient-to-b from-transparent to-black/30 pointer-events-none;
+}
+
+/* Underwater particle effect */
+.particle-container {
+  @apply absolute inset-0 overflow-hidden pointer-events-none;
+}
+
+.particle {
+  @apply absolute rounded-full bg-seafoam-blue/20;
+  animation: float-particle 15s infinite ease-in-out;
+}
+
+@keyframes float-particle {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(50px, 25px) rotate(90deg);
+  }
+  50% {
+    transform: translate(0, 50px) rotate(180deg);
+  }
+  75% {
+    transform: translate(-50px, 25px) rotate(270deg);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll reveal animations */
+.reveal-fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-fade-up.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-fade-right {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-fade-right.is-revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-fade-left {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-fade-left.is-revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-scale.is-revealed {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.reveal-rotate {
+  opacity: 0;
+  transform: rotate(-5deg) scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-rotate.is-revealed {
+  opacity: 1;
+  transform: rotate(0) scale(1);
+}
+
+/* Timeline reveal animations */
+.timeline-item {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.timeline-item.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-item.is-exiting {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Staggered animations */
+.stagger-reveal > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.stagger-reveal.is-revealed > *:nth-child(1) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.1s;
+}
+
+.stagger-reveal.is-revealed > *:nth-child(2) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.2s;
+}
+
+.stagger-reveal.is-revealed > *:nth-child(3) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.3s;
+}
+
+.stagger-reveal.is-revealed > *:nth-child(4) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.4s;
+}
+
+.stagger-reveal.is-revealed > *:nth-child(5) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+
+.stagger-reveal.is-revealed > *:nth-child(6) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.6s;
+}
+
+/* Ripple animation for buttons */
+.btn-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-ripple::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%, -50%);
+  transform-origin: 50% 50%;
+}
+
+.btn-ripple:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0.5;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .particle {
+    display: none;
+  }
+
+  .custom-cursor {
+    display: none;
+  }
+}
