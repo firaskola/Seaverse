@@ -14,7 +14,7 @@ import TimelineItem from "@/components/timeline-item"
 export default function Home() {
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero Section photo needs to be changed */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <video
