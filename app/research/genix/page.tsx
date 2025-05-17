@@ -5,6 +5,7 @@ import WaveSeparator from "@/components/wave-separator"
 import ParticleBackground from "@/components/particle-background"
 import ScrollReveal from "@/components/scroll-reveal"
 import RippleButton from "@/components/ripple-button"
+import TechnologyCard from "@/components/technology-card"
 
 export default function GenixPage() {
   return (
@@ -417,6 +418,40 @@ export default function GenixPage() {
       </section>
 
       <WaveSeparator color="abyssal-teal" />
+
+      {/* Genix Research Areas */}
+      <section className="py-20 bg-dark-sapphire relative">
+        <ParticleBackground count={10} />
+        <div className="container mx-auto px-4">
+          <ScrollReveal>
+            <SectionHeading
+              title="Genix Research Areas"
+              subtitle="Explore our specialized research initiatives within the Genix program."
+            />
+          </ScrollReveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <ScrollReveal animation="fade-up" delay={100}>
+              <TechnologyCard
+                title="Haematococcus pluvialis"
+                description="India's first sustainable astaxanthin production from marine algae, delivering nature's most powerful antioxidant."
+                imageSrc="/placeholder.svg?height=400&width=600"
+                href="/research/genix/astaxanthin"
+              />
+            </ScrollReveal>
+            <ScrollReveal animation="fade-up" delay={200}>
+              <TechnologyCard
+                title="Carbon Solutions"
+                description="Next-generation marine-based carbon removal technologies helping the ocean fight climate change intelligently."
+                imageSrc="/placeholder.svg?height=400&width=600"
+                href="/research/genix/carbon"
+              />
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      <WaveSeparator />
 
       {/* Collaborate */}
       <section className="py-20 bg-dark-sapphire relative">

@@ -30,65 +30,58 @@ export default function AboutPage() {
 
       <WaveSeparator />
 
-      {/* Our Story */}
-      <section className="py-20 bg-abyssal-teal relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
-        <div className="container mx-auto px-4">
-          <ScrollReveal>
-            <SectionHeading title="Our Story" subtitle="The journey that led to Seaverse's founding and growth." />
-          </ScrollReveal>
+     {/* Our Story */}
+<section className="py-20 bg-abyssal-teal relative">
+  <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+  <div className="container mx-auto px-4">
+    <ScrollReveal>
+      <SectionHeading title="Our Story" subtitle="The journey that led to Seaverse's founding and growth." />
+    </ScrollReveal>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <ScrollReveal animation="fade-right">
-              <div>
-                <p className="text-white/80 mb-6">
-                  Founded in 2020, Seaverse emerged from a vision to revolutionize marine technology and address
-                  critical underwater challenges. Our founders, a team of marine engineers, oceanographers, and
-                  technology innovators, recognized the vast potential of combining cutting-edge AI with sustainable
-                  ocean solutions.
-                </p>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <ScrollReveal animation="fade-right">
+        <div>
+          <p className="text-white/80 mb-6">
+            SEAVERSE was founded in 2024 by Shreesha H Acharya, a mechatronics engineer and entrepreneur with a deep passion for the ocean and a mind wired for innovation. What started as a dream to merge marine science with advanced technology has evolved into one of the most ambitious marine Research & technology ventures of our time.
+          </p>
 
-                <p className="text-white/80 mb-6">
-                  What began as a research project in underwater welding technology quickly expanded into a
-                  comprehensive marine innovation company. Today, Seaverse stands at the forefront of ocean technology,
-                  developing solutions that not only solve industrial challenges but also contribute to the health and
-                  sustainability of our marine ecosystems.
-                </p>
+          <p className="text-white/80 mb-6">
+            With a clear mission to harness the power of the ocean through sustainability, biotechnology, and robotics, SEAVERSE has become a pioneering force in the blue economy. From AI-powered underwater bots to algae-based nutraceutical breakthroughs, every project we build is rooted in scientific precision, environmental responsibility, and a bold drive to reimagine the relationship between humanity and the sea.
+          </p>
 
-                <div className="bg-dark-sapphire/30 p-4 border-l-4 border-coral-orange rounded">
-                  <h3 className="text-xl font-bold text-white mb-2">Our Mission</h3>
-                  <p className="text-white/80">
-                    To develop sustainable marine technologies that solve critical underwater challenges while
-                    preserving our ocean ecosystems for future generations.
-                  </p>
-                </div>
-              </div>
-            </ScrollReveal>
-
-            <ScrollReveal animation="fade-left" delay={200}>
-              <div className="relative">
-                <div className="aspect-video relative rounded-lg overflow-hidden">
-                  <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="Seaverse Founding Team"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-seafoam-blue/10 rounded-full animate-pulse"></div>
-                <div
-                  className="absolute -top-6 -left-6 w-32 h-32 bg-coral-orange/10 rounded-full animate-pulse"
-                  style={{ animationDelay: "1s" }}
-                ></div>
-              </div>
-            </ScrollReveal>
+          <div className="bg-dark-sapphire/30 p-4 border-l-4 border-coral-orange rounded">
+            <h3 className="text-xl font-bold text-white mb-2">Our Ocean Philosophy</h3>
+            <p className="text-white/80">
+              For us, the ocean is not just water — it's the future. And with every wave we study, every lab we launch, and every species we protect, we move closer to a world where innovation and ecology thrive together.
+            </p>
           </div>
         </div>
-      </section>
+      </ScrollReveal>
+
+      <ScrollReveal animation="fade-left" delay={200}>
+        <div className="relative">
+          <div className="aspect-video relative rounded-lg overflow-hidden">
+            <Image
+              src="/placeholder.svg?height=400&width=600"
+              alt="SEAVERSE Founder Shreesha H Acharya"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-seafoam-blue/10 rounded-full animate-pulse"></div>
+          <div
+            className="absolute -top-6 -left-6 w-32 h-32 bg-coral-orange/10 rounded-full animate-pulse"
+            style={{ animationDelay: "1s" }}
+          ></div>
+        </div>
+      </ScrollReveal>
+    </div>
+  </div>
+</section>
 
       <WaveSeparator color="abyssal-teal" />
 
-      {/* Timeline */}
+      {/* Timeline
       <section className="py-20 bg-dark-sapphire relative">
         <ParticleBackground count={10} />
         <div className="container mx-auto px-4">
@@ -151,11 +144,63 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <WaveSeparator />
 
-      {/* Meet the Team */}
+      
+      {/* <WaveSeparator color="abyssal-teal" /> */}
+
+      {/* Company Values */}
+      <section className="py-20 bg-dark-sapphire relative">
+        <ParticleBackground count={10} />
+        <div className="container mx-auto px-4">
+          <ScrollReveal>
+            <SectionHeading
+              title="Company Values"
+              subtitle="The core principles that guide our work and innovation."
+              centered
+            />
+          </ScrollReveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              {
+                title: "Innovation",
+                description: "Pushing the boundaries of marine technology through continuous research and development.",
+              },
+              {
+                title: "Sustainability",
+                description:
+                  "Developing solutions that protect and preserve our ocean ecosystems for future generations.",
+              },
+              {
+                title: "Precision",
+                description:
+                  "Delivering accurate technology that performs in the most challenging underwater environments.",
+              },
+              {
+                title: "Collaboration",
+                description: "Working with partners across industries to solve complex marine challenges together.",
+              },
+            ].map((value, index) => (
+              <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
+                <div className="bg-abyssal-teal/20 p-6 rounded-lg hover:bg-abyssal-teal/40 transition-all duration-300 hover:-translate-y-1 group">
+                  <h3 className="text-xl font-bold text-white mb-3">{value.title}</h3>
+                  <p className="text-white/70">{value.description}</p>
+
+                  <div className="mt-4 h-1 bg-seafoam-blue/30 rounded-full overflow-hidden">
+                    <div className="h-full bg-coral-orange w-0 group-hover:w-full transition-all duration-700"></div>
+                  </div>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <WaveSeparator />
+              {/* Meet the Team */}
       <section className="py-20 bg-abyssal-teal relative">
         <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
         <div className="container mx-auto px-4">
@@ -204,7 +249,7 @@ export default function AboutPage() {
             </div>
           </ScrollReveal>
 
-          <ScrollReveal animation="fade-up" delay={200}>
+          {/* <ScrollReveal animation="fade-up" delay={200}>
             <h3 className="text-2xl font-bold text-white mb-6">Genix Team</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {Array.from({ length: 4 }).map((_, i) => (
@@ -239,64 +284,12 @@ export default function AboutPage() {
                 </ScrollReveal>
               ))}
             </div>
-          </ScrollReveal>
+          </ScrollReveal> */}
         </div>
       </section>
-
-      <WaveSeparator color="abyssal-teal" />
-
-      {/* Company Values */}
-      <section className="py-20 bg-dark-sapphire relative">
-        <ParticleBackground count={10} />
-        <div className="container mx-auto px-4">
-          <ScrollReveal>
-            <SectionHeading
-              title="Company Values"
-              subtitle="The core principles that guide our work and innovation."
-              centered
-            />
-          </ScrollReveal>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                title: "Innovation",
-                description: "Pushing the boundaries of marine technology through continuous research and development.",
-              },
-              {
-                title: "Sustainability",
-                description:
-                  "Developing solutions that protect and preserve our ocean ecosystems for future generations.",
-              },
-              {
-                title: "Precision",
-                description:
-                  "Delivering accurate, reliable technology that performs in the most challenging underwater environments.",
-              },
-              {
-                title: "Collaboration",
-                description: "Working with partners across industries to solve complex marine challenges together.",
-              },
-            ].map((value, index) => (
-              <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
-                <div className="bg-abyssal-teal/20 p-6 rounded-lg hover:bg-abyssal-teal/40 transition-all duration-300 hover:-translate-y-1 group">
-                  <h3 className="text-xl font-bold text-white mb-3">{value.title}</h3>
-                  <p className="text-white/70">{value.description}</p>
-
-                  <div className="mt-4 h-1 bg-seafoam-blue/30 rounded-full overflow-hidden">
-                    <div className="h-full bg-coral-orange w-0 group-hover:w-full transition-all duration-700"></div>
-                  </div>
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <WaveSeparator />
 
       {/* Awards & Recognition */}
-      <section className="py-20 bg-abyssal-teal relative">
+      {/* <section className="py-20 bg-abyssal-teal relative">
         <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
@@ -432,8 +425,8 @@ export default function AboutPage() {
                   </ScrollReveal>
                 </div>
               </div>
-            </ScrollReveal>
-
+            </ScrollReveal> */}
+{/* 
             <ScrollReveal animation="fade-up" delay={300}>
               <div className="bg-dark-sapphire/30 p-6 rounded-lg">
                 <h3 className="text-2xl font-bold text-white mb-4">2022</h3>
@@ -467,7 +460,7 @@ export default function AboutPage() {
             </ScrollReveal>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

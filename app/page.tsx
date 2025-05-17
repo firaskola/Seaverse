@@ -14,7 +14,7 @@ import TimelineItem from "@/components/timeline-item"
 export default function Home() {
   return (
     <>
-      {/* Hero Section photo needs to be changed */}
+      {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <video
@@ -40,7 +40,7 @@ export default function Home() {
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto">Precision. Innovation. Depth.</p>
           </ScrollReveal>
-          <ScrollReveal animation="scale" delay={400}>
+          {/* <ScrollReveal animation="scale" delay={400}>
             <Button size="lg" className="bg-coral-orange hover:bg-coral-orange/80 text-white animate-float btn-ripple">
               Dive Deeper
             </Button>
@@ -48,7 +48,7 @@ export default function Home() {
 
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
             <ArrowDown className="text-white/70 h-8 w-8" />
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -62,7 +62,7 @@ export default function Home() {
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Marine Technology</h2>
                 <p className="text-white/80 mb-6">
                   At Seaverse, we're dedicated to revolutionizing underwater technology and sustainable marine
-                  solutions. Our cutting-edge innovations are designed to explore, protect, and harness the power of our
+                  solutions. Our innovations are designed to explore, protect, and harness the power of our
                   oceans.
                 </p>
                 <p className="text-white/80 mb-6">
@@ -95,36 +95,20 @@ export default function Home() {
 
       <WaveSeparator />
 
-      {/* Featured Technologies */}
+      {/* Featured Projects */}
       <section className="py-20 bg-abyssal-teal relative">
         <ParticleBackground count={20} color="rgba(1, 46, 64, 0.2)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="Featured Technologies"
+              title="Featured Projects"
               subtitle="Discover our innovative marine solutions designed to transform underwater operations and sustainable ocean cultivation."
               centered
             />
           </ScrollReveal>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <ScrollReveal animation="fade-up" delay={100}>
-              <TechnologyCard
-                title="REXWELD AI"
-                description="Advanced underwater welding technology powered by AI for precise subsea repairs and maintenance."
-                imageSrc="/placeholder.svg?height=400&width=600"
-                href="/technology/rexweld-ai"
-              />
-            </ScrollReveal>
-            <ScrollReveal animation="fade-up" delay={200}>
-              <TechnologyCard
-                title="Genix Ocean Labs"
-                description="Artificial ocean laboratories revolutionizing luxury aquaculture and sustainable marine research."
-                imageSrc="/placeholder.svg?height=400&width=600"
-                href="/research/genix"
-              />
-            </ScrollReveal>
-            <ScrollReveal animation="fade-up" delay={300}>
+             <ScrollReveal animation="fade-up" delay={100}>
               <TechnologyCard
                 title="Spirulina Biotech"
                 description="Sustainable marine spirulina cultivation technology for future-proof nutrition solutions."
@@ -132,12 +116,31 @@ export default function Home() {
                 href="/technology/spirulina"
               />
             </ScrollReveal>
-            <ScrollReveal animation="fade-up" delay={400} className="md:col-span-2 lg:col-span-3">
-              <TechnologyCard
+            <ScrollReveal animation="fade-up" delay={200}>
+               <TechnologyCard
                 title="Water Quality Monitoring"
                 description="Comprehensive water quality assessment services to diagnose and prevent marine environmental issues."
                 imageSrc="/placeholder.svg?height=400&width=600"
                 href="/technology/water-quality"
+              />
+             
+            </ScrollReveal>
+            <ScrollReveal animation="fade-up" delay={300}>
+               <TechnologyCard
+                title="REXWELD AI"
+                description="Advanced underwater welding technology powered by AI for precise subsea repairs and maintenance."
+                imageSrc="/placeholder.svg?height=400&width=600"
+                href="/technology/rexweld-ai"
+              />
+              
+            </ScrollReveal>
+           
+            <ScrollReveal animation="fade-up" delay={400} className="md:col-span-2 lg:col-span-3">
+             <TechnologyCard
+                title="Genix Ocean Labs"
+                description="Artificial ocean laboratories revolutionizing luxury aquaculture and sustainable marine research."
+                imageSrc="/placeholder.svg?height=400&width=600"
+                href="/research/genix"
               />
             </ScrollReveal>
           </div>
@@ -164,34 +167,34 @@ export default function Home() {
             <div className="space-y-16">
               {[
                 {
-                  year: 2020,
+                  year: 2024,
                   title: "Seaverse Founded",
                   description: "Established with a mission to revolutionize marine technology.",
                 },
                 {
-                  year: 2022,
+                  year: 2024,
                   title: "Ocean Rex Division Launched",
                   description: "Specialized division focused on underwater robotics and AI systems.",
                 },
+                 {
+                  year: 2024,
+                  title: "Genix Division Lauched",
+                  description: "Specialized division focused on research of marine micro-organisms and biotechnology.",
+                },
                 {
-                  year: 2023,
+                  year: 2025,
                   title: "Spirulina Biotech Development",
                   description: "Breakthrough in sustainable marine spirulina cultivation technology.",
                 },
                 {
-                  year: 2024,
+                  year: 2026,
                   title: "REXWELD AI Prototype",
                   description: "First successful test of our AI-powered underwater welding system.",
                 },
                 {
-                  year: 2025,
-                  title: "Genix Ocean Labs Planning",
-                  description: "Initiated development of artificial ocean laboratories.",
-                },
-                {
                   year: 2026,
-                  title: "Genix Launch",
-                  description: "Official launch of India's first Artificial Ocean Laboratory.",
+                  title: "Production of Astaxanthin",
+                  description: "Natures most potent antioxidant.",
                 },
               ].map((item, index) => (
                 <TimelineItem
@@ -233,27 +236,27 @@ export default function Home() {
             <ScrollReveal animation="fade-up" delay={100}>
               <Testimonial
                 quote="Seaverse's REXWELD AI technology has transformed our underwater maintenance operations, reducing costs by 40% while improving safety standards."
-                author="Rajiv Sharma"
-                role="Operations Director"
-                company="Indian Oil Corporation"
+                author="Shreesha H Acharya"
+                role="Founder & CEO"
+                company="Seaverse Research & Development"
                 imageSrc="/placeholder.svg?height=200&width=200"
               />
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={200}>
               <Testimonial
                 quote="The Genix Ocean Labs concept is revolutionary. It has the potential to make India a global leader in sustainable luxury aquaculture."
-                author="Dr. Meera Patel"
-                role="Marine Biologist"
-                company="National Institute of Oceanography"
+                author="Lakshmish Bhandary"
+                role="Director"
+                company="Seaverse Research & Development"
                 imageSrc="/placeholder.svg?height=200&width=200"
               />
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={300}>
               <Testimonial
                 quote="Seaverse's water quality monitoring services provided us with critical insights that helped prevent a major environmental incident."
-                author="James Chen"
-                role="Environmental Compliance Manager"
-                company="Pacific Marine Group"
+                author="Rhythm Sardana"
+                role="Head of Communication & Science Outreach"
+                company="Seaverse Research & Development"
                 imageSrc="/placeholder.svg?height=200&width=200"
               />
             </ScrollReveal>
@@ -299,66 +302,37 @@ export default function Home() {
 
       <WaveSeparator />
 
-      {/* Newsletter & Latest News */}
-      <section className="py-20 bg-abyssal-teal relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <ScrollReveal animation="fade-right">
-              <NewsletterSignup />
-            </ScrollReveal>
+    {/* Newsletter & Latest News */}
+<section className="py-20 bg-abyssal-teal relative">
+  <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+  <div className="container mx-auto px-4">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <ScrollReveal animation="fade-right">
+        <NewsletterSignup />
+      </ScrollReveal>
 
-            <ScrollReveal animation="fade-left">
-              <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Latest News & Insights</h3>
+      <ScrollReveal animation="fade-left">
+        <div>
+          <h3 className="text-2xl font-bold text-white mb-6">Latest News & Insights</h3>
 
-                <div className="space-y-6">
-                  {[
-                    {
-                      title: "REXWELD AI Development Milestone Reached",
-                      date: "May 10, 2025",
-                      excerpt:
-                        "Our underwater welding technology achieves new precision benchmarks in deep-sea testing.",
-                    },
-                    {
-                      title: "Genix Ocean Labs Secures Major Investment",
-                      date: "April 28, 2025",
-                      excerpt:
-                        "Strategic partnership accelerates development of India's first artificial ocean laboratory.",
-                    },
-                    {
-                      title: "Spirulina Biotech Expands to International Markets",
-                      date: "April 15, 2025",
-                      excerpt: "Seaverse's sustainable marine cultivation technology gains global recognition.",
-                    },
-                  ].map((item, index) => (
-                    <div
-                      key={index}
-                      className="bg-dark-sapphire/30 p-4 rounded-lg hover:bg-dark-sapphire/50 transition-colors duration-300"
-                    >
-                      <span className="text-seafoam-blue text-sm">{item.date}</span>
-                      <h4 className="text-lg font-bold text-white mt-1 mb-2">{item.title}</h4>
-                      <p className="text-white/70 text-sm mb-3">{item.excerpt}</p>
-                      <Link href="#" className="text-coral-orange hover:text-white text-sm inline-flex items-center">
-                        Read More <ArrowRight className="ml-1 h-3 w-3" />
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="mt-6 text-center">
-                  <Button
-                    variant="outline"
-                    className="border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white btn-ripple"
-                  >
-                    View All News
-                  </Button>
-                </div>
+          <div className="space-y-6">
+            <div className="bg-dark-sapphire/30 p-8 rounded-lg text-center">
+              <div className="flex flex-col items-center justify-center h-full">
+                <svg className="w-12 h-12 text-seafoam-blue mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h4 className="text-xl font-bold text-white mb-2">Exciting Updates Coming Soon</h4>
+                <p className="text-white/70">
+                  We're preparing some groundbreaking announcements about our marine technology innovations. Stay tuned!
+                </p>
               </div>
-            </ScrollReveal>
+            </div>
           </div>
         </div>
-      </section>
+      </ScrollReveal>
+    </div>
+  </div>
+</section>
     </>
   )
 }

@@ -246,13 +246,25 @@ export default function ContactPage() {
                     <div className="flex items-start">
                       <MapPin className="text-coral-orange mr-3 mt-1 flex-shrink-0" size={20} />
                       <div>
+                        <h3 className="text-lg font-bold text-white mb-1">SEAVERSE RESEARCH & DEVELOPMENT</h3>
+                        <p className="text-white/70">
+                         
+                          Kuloor
+                          <br />
+                          Mangaluru, Karnataka 575013
+                          <br />
+                          India
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <MapPin className="text-coral-orange mr-3 mt-1 flex-shrink-0" size={20} />
+                      <div>
                         <h3 className="text-lg font-bold text-white mb-1">Headquarters</h3>
                         <p className="text-white/70">
-                          SEAVERSE R&D Campus
+                          Mallikatte, Kadri
                           <br />
-                          Marine Technology Park
-                          <br />
-                          Bengaluru, Karnataka 560103
+                          Mangaluru, Karnataka 575002
                           <br />
                           India
                         </p>

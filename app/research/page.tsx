@@ -101,33 +101,25 @@ export default function ResearchPage() {
             <ScrollReveal animation="fade-up" delay={100}>
               <TechnologyCard
                 title="Genix Ocean Laboratories"
-                description="Artificial ocean laboratories revolutionizing luxury aquaculture and sustainable marine research."
+                description="Artificial ocean laboratories revolutionizing luxury aquaculture, sustainable marine research, and astaxanthin production."
                 imageSrc="/placeholder.svg?height=400&width=600"
                 href="/research/genix"
               />
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={200}>
               <TechnologyCard
-                title="Deep Sea Robotics"
-                description="Advanced underwater robotics for exploration, maintenance, and research in extreme ocean environments."
+                title="Genix Carbon Solutions"
+                description="Advanced marine-based carbon removal technologies including algae farms, AI-optimized kelp forests, and deep-sea CO₂ mineralization."
                 imageSrc="/placeholder.svg?height=400&width=600"
-                href="#"
+                href="/research/genix/carbon"
               />
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={300}>
               <TechnologyCard
-                title="Marine Biotechnology"
-                description="Harnessing the potential of marine organisms for sustainable nutrition, pharmaceuticals, and materials."
+                title="Haematococcus pluvialis"
+                description="India's first sustainable astaxanthin production from marine algae, delivering nature's most powerful antioxidant."
                 imageSrc="/placeholder.svg?height=400&width=600"
-                href="#"
-              />
-            </ScrollReveal>
-            <ScrollReveal animation="fade-up" delay={400}>
-              <TechnologyCard
-                title="Ocean Data Systems"
-                description="Comprehensive monitoring and analysis technologies for understanding and protecting marine ecosystems."
-                imageSrc="/placeholder.svg?height=400&width=600"
-                href="#"
+                href="/research/genix/astaxanthin"
               />
             </ScrollReveal>
           </div>
@@ -177,6 +169,20 @@ export default function ResearchPage() {
                   >
                     Explore Genix Research <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
+                  <div className="flex flex-wrap gap-4 mt-4">
+                    <Link
+                      href="/research/genix/astaxanthin"
+                      className="inline-flex items-center text-seafoam-blue hover:text-white transition-colors"
+                    >
+                      Astaxanthin Production <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                    <Link
+                      href="/research/genix/carbon"
+                      className="inline-flex items-center text-seafoam-blue hover:text-white transition-colors"
+                    >
+                      Carbon Solutions <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
