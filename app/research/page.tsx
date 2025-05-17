@@ -122,6 +122,14 @@ export default function ResearchPage() {
                 href="/research/genix/astaxanthin"
               />
             </ScrollReveal>
+            <ScrollReveal animation="fade-up" delay={400}>
+              <TechnologyCard
+                title="Genix Marine Restoration"
+                description="Rebuilding coastal ecosystems through smart mangrove reforestation and seagrass meadow revival to create blue carbon sinks."
+                imageSrc="/placeholder.svg?height=400&width=600"
+                href="/research/marine-restoration"
+              />
+            </ScrollReveal>
           </div>
         </div>
       </section>
@@ -181,6 +189,12 @@ export default function ResearchPage() {
                       className="inline-flex items-center text-seafoam-blue hover:text-white transition-colors"
                     >
                       Carbon Solutions <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
+                    <Link
+                      href="/research/marine-restoration"
+                      className="inline-flex items-center text-seafoam-blue hover:text-white transition-colors"
+                    >
+                      Marine Restoration <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </div>
                 </div>
