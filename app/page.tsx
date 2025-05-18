@@ -139,7 +139,7 @@ export default function Home() {
              <TechnologyCard
                 title="Genix Ocean Labs"
                 description="Artificial ocean laboratories revolutionizing luxury aquaculture and sustainable marine research."
-                imageSrc="/images/l1.jpg"
+                imageSrc="/images/l3.jpg"
                 href="/research/genix"
               />
             </ScrollReveal>
@@ -235,7 +235,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ScrollReveal animation="fade-up" delay={100}>
               <Testimonial
-                quote="Seaverse's REXWELD AI technology has transformed our underwater maintenance operations, reducing costs by 40% while improving safety standards."
+                quote="Seaverse's REXWELD AI technology will transform our underwater maintenance operations, reducing costs by 40% while improving safety standards."
                 author="Shreesha H Acharya"
                 role="Founder & CEO"
                 company="Seaverse Research & Development"
@@ -253,7 +253,7 @@ export default function Home() {
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={300}>
               <Testimonial
-                quote="Seaverse's water quality monitoring services provided us with critical insights that helped prevent a major environmental incident."
+                quote="Seaverse's water quality monitoring services will provide us with critical insights that helped prevent a major environmental incident."
                 author="Rhythm Sardana"
                 role="Head of Communication & Science Outreach"
                 company="Seaverse Research & Development"
