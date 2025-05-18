@@ -67,7 +67,7 @@ export default function ResearchPage() {
               <div className="relative">
                 <div className="aspect-video relative rounded-lg overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/ocean_lab.jpg"
                     alt="Seaverse Research Lab"
                     fill
                     className="object-cover"
@@ -102,7 +102,7 @@ export default function ResearchPage() {
               <TechnologyCard
                 title="Genix Ocean Laboratories"
                 description="Artificial ocean laboratories revolutionizing luxury aquaculture, sustainable marine research, and astaxanthin production."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/ocean_lab3.jpg"
                 href="/research/genix"
               />
             </ScrollReveal>
@@ -110,7 +110,7 @@ export default function ResearchPage() {
               <TechnologyCard
                 title="Genix Carbon Solutions"
                 description="Advanced marine-based carbon removal technologies including algae farms, AI-optimized kelp forests, and deep-sea CO₂ mineralization."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/carbon_cap1.jpg"
                 href="/research/genix/carbon"
               />
             </ScrollReveal>
@@ -118,7 +118,7 @@ export default function ResearchPage() {
               <TechnologyCard
                 title="Haematococcus pluvialis"
                 description="India's first sustainable astaxanthin production from marine algae, delivering nature's most powerful antioxidant."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/astax1.jpg"
                 href="/research/genix/astaxanthin"
               />
             </ScrollReveal>
@@ -126,7 +126,7 @@ export default function ResearchPage() {
               <TechnologyCard
                 title="Genix Marine Restoration"
                 description="Rebuilding coastal ecosystems through smart mangrove reforestation and seagrass meadow revival to create blue carbon sinks."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/coral1.jpg"
                 href="/research/marine-restoration"
               />
             </ScrollReveal>
@@ -152,7 +152,7 @@ export default function ResearchPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/images/ocean_lab2.jpg"
                     alt="Genix Ocean Laboratories"
                     fill
                     className="object-cover"

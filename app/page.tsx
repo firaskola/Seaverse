@@ -81,8 +81,8 @@ export default function Home() {
             <ScrollReveal animation="fade-left" delay={200}>
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
-                  alt="Deep sea vessel"
+                  src="/images/aquaculture.jpg"
+                  alt="aquaculture"
                   fill
                   className="object-cover rounded-lg"
                 />
@@ -112,7 +112,7 @@ export default function Home() {
               <TechnologyCard
                 title="Spirulina Biotech"
                 description="Sustainable marine spirulina cultivation technology for future-proof nutrition solutions."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/spiri.jpg"
                 href="/technology/spirulina"
               />
             </ScrollReveal>
@@ -120,7 +120,7 @@ export default function Home() {
                <TechnologyCard
                 title="Water Quality Monitoring"
                 description="Comprehensive water quality assessment services to diagnose and prevent marine environmental issues."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/water_quality.jpg"
                 href="/technology/water-quality"
               />
              
@@ -129,7 +129,7 @@ export default function Home() {
                <TechnologyCard
                 title="REXWELD AI"
                 description="Advanced underwater welding technology powered by AI for precise subsea repairs and maintenance."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/rexweld.jpg"
                 href="/technology/rexweld-ai"
               />
               
@@ -139,7 +139,7 @@ export default function Home() {
              <TechnologyCard
                 title="Genix Ocean Labs"
                 description="Artificial ocean laboratories revolutionizing luxury aquaculture and sustainable marine research."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/ocean_lab3.jpg"
                 href="/research/genix"
               />
             </ScrollReveal>

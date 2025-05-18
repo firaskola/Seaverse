@@ -54,7 +54,7 @@ export default function TechnologyPage() {
               <TechnologyCard
                 title="AQUA SENTINEL"
                 description="Autonomous underwater drones providing 24/7 insights on ocean life, climate shifts, and ecological risks in real time."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/aqua_senti.jpg"
                 href="/technology/aqua-sentinel"
               />
             </ScrollReveal>
@@ -62,7 +62,7 @@ export default function TechnologyPage() {
               <TechnologyCard
                 title="Spirulina Biotech"
                 description="Sustainable marine spirulina cultivation technology for future-proof nutrition solutions."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/spiri.jpg"
                 href="/technology/spirulina"
               />
             </ScrollReveal>
@@ -147,7 +147,7 @@ export default function TechnologyPage() {
             <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=600&width=1200"
+                  src="/images/energy.jpg"
                   alt="Ocean Energy Solutions"
                   fill
                   className="object-cover"

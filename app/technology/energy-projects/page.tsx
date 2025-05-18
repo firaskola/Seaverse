@@ -393,7 +393,7 @@ export default function EnergyProjectsPage() {
                         </div>
                         <div>
                           <span className="text-white font-medium">Series A Raise:</span>
-                          <p className="text-white/80">Scaling OTEC pilot to 10MW (₹200 Cr)</p>
+                          <p className="text-white/80">Scaling OTEC pilot to 10MW (₹400 Cr)</p>
                         </div>
                       </li>
                       <li className="flex items-start">
@@ -522,7 +522,7 @@ export default function EnergyProjectsPage() {
                       Propose a Collaboration
                     </RippleButton>
                     <RippleButton className="bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
-                      Apply for Joint Research Grant
+                      Schedule a 1-on-1 with Our CEO
                     </RippleButton>
                   </div>
                 </div>
@@ -575,17 +575,17 @@ export default function EnergyProjectsPage() {
       <section className="py-20 bg-abyssal-teal relative">
         <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
         <div className="container mx-auto px-4 text-center">
-          <ScrollReveal>
+          {/* <ScrollReveal>
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
               Ready to Pioneer the Next Wave of Clean Energy?
             </h2>
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={200}>
+          </ScrollReveal> */}
+          {/* <ScrollReveal animation="fade-up" delay={100}>
             <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
               "The tides are predictable. Our progress is too."
             </p>
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={300}>
+          </ScrollReveal> */}
+          <ScrollReveal animation="fade-up" delay={100}>
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-12">
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full bg-seafoam-blue/20 flex items-center justify-center mr-3">
@@ -613,7 +613,7 @@ export default function EnergyProjectsPage() {
               </div>
             </div>
           </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={400}>
+          <ScrollReveal animation="fade-up" delay={200}>
             <div className="flex flex-wrap justify-center gap-4">
               <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
                 Join the Research Alliance
