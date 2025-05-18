@@ -42,16 +42,16 @@ export default function CarbonSolutionsPage() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={600}>
             <div className="flex flex-wrap justify-center gap-4">
-              <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
+              {/* <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
                 Explore Our Solutions
-              </RippleButton>
-              <RippleButton
+              </RippleButton> */}
+              {/* <RippleButton
                 variant="outline"
                 className="border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
                 rippleColor="rgba(56, 163, 165, 0.3)"
               >
                 Book a Demo with Our Climate Team
-              </RippleButton>
+              </RippleButton> */}
             </div>
           </ScrollReveal>
         </div>
@@ -541,11 +541,11 @@ export default function CarbonSolutionsPage() {
                   </div>
                 </div>
 
-                <div className="mt-6">
+                {/* <div className="mt-6">
                   <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
                     Download Full Case Study
                   </RippleButton>
-                </div>
+                </div> */}
               </div>
             </ScrollReveal>
 
@@ -673,11 +673,11 @@ export default function CarbonSolutionsPage() {
                     <rect width="20" height="16" x="2" y="4" rx="2" />
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                   </svg>
-                  <span className="text-white">genix@seaverse.in</span>
+                  <span className="text-white">seaverseresearch@gmail.com</span>
                 </div>
                 <div className="flex items-center justify-center">
                   <Link href="#" className="text-seafoam-blue hover:text-coral-orange transition-colors">
-                    www.seaverse.in/genix-carbon
+                    www.seaverse.co/research/genix/carbon
                   </Link>
                 </div>
               </div>

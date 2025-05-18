@@ -51,7 +51,14 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Get in Touch</Button>
+           <Button 
+  className="bg-coral-orange hover:bg-coral-orange/80 text-white w-full"
+  onClick={() => {
+    window.location.href = "mailto:seaversetechnology@gmail.com?subject=Get in touch";
+  }}
+>
+  Get in Touch
+</Button>
           </nav>
 
           {/* Mobile Navigation Toggle */}
@@ -83,9 +90,14 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white mt-8" onClick={() => setIsOpen(false)}>
-            Get in Touch
-          </Button>
+          <a 
+  href="mailto:seaversetechnology@gmail.com?subject=Get in touch" 
+  className="block w-full mt-8"
+>
+  <button className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white py-2 px-4 rounded">
+    Get in Touch
+  </button>
+</a>
         </div>
       </div>
     </header>

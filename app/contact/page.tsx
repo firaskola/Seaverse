@@ -416,10 +416,10 @@ export default function ContactPage() {
               ))}
             </Accordion>
 
-            <div className="mt-8 text-center">
+            {/* <div className="mt-8 text-center">
               <p className="text-white/80 mb-4">Still have questions?</p>
               <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Contact Our Support Team</Button>
-            </div>
+            </div> */}
           </ScrollReveal>
         </div>
       </section>
@@ -440,17 +440,17 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-white mb-3">Technical Support</h3>
                 <p className="text-white/70 mb-4">For assistance with our technologies and products.</p>
                 <p className="text-white/70 mb-2">
-                  <span className="text-seafoam-blue">Email:</span> support@seaverse.in
+                  <span className="text-seafoam-blue">Email:</span> seaversetechnology@gmail.com
                 </p>
                 <p className="text-white/70 mb-4">
                   <span className="text-seafoam-blue">Response Time:</span> Within 24 hours
                 </p>
-                <Button
+                {/* <Button
                   variant="outline"
                   className="w-full border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
                 >
                   Contact Support
-                </Button>
+                </Button> */}
               </div>
             </ScrollReveal>
 
@@ -459,17 +459,17 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-white mb-3">Business Inquiries</h3>
                 <p className="text-white/70 mb-4">For partnerships, investments, and business opportunities.</p>
                 <p className="text-white/70 mb-2">
-                  <span className="text-seafoam-blue">Email:</span> business@seaverse.in
+                  <span className="text-seafoam-blue">Email:</span> shreeshaachar233@gmail.com
                 </p>
                 <p className="text-white/70 mb-4">
                   <span className="text-seafoam-blue">Response Time:</span> Within 48 hours
                 </p>
-                <Button
+                {/* <Button
                   variant="outline"
                   className="w-full border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
                 >
                   Business Contact
-                </Button>
+                </Button> */}
               </div>
             </ScrollReveal>
 
@@ -478,17 +478,17 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-white mb-3">Media Contacts</h3>
                 <p className="text-white/70 mb-4">For press inquiries, interviews, and media resources.</p>
                 <p className="text-white/70 mb-2">
-                  <span className="text-seafoam-blue">Email:</span> media@seaverse.in
+                  <span className="text-seafoam-blue">Email:</span> seaversetechnology@gmail.com
                 </p>
                 <p className="text-white/70 mb-4">
                   <span className="text-seafoam-blue">Response Time:</span> Within 24-48 hours
                 </p>
-                <Button
+                {/* <Button
                   variant="outline"
                   className="w-full border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
                 >
                   Media Contact
-                </Button>
+                </Button> */}
               </div>
             </ScrollReveal>
           </div>

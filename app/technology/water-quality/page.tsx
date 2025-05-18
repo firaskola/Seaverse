@@ -5,6 +5,7 @@ import { ArrowRight, Check, Download, Calendar } from "lucide-react"
 import SectionHeading from "@/components/section-heading"
 import WaveSeparator from "@/components/wave-separator"
 import ParticleBackground from "@/components/particle-background"
+import RippleButton from "@/components/ripple-button"
 
 export default function WaterQualityPage() {
   return (
@@ -412,7 +413,7 @@ export default function WaterQualityPage() {
             </div>
           </div>
 
-          <div className="mt-12 text-center">
+          {/* <div className="mt-12 text-center">
             <h3 className="text-xl font-bold text-white mb-6">Certified By</h3>
             <div className="flex flex-wrap justify-center gap-8">
               {Array.from({ length: 3 }).map((_, i) => (
@@ -430,7 +431,7 @@ export default function WaterQualityPage() {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -460,10 +461,13 @@ export default function WaterQualityPage() {
 
             <div className="bg-dark-sapphire/30 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-white mb-4">For the Decisive</h3>
-              <Button className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white">
-                <Calendar className="mr-2 h-4 w-4" />
-                Book a 15-Minute Consult
-              </Button>
+<a href="mailto:seaversetechnology@gmail.com?subject=15-Minute%20Consultation">
+  <RippleButton>
+    <Calendar className="mr-2 h-4 w-4" />
+    Book a 15-Minute Consult
+  </RippleButton>
+</a>
+
             </div>
 
             <div className="bg-dark-sapphire/30 p-6 rounded-lg">

@@ -296,9 +296,9 @@ export default function RexweldAIPage() {
               </div>
             </div>
 
-            <div className="mt-8 text-center">
+            {/* <div className="mt-8 text-center">
               <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Request Demo</Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -319,7 +319,7 @@ export default function RexweldAIPage() {
             Together, let's shape the next generation of underwater maintenance and innovation.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4">
+          {/* <div className="flex flex-wrap justify-center gap-4">
             <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Become a Partner</Button>
             <Button
               variant="outline"
@@ -327,7 +327,7 @@ export default function RexweldAIPage() {
             >
               Contact R&D Team
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

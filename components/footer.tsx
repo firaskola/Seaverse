@@ -104,21 +104,21 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="text-seafoam-blue mr-2 mt-1 flex-shrink-0" size={18} />
-                <span className="text-white/70">SEAVERSE R&D Campus, Bengaluru, India</span>
+                <span className="text-white/70">SEAVERSE Headquaters, Mallikatte, Kadri, Mangaluru, Karnataka 575002</span>
               </li>
               <li className="flex items-center">
                 <Mail className="text-seafoam-blue mr-2 flex-shrink-0" size={18} />
                 <a
-                  href="mailto:contact@seaverse.in"
+                  href="mailto:seaversetechnology@gmail.com"
                   className="text-white/70 hover:text-coral-orange transition-colors"
                 >
-                  contact@seaverse.in
+                  seaversetechnology@gmail.com
                 </a>
               </li>
               <li className="flex items-center">
                 <Phone className="text-seafoam-blue mr-2 flex-shrink-0" size={18} />
-                <a href="tel:+919876543210" className="text-white/70 hover:text-coral-orange transition-colors">
-                  +91 9876 543 210
+                <a href="tel:+918310862870" className="text-white/70 hover:text-coral-orange transition-colors">
+                  +91 8310862870
                 </a>
               </li>
             </ul>

@@ -492,17 +492,17 @@ export default function GenixPage() {
           >
             <div className="bg-abyssal-teal/20 p-4 rounded-lg">
               <p className="text-white/70 mb-2">Email</p>
-              <p className="text-white font-medium">genix@seaverse.in</p>
+              <p className="text-white font-medium">seaverseresearch@gmail.com</p>
             </div>
 
             <div className="bg-abyssal-teal/20 p-4 rounded-lg">
               <p className="text-white/70 mb-2">Website</p>
-              <p className="text-white font-medium">www.seaverse.in/genix</p>
+              <p className="text-white font-medium">seaverse.co/research/genix</p>
             </div>
 
             <div className="bg-abyssal-teal/20 p-4 rounded-lg">
               <p className="text-white/70 mb-2">Headquarters</p>
-              <p className="text-white font-medium">SEAVERSE R&D Campus, Bengaluru</p>
+              <p className="text-white font-medium">SEAVERSE R&D, Mallikatte, Kadri, Mangaluru, Karnataka 575002</p>
             </div>
           </ScrollReveal>
         </div>

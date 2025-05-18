@@ -41,9 +41,19 @@ export default function AstaxanthinPage() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={600}>
             <div className="flex flex-wrap justify-center gap-4">
-              <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
-                Request Sample Kit
-              </RippleButton>
+          <Link
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=seaverseresearch@gmail.com&su=${encodeURIComponent("Request Spirulina Sample Kit")}`}
+  passHref
+  legacyBehavior
+>
+  <RippleButton
+    
+    className="bg-coral-orange hover:bg-coral-orange/80 text-white"
+    rel="noopener noreferrer"
+  >
+    Request Sample Kit
+  </RippleButton>
+</Link>
               <RippleButton
                 variant="outline"
                 className="border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
@@ -667,11 +677,11 @@ export default function AstaxanthinPage() {
                     <rect width="20" height="16" x="2" y="4" rx="2" />
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                   </svg>
-                  <span className="text-white">astaxanthin@genix.in</span>
+                  <span className="text-white">seaverseresearch@gmail.com</span>
                 </div>
                 <div className="flex items-center justify-center">
                   <Link href="#" className="text-seafoam-blue hover:text-coral-orange transition-colors">
-                    www.genix.in/astaxanthin-india
+                    www.seaverse.co/research/genix/astaxanthin
                   </Link>
                 </div>
               </div>

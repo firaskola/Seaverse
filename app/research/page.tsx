@@ -277,10 +277,10 @@ export default function ResearchPage() {
         </div>
       </section>
 
-      <WaveSeparator />
+      {/* <WaveSeparator /> */}
 
       {/* Research Partners */}
-      <section className="py-20 bg-abyssal-teal relative">
+      {/* <section className="py-20 bg-abyssal-teal relative">
         <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
@@ -320,7 +320,7 @@ export default function ResearchPage() {
             <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Become a Research Partner</Button>
           </ScrollReveal>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

@@ -36,7 +36,7 @@ export default function AquaSentinelPage() {
               </p>
             </div>
           </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={600}>
+          {/* <ScrollReveal animation="fade-up" delay={600}>
             <div className="flex flex-wrap justify-center gap-4">
               <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
                 See Live Ocean Data
@@ -49,7 +49,7 @@ export default function AquaSentinelPage() {
                 Request a Demo Unit
               </RippleButton>
             </div>
-          </ScrollReveal>
+          </ScrollReveal> */}
         </div>
       </section>
 
@@ -506,16 +506,16 @@ export default function AquaSentinelPage() {
               <div className="space-y-4">
                 <div className="flex items-center justify-center">
                   <Mail className="text-coral-orange mr-3 flex-shrink-0" size={20} />
-                  <span className="text-white">robotics@oceanrex.in</span>
+                  <span className="text-white">seaversetechnology@gmail.com</span>
                 </div>
                 <div className="flex items-center justify-center">
                   <Link href="#" className="text-seafoam-blue hover:text-coral-orange transition-colors">
-                    www.oceanrex.in/marinerobotics
+                    www.seaverse.co/technology/aqua-sentinel
                   </Link>
                 </div>
                 <div className="flex items-center justify-center">
                   <Phone className="text-coral-orange mr-3 flex-shrink-0" size={20} />
-                  <span className="text-white">+91-XXXXXXXXXX</span>
+                  <span className="text-white">+91-63634 77139</span>
                 </div>
               </div>
             </div>

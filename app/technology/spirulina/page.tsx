@@ -380,9 +380,9 @@ export default function SpirulinaPage() {
             </div>
           </div>
 
-          <div className="mt-8 text-center">
+          {/* <div className="mt-8 text-center">
             <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Contact BioTech Team</Button>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -438,9 +438,7 @@ export default function SpirulinaPage() {
               <div className="space-y-6">
                 <div className="bg-dark-sapphire/30 p-6 rounded-lg">
                   <div className="flex items-start mb-4">
-                    <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
-                      <Image src="/placeholder.svg?height=100&width=100" alt="Customer" fill className="object-cover" />
-                    </div>
+                   
                     <div>
                       <h4 className="text-lg font-bold text-white">Sarah K.</h4>
                       <p className="text-seafoam-blue text-sm">Fitness Coach</p>
@@ -454,9 +452,9 @@ export default function SpirulinaPage() {
 
                 <div className="bg-dark-sapphire/30 p-6 rounded-lg">
                   <div className="flex items-start mb-4">
-                    <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
+                    {/* <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
                       <Image src="/placeholder.svg?height=100&width=100" alt="Customer" fill className="object-cover" />
-                    </div>
+                    </div> */}
                     <div>
                       <h4 className="text-lg font-bold text-white">Michael T.</h4>
                       <p className="text-seafoam-blue text-sm">Pastry Chef</p>
@@ -485,13 +483,15 @@ export default function SpirulinaPage() {
             centered
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-3xl mx-auto">
             <div className="bg-abyssal-teal/20 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-white mb-4">For Businesses</h3>
               <div className="space-y-4">
-                <Button className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white">
-                  Request Sample Kit
-                </Button>
+                <a href="mailto:seaversetechnology@gmail.com?subject=Order Spirulina Products" className="w-full">
+                  <Button className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white">
+                   Request Sample Kit
+                 </Button>
+                </a>
                 <Button
                   variant="outline"
                   className="w-full border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
@@ -501,10 +501,10 @@ export default function SpirulinaPage() {
               </div>
             </div>
 
-            <div className="bg-abyssal-teal/20 p-6 rounded-lg">
+            {/* <div className="bg-abyssal-teal/20 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-white mb-4">For Consumers</h3>
               <Button className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white">Shop Now</Button>
-            </div>
+            </div> */}
           </div>
 
           <div className="mt-12">

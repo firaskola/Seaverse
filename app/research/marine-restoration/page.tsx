@@ -54,7 +54,7 @@ export default function MarineRestorationPage() {
             </p>
           </ScrollReveal>
 
-          <ScrollReveal animation="fade-up" delay={300}>
+          {/* <ScrollReveal animation="fade-up" delay={300}>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">Track a Tree</RippleButton>
               <RippleButton className="bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
@@ -64,7 +64,7 @@ export default function MarineRestorationPage() {
                 Join Our Mission
               </RippleButton>
             </div>
-          </ScrollReveal>
+          </ScrollReveal> */}
 
           <ScrollReveal animation="fade-up" delay={400}>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
@@ -491,9 +491,9 @@ export default function MarineRestorationPage() {
                   </ul>
 
                   <div className="mt-8">
-                    <RippleButton className="w-full bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
+                    {/* <RippleButton className="w-full bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
                       Apply to Partner or Co-Develop
-                    </RippleButton>
+                    </RippleButton> */}
                   </div>
                 </div>
               </div>
@@ -697,7 +697,7 @@ export default function MarineRestorationPage() {
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-8">
               <a
-                href="mailto:restoration@genixlabs.in"
+                href="mailto:seaverseresearch@gmail.com"
                 className="flex items-center text-white hover:text-seafoam-blue transition-colors"
               >
                 <svg
@@ -714,11 +714,11 @@ export default function MarineRestorationPage() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                restoration@genixlabs.in
+                seaverseresearch@gmail.com
               </a>
 
               <a
-                href="https://www.genix.in/marine-restoration"
+                href="https://www.seaverse.co/research/marine-restoration"
                 className="flex items-center text-white hover:text-seafoam-blue transition-colors"
               >
                 <svg
@@ -735,11 +735,11 @@ export default function MarineRestorationPage() {
                     d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                   />
                 </svg>
-                www.genix.in/marine-restoration
+                www.seaverse.co/research/marine-restoration
               </a>
 
               <a
-                href="tel:+91XXXXXXXXXX"
+                href="tel:+916363477139"
                 className="flex items-center text-white hover:text-seafoam-blue transition-colors"
               >
                 <svg
@@ -756,15 +756,15 @@ export default function MarineRestorationPage() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                +91-XXXXXXXXXX
+                +91-6363477139
               </a>
             </div>
 
-            <div className="mt-12">
+            {/* <div className="mt-12">
               <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white px-8 py-3 text-lg">
                 Join Our Mission Today
               </RippleButton>
-            </div>
+            </div> */}
           </ScrollReveal>
         </div>
       </section>
