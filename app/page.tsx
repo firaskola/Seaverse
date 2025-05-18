@@ -23,7 +23,7 @@ export default function Home() {
             loop
             playsInline
             className="object-cover w-full h-full"
-            poster="/placeholder.svg?height=1080&width=1920"
+            poster="/hero.mp4"
           >
             <source src="/videos/ocean-background.mp4" type="video/mp4" />
           </video>

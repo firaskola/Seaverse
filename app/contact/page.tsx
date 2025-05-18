@@ -71,7 +71,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/placeholder.svg?height=1080&width=1920" alt="Contact Seaverse" fill className="object-cover" />
+          <Image src="/images/contact.png" alt="Contact Seaverse" fill className="object-cover" />
           <div className="absolute inset-0 bg-dark-sapphire/80" />
           <ParticleBackground count={20} />
         </div>
@@ -351,7 +351,7 @@ export default function ContactPage() {
                     </div>
                     <Button className="w-full bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
                       Get Directions
-                    </Button>
+
                   </div>
                 </ScrollReveal> */}
               </div>
