@@ -264,10 +264,10 @@ export default function Home() {
         </div>
       </section>
 
-      <WaveSeparator color="abyssal-teal" />
+      {/* <WaveSeparator color="abyssal-teal" /> */}
 
       {/* Global Partners */}
-      <section className="py-20 bg-dark-sapphire relative">
+      {/* <section className="py-20 bg-dark-sapphire relative">
         <ParticleBackground count={10} />
         <div className="container mx-auto px-4">
           <ScrollReveal>
@@ -300,10 +300,10 @@ export default function Home() {
         </div>
       </section>
 
-      <WaveSeparator />
+      */}
 
     {/* Newsletter & Latest News */}
-<section className="py-20 bg-abyssal-teal relative">
+<section className="py-20 bg-dark-sapphire relative">
   <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
   <div className="container mx-auto px-4">
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
