@@ -139,7 +139,7 @@ export default function Home() {
              <TechnologyCard
                 title="Genix Ocean Labs"
                 description="Artificial ocean laboratories revolutionizing luxury aquaculture and sustainable marine research."
-                imageSrc="/images/ocean_lab3.jpg"
+                imageSrc="/images/l1.jpg"
                 href="/research/genix"
               />
             </ScrollReveal>
