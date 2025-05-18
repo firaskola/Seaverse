@@ -338,7 +338,7 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <ScrollReveal animation="fade-up" delay={300}>
+                {/* <ScrollReveal animation="fade-up" delay={300}>
                   <div className="bg-dark-sapphire/30 p-6 rounded-lg shadow-lg">
                     <h3 className="text-lg font-bold text-white mb-3">Location</h3>
                     <div className="aspect-video relative rounded-lg overflow-hidden mb-4">
@@ -353,7 +353,7 @@ export default function ContactPage() {
                       Get Directions
                     </Button>
                   </div>
-                </ScrollReveal>
+                </ScrollReveal> */}
               </div>
             </ScrollReveal>
           </div>

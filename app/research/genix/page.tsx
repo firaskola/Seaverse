@@ -91,7 +91,7 @@ export default function GenixPage() {
               <div className="relative">
                 <div className="aspect-square relative rounded-lg overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/images/l1.jpg"
                     alt="Genix Ocean Laboratory"
                     fill
                     className="object-cover"
@@ -300,7 +300,7 @@ export default function GenixPage() {
               <div className="relative">
                 <div className="aspect-video relative rounded-lg overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/l2.jpg"
                     alt="Sustainable Aquaculture"
                     fill
                     className="object-cover"
@@ -435,7 +435,7 @@ export default function GenixPage() {
               <TechnologyCard
                 title="Haematococcus pluvialis"
                 description="India's first sustainable astaxanthin production from marine algae, delivering nature's most powerful antioxidant."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/astax2.jpg"
                 href="/research/genix/astaxanthin"
               />
             </ScrollReveal>
@@ -443,7 +443,7 @@ export default function GenixPage() {
               <TechnologyCard
                 title="Carbon Solutions"
                 description="Next-generation marine-based carbon removal technologies helping the ocean fight climate change intelligently."
-                imageSrc="/placeholder.svg?height=400&width=600"
+                imageSrc="/images/carbon_cap1.jpg"
                 href="/research/genix/carbon"
               />
             </ScrollReveal>

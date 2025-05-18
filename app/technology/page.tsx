@@ -192,7 +192,7 @@ export default function TechnologyPage() {
               <div className="bg-abyssal-teal/30 rounded-lg overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/weld.jpg"
                     alt="Offshore Platform Maintenance"
                     fill
                     className="object-cover"
@@ -214,7 +214,7 @@ export default function TechnologyPage() {
               <div className="bg-abyssal-teal/30 rounded-lg overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/quality_check.jpg"
                     alt="Coastal Water Quality Monitoring"
                     fill
                     className="object-cover"

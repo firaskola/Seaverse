@@ -57,20 +57,20 @@ export default function WaterQualityPage() {
               </p>
 
               <div className="flex flex-wrap gap-4">
-                <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Explore Services</Button>
-                <Button
+                <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Request Consultation</Button>
+                {/* <Button
                   variant="outline"
                   className="border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
                 >
                   Request Consultation
-                </Button>
+                </Button> */}
               </div>
             </div>
 
             <div className="relative">
               <div className="aspect-video relative rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/sci2.jpg"
                   alt="Water Quality Assessment"
                   fill
                   className="object-cover"
@@ -320,7 +320,7 @@ export default function WaterQualityPage() {
       <WaveSeparator />
 
       {/* Real Problems */}
-      <section className="py-20 bg-abyssal-teal relative">
+      {/* <section className="py-20 bg-abyssal-teal relative">
         <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
         <div className="container mx-auto px-4">
           <SectionHeading
@@ -344,14 +344,14 @@ export default function WaterQualityPage() {
                 <p className="text-white/70 mb-4">
                   A luxury resort in Goa was experiencing periodic beach discoloration. Our water quality assessment
                   identified an upstream agricultural runoff issue that was causing harmful algal blooms.
-                </p>
-                <div className="flex justify-between items-center">
+                </p> */}
+                {/* <div className="flex justify-between items-center">
                   <span className="text-seafoam-blue">Tourism Sector</span>
                   <Link href="#" className="text-coral-orange hover:text-white inline-flex items-center">
                     Read Full Case Study <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
-                </div>
-              </div>
+                </div> */}
+              {/* </div>
             </div>
 
             <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
@@ -370,20 +370,20 @@ export default function WaterQualityPage() {
                   A commercial fishery in Kerala experienced a 40% decline in catch over two years. Our comprehensive
                   water quality assessment revealed subtle changes in water temperature and oxygen levels affecting fish
                   migration patterns.
-                </p>
-                <div className="flex justify-between items-center">
+                </p> */}
+                {/* <div className="flex justify-between items-center">
                   <span className="text-seafoam-blue">Fisheries Sector</span>
                   <Link href="#" className="text-coral-orange hover:text-white inline-flex items-center">
                     Read Full Case Study <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
-                </div>
-              </div>
+                </div> */}
+              {/* </div>
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
 
-      <WaveSeparator color="abyssal-teal" />
+      <WaveSeparator color="abyssal-teal" /> 
 
       {/* Our Promise */}
       <section className="py-20 bg-dark-sapphire relative">
@@ -454,7 +454,7 @@ export default function WaterQualityPage() {
                 className="w-full border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
               >
                 <Download className="mr-2 h-4 w-4" />
-                Download Warning Signs Guide
+                Download Warning Guide
               </Button>
             </div>
 

@@ -18,7 +18,7 @@ export default function SpirulinaPage() {
 
         <div className="container mx-auto px-4 relative z-10 text-center mt-20">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk">
-            SEAVERSE Biotech: Spirulina Revolution
+            PROJECT SPIRULINA
           </h1>
           <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto">
             From Ancient Superfood to Future-Proof Nutrition
@@ -74,7 +74,7 @@ export default function SpirulinaPage() {
             <div className="relative">
               <div className="aspect-square relative rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/images/greenbread.jpg"
                   alt="Spirulina microscope view"
                   fill
                   className="object-cover"
@@ -106,7 +106,7 @@ export default function SpirulinaPage() {
             <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/blue2.jpg"
                   alt="SEABLUE Spirulina"
                   fill
                   className="object-cover"
@@ -138,7 +138,7 @@ export default function SpirulinaPage() {
             <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/blue.jpg"
                   alt="AZURE Natural Blue"
                   fill
                   className="object-cover"
@@ -168,7 +168,7 @@ export default function SpirulinaPage() {
             <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="images/biotech.jpg"
                   alt="NEUTRASEA Algae Blends"
                   fill
                   className="object-cover"
@@ -239,7 +239,7 @@ export default function SpirulinaPage() {
             </table>
           </div>
 
-          <div className="mt-12 bg-dark-sapphire/30 rounded-lg overflow-hidden">
+          {/* <div className="mt-12 bg-dark-sapphire/30 rounded-lg overflow-hidden">
             <div className="aspect-video relative">
               <div className="absolute inset-0 flex items-center justify-center">
                 <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">
@@ -247,7 +247,7 @@ export default function SpirulinaPage() {
                 </Button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -258,7 +258,7 @@ export default function SpirulinaPage() {
         <ParticleBackground count={10} />
         <div className="container mx-auto px-4">
           <SectionHeading
-            title="Where We're Scaling"
+            title="Where We Will Be Scaling"
             subtitle="Our global expansion strategy for sustainable spirulina cultivation."
           />
 
@@ -267,24 +267,24 @@ export default function SpirulinaPage() {
               <h3 className="text-2xl font-bold text-white mb-6">Current Sites</h3>
               <div className="space-y-6">
                 <div className="bg-abyssal-teal/20 p-6 rounded-lg">
-                  <h4 className="text-xl font-bold text-white mb-2">Bali</h4>
-                  <p className="text-white/70">5-acre ocean farm supplying Asia-Pacific</p>
+                  <h4 className="text-xl font-bold text-white mb-2">Manglore</h4>
+                  <p className="text-white/70">Advance Technology based Spirulina Cultivation setup</p>
                 </div>
 
-                <div className="bg-abyssal-teal/20 p-6 rounded-lg">
+                {/* <div className="bg-abyssal-teal/20 p-6 rounded-lg">
                   <h4 className="text-xl font-bold text-white mb-2">Namibia</h4>
                   <p className="text-white/70">Desert-to-sea system using coastal fog</p>
-                </div>
+                </div> */}
               </div>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-white mb-6">2025 Launches</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">2026 Launches</h3>
               <div className="space-y-6">
-                <div className="bg-abyssal-teal/20 p-6 rounded-lg">
+                {/* <div className="bg-abyssal-teal/20 p-6 rounded-lg">
                   <h4 className="text-xl font-bold text-white mb-2">Brazil</h4>
                   <p className="text-white/70">Amazon basin freshwater pods</p>
-                </div>
+                </div> */}
 
                 <div className="bg-abyssal-teal/20 p-6 rounded-lg">
                   <h4 className="text-xl font-bold text-white mb-2">Norway</h4>

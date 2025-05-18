@@ -116,7 +116,7 @@ export default function MarineRestorationPage() {
               <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=700"
+                    src="/images/Mangroves.jpg"
                     alt="Smart Mangrove Reforestation"
                     fill
                     className="object-cover"
@@ -204,7 +204,7 @@ export default function MarineRestorationPage() {
               <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=700"
+                    src="/images/seagrass.webp"
                     alt="Seagrass Meadow Revival"
                     fill
                     className="object-cover"
@@ -391,7 +391,7 @@ export default function MarineRestorationPage() {
                       <p className="text-white/80 text-sm">Corporate naming rights + CO₂ credit packages</p>
                     </div>
 
-                    <div>
+                    {/* <div>
                       <h4 className="text-lg font-semibold text-white mb-3">Trusted By:</h4>
                       <ul className="space-y-3">
                         <li className="flex items-center">
@@ -411,7 +411,7 @@ export default function MarineRestorationPage() {
                           <span className="text-white">UNDP India – Seagrass training for local youth in Kerala</span>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -447,7 +447,7 @@ export default function MarineRestorationPage() {
                     </li>
                   </ul>
 
-                  <div className="mt-8">
+                  {/* <div className="mt-8">
                     <Image
                       src="/placeholder.svg?height=200&width=300"
                       alt="Government Partnership"
@@ -455,7 +455,7 @@ export default function MarineRestorationPage() {
                       height={200}
                       className="rounded-lg w-full object-cover"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </ScrollReveal>

@@ -157,7 +157,7 @@ export default function CarbonSolutionsPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="relative">
                   <div className="aspect-video relative rounded-lg overflow-hidden">
-                    <Image src="/placeholder.svg?height=400&width=600" alt="ALGAELOCK™" fill className="object-cover" />
+                    <Image src="/images/algae_lock.jpg" alt="ALGAELOCK™" fill className="object-cover" />
                   </div>
                   <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-seafoam-blue/10 rounded-full animate-pulse"></div>
                 </div>
@@ -247,7 +247,7 @@ export default function CarbonSolutionsPage() {
                 <div className="relative order-1 lg:order-2">
                   <div className="aspect-video relative rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/images/kelp.jpg"
                       alt="KELP FORGE™"
                       fill
                       className="object-cover"
@@ -263,7 +263,7 @@ export default function CarbonSolutionsPage() {
                 <div className="relative">
                   <div className="aspect-video relative rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/images/forest_cap.jpg"
                       alt="ABYSS STORAGE™"
                       fill
                       className="object-cover"
@@ -553,7 +553,7 @@ export default function CarbonSolutionsPage() {
               <div className="relative">
                 <div className="aspect-video relative rounded-lg overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/algae_lock.jpg"
                     alt="ALGAELOCK in Norway"
                     fill
                     className="object-cover"

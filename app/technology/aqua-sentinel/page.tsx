@@ -13,7 +13,7 @@ export default function AquaSentinelPage() {
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/placeholder.svg?height=1080&width=1920" alt="AQUA SENTINEL™" fill className="object-cover" />
+          <Image src="/images/aquasen.png" alt="AQUA SENTINEL™" fill className="object-cover" />
           <div className="absolute inset-0 bg-dark-sapphire/80" />
           <ParticleBackground count={20} />
         </div>
@@ -118,7 +118,7 @@ export default function AquaSentinelPage() {
               <div className="relative">
                 <div className="aspect-video relative rounded-lg overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/aquasen2.png"
                     alt="AQUA SENTINEL™ in action"
                     fill
                     className="object-cover"
@@ -293,7 +293,7 @@ export default function AquaSentinelPage() {
               <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/po.jpeg"
                     alt="Sentinel Pods"
                     fill
                     className="object-cover"
@@ -313,7 +313,7 @@ export default function AquaSentinelPage() {
             <ScrollReveal animation="fade-up" delay={200}>
               <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden">
                 <div className="aspect-video relative">
-                  <Image src="/placeholder.svg?height=400&width=600" alt="Drone Swarms" fill className="object-cover" />
+                  <Image src="/images/swarndrones.jpg" alt="Drone Swarms" fill className="object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-sapphire to-transparent"></div>
                 </div>
                 <div className="p-6">
@@ -330,7 +330,7 @@ export default function AquaSentinelPage() {
               <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/vertical.png"
                     alt="Vertical Profilers"
                     fill
                     className="object-cover"

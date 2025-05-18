@@ -138,7 +138,7 @@ export default function AstaxanthinPage() {
               <div className="relative">
                 <div className="aspect-square relative rounded-lg overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/images/astax2.jpg"
                     alt="Haematococcus pluvialis microscope view"
                     fill
                     className="object-cover"
