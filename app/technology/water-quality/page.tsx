@@ -57,15 +57,15 @@ export default function WaterQualityPage() {
                 environments, helping you identify potential issues before they become critical problems.
               </p>
 
-              <div className="flex flex-wrap gap-4">
+              {/* <div className="flex flex-wrap gap-4">
                 <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">Request Consultation</Button>
-                {/* <Button
+                <Button
                   variant="outline"
                   className="border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
                 >
                   Request Consultation
-                </Button> */}
-              </div>
+                </Button>
+              </div> */}
             </div>
 
             <div className="relative">

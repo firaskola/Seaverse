@@ -45,7 +45,7 @@ export default function EnergyProjectsPage() {
               ocean power.
             </p>
           </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={500}>
+          {/* <ScrollReveal animation="fade-up" delay={500}>
             <div className="flex flex-wrap justify-center gap-4">
               <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
                 Join the Research Alliance
@@ -57,7 +57,7 @@ export default function EnergyProjectsPage() {
                 Partner with SEAVERSE Labs
               </RippleButton>
             </div>
-          </ScrollReveal>
+          </ScrollReveal> */}
         </div>
       </section>
 
@@ -444,13 +444,21 @@ export default function EnergyProjectsPage() {
                   </div>
 
                   <div className="flex flex-wrap gap-4">
-                    <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
-                      <Download className="mr-2 h-4 w-4" /> Download Investor Prospectus
-                    </RippleButton>
-                    <RippleButton className="bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
-                      Schedule a 1-on-1 with Our CFO
-                    </RippleButton>
-                  </div>
+  {/* Link to download the investor prospectus PDF */}
+  <a href="/path/to/investor-prospectus.pdf" download>
+    <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
+      <Download className="mr-2 h-4 w-4" /> Download Investor Prospectus
+    </RippleButton>
+  </a>
+
+  {/* Mailto link for scheduling with CFO */}
+  <a href="mailto:seaversetechnology@gmail.com?subject=Schedule%201-on-1%20with%20CFO">
+    <RippleButton className="bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
+      Schedule a 1-on-1 with Our CFO
+    </RippleButton>
+  </a>
+</div>
+
                 </div>
               </div>
             </ScrollReveal>
@@ -518,13 +526,19 @@ export default function EnergyProjectsPage() {
                   </div>
 
                   <div className="flex flex-wrap gap-4">
-                    <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
-                      Propose a Collaboration
-                    </RippleButton>
-                    <RippleButton className="bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
-                      Schedule a 1-on-1 with Our CEO
-                    </RippleButton>
-                  </div>
+  <a href="mailto:seaversetechnology@gmail.com?subject=Collaboration%20Proposal">
+    <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
+      Propose a Collaboration
+    </RippleButton>
+  </a>
+  
+  <a href="mailto:seaversetechnology@gmail.com?subject=Schedule%201-on-1%20with%20CEO">
+    <RippleButton className="bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
+      Schedule a 1-on-1 with Our CEO
+    </RippleButton>
+  </a>
+</div>
+
                 </div>
               </div>
             </ScrollReveal>
@@ -593,7 +607,7 @@ export default function EnergyProjectsPage() {
                     <ArrowRight className="h-5 w-5" />
                   </div>
                 </div>
-                <span className="text-white">Email: oceanenergy@seaverse.in</span>
+                <span className="text-white">Email: seaversetechnology@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full bg-seafoam-blue/20 flex items-center justify-center mr-3">
@@ -601,7 +615,7 @@ export default function EnergyProjectsPage() {
                     <ArrowRight className="h-5 w-5" />
                   </div>
                 </div>
-                <span className="text-white">Web: www.seaverse.in/oceanenergy</span>
+                <span className="text-white">Web: www.seaverse.co/technology/energy-projects</span>
               </div>
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full bg-seafoam-blue/20 flex items-center justify-center mr-3">
@@ -609,11 +623,11 @@ export default function EnergyProjectsPage() {
                     <ArrowRight className="h-5 w-5" />
                   </div>
                 </div>
-                <span className="text-white">Contact: +91-XXXXXXXXXX</span>
+                <span className="text-white">Contact: +91-6363477139</span>
               </div>
             </div>
           </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={200}>
+          {/* <ScrollReveal animation="fade-up" delay={200}>
             <div className="flex flex-wrap justify-center gap-4">
               <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
                 Join the Research Alliance
@@ -625,7 +639,7 @@ export default function EnergyProjectsPage() {
                 Schedule a Consultation
               </RippleButton>
             </div>
-          </ScrollReveal>
+          </ScrollReveal> */}
         </div>
       </section>
     </>
