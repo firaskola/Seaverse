@@ -11,7 +11,7 @@ export default function RexweldAIPage() {
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/placeholder.svg?height=1080&width=1920" alt="REXWELD AI" fill className="object-cover" />
+          <Image src="/images/rex4.webp" alt="REXWELD AI" fill className="object-cover" />
           <div className="absolute inset-0 bg-dark-sapphire/80" />
           <ParticleBackground count={20} />
         </div>
@@ -103,7 +103,7 @@ export default function RexweldAIPage() {
             <div className="relative">
               <div className="aspect-square relative rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/images/rex2.jpg"
                   alt="REXWELD AI System"
                   fill
                   className="object-cover"
@@ -191,7 +191,7 @@ export default function RexweldAIPage() {
             <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/rex1.jpg"
                   alt="Oil & Gas Sector"
                   fill
                   className="object-cover"
@@ -209,7 +209,7 @@ export default function RexweldAIPage() {
             <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/rex6.jpg"
                   alt="Maritime Refineries"
                   fill
                   className="object-cover"
@@ -227,7 +227,7 @@ export default function RexweldAIPage() {
             <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/rex5.jpg"
                   alt="Underwater Infrastructure"
                   fill
                   className="object-cover"
@@ -244,7 +244,7 @@ export default function RexweldAIPage() {
 
             <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
-                <Image src="/placeholder.svg?height=400&width=600" alt="Military Use" fill className="object-cover" />
+                <Image src="/images/rex3.jpg" alt="Military Use" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-sapphire to-transparent"></div>
               </div>
               <div className="p-6">
