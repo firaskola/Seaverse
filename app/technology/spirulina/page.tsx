@@ -11,7 +11,7 @@ export default function SpirulinaPage() {
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/placeholder.svg?height=1080&width=1920" alt="Spirulina Biotech" fill className="object-cover" />
+          <Image src="/images/spirubread.jpg" alt="Spirulina Biotech" fill className="object-cover" />
           <div className="absolute inset-0 bg-dark-sapphire/80" />
           <ParticleBackground count={20} />
         </div>

@@ -23,9 +23,9 @@ export default function Home() {
             loop
             playsInline
             className="object-cover w-full h-full"
-            poster="/hero.mp4"
+            poster="/herophoto.jpeg"
           >
-            <source src="/videos/ocean-background.mp4" type="video/mp4" />
+            <source src="/hero.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-dark-sapphire/70" />
           <ParticleBackground count={30} />

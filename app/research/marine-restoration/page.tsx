@@ -25,7 +25,7 @@ export default function MarineRestorationPage() {
       <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/images/indoor.jpg"
             alt="GENIX Marine Restoration"
             fill
             className="object-cover"

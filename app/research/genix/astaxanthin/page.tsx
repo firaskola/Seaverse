@@ -14,7 +14,7 @@ export default function AstaxanthinPage() {
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/images/astax2.jpg"
             alt="Haematococcus pluvialis"
             fill
             className="object-cover"
