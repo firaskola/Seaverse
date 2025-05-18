@@ -260,20 +260,20 @@ export default function ResearchPage() {
                     <span className="italic">{publication.journal}</span>, {publication.year}
                   </p>
                   <p className="text-white/70 mb-4">{publication.abstract}</p>
-                  <Button
+                 {/* <Button
                     variant="outline"
                     className="border-seafoam-blue text-seafoam-blue hover:bg-seafoam-blue hover:text-white"
                   >
-                    Download PDF
-                  </Button>
+                    Dow nload PDF
+                  </Button> */}
                 </div>
               </ScrollReveal>
             ))}
           </div>
 
-          <ScrollReveal animation="fade-up" delay={500} className="mt-8 text-center">
+          {/* <ScrollReveal animation="fade-up" delay={500} className="mt-8 text-center">
             <Button className="bg-coral-orange hover:bg-coral-orange/80 text-white">View All Publications</Button>
-          </ScrollReveal>
+          </ScrollReveal> */}
         </div>
       </section>
 
