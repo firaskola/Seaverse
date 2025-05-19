@@ -42,7 +42,7 @@ export default function AboutPage() {
       <ScrollReveal animation="fade-right">
         <div>
           <p className="text-white/80 mb-6">
-            SEAVERSE was founded in 2024 by Shreesha H Acharya, a mechatronics engineer and entrepreneur with a deep passion for the ocean and a mind wired for innovation. What started as a dream to merge marine science with advanced technology has evolved into one of the most ambitious marine Research & technology ventures of our time.
+            SEAVERSE was founded in 2024 by Shreesha H Acharya, entrepreneur with a deep passion for the ocean and a mind wired for innovation. What started as a dream to merge marine science with advanced technology has evolved into one of the most ambitious marine Research & technology ventures of our time.
           </p>
 
           <p className="text-white/80 mb-6">
