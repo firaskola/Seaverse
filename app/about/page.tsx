@@ -237,7 +237,7 @@ export default function AboutPage() {
       {
         name: "Sambit Singh",
         title: "Chief Scientist Officer @ Genix",
-        bio: "Expert in machine learning and embedded AI systems. Leads scientific research and development efforts.",
+        bio: "Experienced as a project scientist @center for marine living resources and ecology.",
         image: "/team/3.jpeg"
       },
       {

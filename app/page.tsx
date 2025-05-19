@@ -49,7 +49,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10 text-center mt-20">
           <ScrollReveal animation="fade-up">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-space-grotesk">
-              Engineering the Ocean's Future
+             Engineering Tomorrow From The Depths Of Today.
             </h1>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
