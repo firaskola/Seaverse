@@ -129,7 +129,7 @@ export default function MarineRestorationPage() {
 
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-white flex items-center mb-4">
-                    <TreePine className="h-6 w-6 mr-2 text-coral-orange" />
+                  
                     Smart Mangrove Reforestation
                   </h3>
                   <p className="text-white/80 mb-6">We're rebuilding India's natural sea walls — smarter and faster.</p>
@@ -217,7 +217,7 @@ export default function MarineRestorationPage() {
 
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-white flex items-center mb-4">
-                    <Fish className="h-6 w-6 mr-2 text-seafoam-blue" />
+
                     Seagrass Meadow Revival
                   </h3>
                   <p className="text-white/80 mb-6">The lungs of our shallow seas, rebuilt blade by blade.</p>
