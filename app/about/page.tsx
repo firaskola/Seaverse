@@ -62,7 +62,7 @@ export default function AboutPage() {
         <div className="relative">
           <div className="aspect-video relative rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/seaverse.png"
               alt="SEAVERSE Founder Shreesha H Acharya"
               fill
               className="object-cover"
