@@ -277,10 +277,10 @@ export default function ContactPage() {
                         <h3 className="text-lg font-bold text-white mb-1">Email</h3>
                         <div className="flex items-center">
                           <a
-                            href="mailto:contact@seaverse.in"
+                            href="mailto:seaversetechnology@gmail.com"
                             className="text-white/70 hover:text-coral-orange transition-colors"
                           >
-                            contact@seaverse.in
+                            seaversetechnology@gmail.com
                           </a>
                           <button
                             onClick={() => copyToClipboard("contact@seaverse.in")}
@@ -298,7 +298,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="text-lg font-bold text-white mb-1">Phone</h3>
                         <a href="tel:+919876543210" className="text-white/70 hover:text-coral-orange transition-colors">
-                          +91 9876 543 210
+                          +91 8310862870
                         </a>
                       </div>
                     </div>

@@ -13,7 +13,7 @@ export default function EnergyProjectsPage() {
       <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/images/energy3.jpeg"
             alt="SEAVERSE Ocean Energy Solutions"
             fill
             className="object-cover"
@@ -115,7 +115,7 @@ export default function EnergyProjectsPage() {
               <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden h-full">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/energy1.png"
                     alt="Ocean Thermal Energy Conversion"
                     fill
                     className="object-cover"
@@ -176,12 +176,11 @@ export default function EnergyProjectsPage() {
                 </div>
               </div>
             </ScrollReveal>
-
             <ScrollReveal animation="fade-left">
               <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden h-full">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/images/energy2.png"
                     alt="Tidal Energy Systems"
                     fill
                     className="object-cover"

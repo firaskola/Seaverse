@@ -32,7 +32,7 @@ export default function TechnologyPage() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
            <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto font-vt323">
-            Cutting-edge marine technology solutions...
+            Marine Technology Development Unit of Seaverse
           </p>
           </ScrollReveal>
         </div>
@@ -90,27 +90,37 @@ export default function TechnologyPage() {
                 title: "Nano Bots Swarms",
                 description:
                   "Microplastic cleanup technology using nano bot swarms will be tested in Mediterranean Sea field trials",
+                imageSrc: "/images/placeholder-nano.jpg"
               },
               {
                 title: "Biorock Coral Restoration",
                 description:
                   "Revolutionary coral reef restoration using advanced biorock technology and mineral accretion",
+                imageSrc: "/images/placeholder-coral.jpg"
               },
               {
                 title: "Marine Data Nexus",
                 description:
                   "Global ocean intelligence platform aggregating real-time marine data from satellites, drones, and sensors",
+                imageSrc: "/images/placeholder-data.jpg"
               },
             ].map((item, index) => (
               <ScrollReveal key={index} animation="scale" delay={index * 100}>
                 <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden relative group">
                   <div className="aspect-video relative">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-24 h-24 rounded-full bg-seafoam-blue/20 flex items-center justify-center animate-pulse">
-                        <div className="w-16 h-16 rounded-full bg-seafoam-blue/30 flex items-center justify-center">
-                          <div className="w-8 h-8 rounded-full bg-seafoam-blue/50"></div>
-                        </div>
-                      </div>
+                    {/* Blurred image with "COMING SOON" text */}
+                    <div className="absolute inset-0">
+                      <Image
+                        src={item.imageSrc}
+                        alt=""
+                        fill
+                        className="object-cover filter blur-sm"
+                      />
+                    </div>
+                    <div className="absolute inset-0 bg-dark-sapphire/60 flex items-center justify-center">
+                      <span className="text-2xl font-bold text-white px-8 py-3 border-2 border-seafoam-blue/50 rounded-md bg-dark-sapphire/70 tracking-wider font-rubik-glitch">
+                        COMING SOON
+                      </span>
                     </div>
                   </div>
 
@@ -125,9 +135,7 @@ export default function TechnologyPage() {
             ))}
           </div>
 
-          <ScrollReveal animation="fade-up" delay={400} className="mt-12">
-            <NewsletterSignup />
-          </ScrollReveal>
+         
         </div>
       </section>
 
@@ -234,6 +242,9 @@ export default function TechnologyPage() {
               </div>
             </ScrollReveal>
           </div>
+           <ScrollReveal animation="fade-up" delay={400} className="mt-12">
+            <NewsletterSignup />  
+          </ScrollReveal>
         </div>
       </section>
     </>

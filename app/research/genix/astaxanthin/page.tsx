@@ -547,17 +547,17 @@ export default function AstaxanthinPage() {
                 </thead>
                 <tbody>
                   <tr className="border-t border-abyssal-teal/30">
-                    <td className="px-6 py-4 text-white font-medium">2024 Q3</td>
+                    <td className="px-6 py-4 text-white font-medium">2026</td>
                     <td className="px-6 py-4 text-white/80">Pilot reactors live – 500 kg/month</td>
                   </tr>
                   <tr className="border-t border-abyssal-teal/30">
-                    <td className="px-6 py-4 text-white font-medium">2025</td>
+                    <td className="px-6 py-4 text-white font-medium">2026</td>
                     <td className="px-6 py-4 text-white/80">Scale-up to 5 tons/month across 3 states</td>
                   </tr>
                   <tr className="border-t border-abyssal-teal/30">
                     <td className="px-6 py-4 text-white font-medium">2026</td>
                     <td className="px-6 py-4 text-white/80">
-                      Launch of GENIX Nutraceuticals IPO + 20% global market share target
+                     Commercial production begins – Full-capacity facilities online
                     </td>
                   </tr>
                 </tbody>

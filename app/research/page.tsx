@@ -25,7 +25,7 @@ export default function ResearchPage() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto">
-              Exploring the depths of marine technology to solve tomorrow's challenges
+             Research Unit of Seaverse
             </p>
           </ScrollReveal>
         </div>
