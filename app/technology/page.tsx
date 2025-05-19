@@ -12,29 +12,38 @@ export default function TechnologyPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/placeholder.svg?height=1080&width=1920"
-            alt="Ocean Rex Technology "
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-dark-sapphire/80" />
-          <ParticleBackground count={20} />
-        </div>
+{/* Hero Section */}
+<section className="relative w-full h-[calc(70vh-80px)] flex items-center justify-center overflow-hidden">
+  <div className="absolute inset-0 z-0 flex items-center justify-center">
+    <div className="relative w-full h-full">
+      <Image
+        src="/OCEANREX.png"
+        alt="Ocean Rex Technology"
+        fill
+        className="object-cover"  // Changed from object-contain to object-cover
+        priority
+      />
+    </div>
+    <ParticleBackground count={20} />
+  </div>
 
-        <div className="container mx-auto px-4 relative z-10 text-center mt-20">
-          <ScrollReveal animation="fade-up">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk">Ocean Rex: Logo</h1>
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={200}>
-            <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto">
-              Cutting-edge marine technology solutions for the world's most challenging underwater environments.
-            </p>
-          </ScrollReveal>
-        </div>
-      </section>
+
+  {/* Optional overlay text content */}
+  {/* 
+  <div className="container mx-auto px-4 relative z-10 text-center">
+    <ScrollReveal animation="fade-up">
+      <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk">
+        Ocean Rex: Logo
+      </h1>
+    </ScrollReveal>
+    <ScrollReveal animation="fade-up" delay={200}>
+      <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto">
+        Cutting-edge marine technology solutions for the world's most challenging underwater environments.
+      </p>
+    </ScrollReveal>
+  </div> 
+  */}
+</section>
 
       <WaveSeparator />
 

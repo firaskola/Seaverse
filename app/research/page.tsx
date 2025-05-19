@@ -14,12 +14,12 @@ export default function ResearchPage() {
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/placeholder.svg?height=1080&width=1920" alt="Seaverse Research" fill className="object-cover" />
-          <div className="absolute inset-0 bg-dark-sapphire/80" />
+          <Image src="/GENIX.png" alt="Seaverse Research" fill className="object-cover" />
+          {/* <div className="absolute inset-0 bg-dark-sapphire/80" /> */}
           <ParticleBackground count={20} />
         </div>
 
-        <div className="container mx-auto px-4 relative z-10 text-center mt-20">
+        {/* <div className="container mx-auto px-4 relative z-10 text-center mt-20">
           <ScrollReveal animation="fade-up">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk">Research & Innovation</h1>
           </ScrollReveal>
@@ -28,7 +28,7 @@ export default function ResearchPage() {
               Exploring the depths of marine technology to solve tomorrow's challenges
             </p>
           </ScrollReveal>
-        </div>
+        </div> */}
       </section>
 
       <WaveSeparator />

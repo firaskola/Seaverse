@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -9,6 +10,7 @@ import { cn } from "@/lib/utils"
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const pathname = usePathname()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,6 +20,9 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
+
+  // Pages where navbar should always have background
+  const bgPages = ['/technology']
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -31,7 +36,9 @@ export default function Navbar() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        scrolled ? "bg-dark-sapphire/80 backdrop-blur-md shadow-lg" : "bg-transparent",
+        (scrolled || bgPages.includes(pathname)) 
+          ? "bg-dark-sapphire/80 backdrop-blur-md shadow-lg" 
+          : "bg-transparent",
       )}
     >
       <div className="container mx-auto px-4 py-4">
@@ -46,19 +53,22 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-white/80 hover:text-coral-orange transition-colors duration-200"
+                className={cn(
+                  "text-white/80 hover:text-coral-orange transition-colors duration-200",
+                  pathname === link.href ? "text-coral-orange font-medium" : ""
+                )}
               >
                 {link.name}
               </Link>
             ))}
-           <Button 
-  className="bg-coral-orange hover:bg-coral-orange/80 text-white w-full"
-  onClick={() => {
-    window.location.href = "mailto:seaversetechnology@gmail.com?subject=Get in touch";
-  }}
->
-  Get in Touch
-</Button>
+            <Button 
+              className="bg-coral-orange hover:bg-coral-orange/80 text-white"
+              onClick={() => {
+                window.location.href = "mailto:seaversetechnology@gmail.com?subject=Get in touch";
+              }}
+            >
+              Get in Touch
+            </Button>
           </nav>
 
           {/* Mobile Navigation Toggle */}
@@ -84,20 +94,23 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-white/80 hover:text-coral-orange py-4 text-xl border-b border-abyssal-teal/30"
+              className={cn(
+                "text-white/80 hover:text-coral-orange py-4 text-xl border-b border-abyssal-teal/30",
+                pathname === link.href ? "text-coral-orange font-medium" : ""
+              )}
               onClick={() => setIsOpen(false)}
             >
               {link.name}
             </Link>
           ))}
           <a 
-  href="mailto:seaversetechnology@gmail.com?subject=Get in touch" 
-  className="block w-full mt-8"
->
-  <button className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white py-2 px-4 rounded">
-    Get in Touch
-  </button>
-</a>
+            href="mailto:seaversetechnology@gmail.com?subject=Get in touch" 
+            className="block w-full mt-8"
+          >
+            <button className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white py-2 px-4 rounded">
+              Get in Touch
+            </button>
+          </a>
         </div>
       </div>
     </header>

@@ -214,65 +214,70 @@ export default function AboutPage() {
 
           <ScrollReveal animation="fade-up" className="mb-12">
   <h3 className="text-2xl font-bold text-white mb-6">Core Team</h3>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
-              {[
-                {
-                  name: "Shreesha H Acharya",
-                  title: "Founder & CEO",
-                  bio: "Visionary entrepreneur with a background in AI, robotics, and startup leadership. Leads with innovation and strategic foresight."
-                },
-                {
-                  name: "Lakshmish Bhandary",
-                  title: "Executive Director",
-                  bio: "Experienced in operations and business development. Oversees strategic execution and organizational growth."
-                },
-                {
-                  name: "Darshithchandra",
-                  title: "Associate Director",
-                  bio: "Plays a key role in project management and coordination. Bridges engineering with execution."
-                },
-                {
-                  name: "Sambit Singh",
-                  title: "Chief Scientist Officer @ Genix",
-                  bio: "Expert in machine learning and embedded AI systems. Leads scientific research and development efforts."
-                },
-                {
-                  name: "Rhythm Sardana",
-                  title: "Head of Communication and Science Outreach",
-                  bio: "Drives science communication and outreach strategy. Passionate about tech literacy and public engagement."
-                },
-              ].map((member, i) => (
-                <ScrollReveal key={i} animation="scale" delay={i * 100}>
-                  <div className="group relative">
-                    <div className="aspect-square relative rounded-full overflow-hidden mb-4 transform transition-transform duration-300 group-hover:scale-105">
-                      <Image
-                        src={`/placeholder.svg?height=300&width=300&text=${encodeURIComponent(member.name)}`}
-                        alt={member.name}
-                        fill
-                        className="object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-dark-sapphire/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    </div>
+  <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+    {[
+      {
+        name: "Shreesha H Acharya",
+        title: "Founder & CEO",
+        bio: "Visionary entrepreneur with a background in AI, robotics, and startup leadership. Leads with innovation and strategic foresight.",
+        image: "/team/4.jpg" // Example path
+      },
+      {
+        name: "Lakshmish Bhandary",
+        title: "Executive Director",
+        bio: "Experienced in operations and business development. Oversees strategic execution and organizational growth.",
+        image: "/team/5.jpg"
+      },
+      {
+        name: "Darshithchandra",
+        title: "Associate Director",
+        bio: "Plays a key role in project management and coordination. Bridges engineering with execution.",
+        image: "/team/2.jpg"
+      },
+      {
+        name: "Sambit Singh",
+        title: "Chief Scientist Officer @ Genix",
+        bio: "Expert in machine learning and embedded AI systems. Leads scientific research and development efforts.",
+        image: "/team/3.jpeg"
+      },
+      {
+        name: "Rhythm Sardana",
+        title: "Head of Communication and Science Outreach",
+        bio: "Drives science communication and outreach strategy. Passionate about tech literacy and public engagement.",
+        image: "/team/1.jpeg"
+      },
+    ].map((member, i) => (
+      <ScrollReveal key={i} animation="scale" delay={i * 100}>
+        <div className="group relative">
+          <div className="aspect-square relative rounded-full overflow-hidden mb-4 transform transition-transform duration-300 group-hover:scale-105">
+            <Image
+              src={member.image} // Now using the specific image path
+              alt={member.name}
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-dark-sapphire/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          </div>
 
-                    <div className="text-center">
-                      <h4 className="text-lg font-bold text-white">{member.name}</h4>
-                      <p className="text-seafoam-blue">{member.title}</p>
-                    </div>
+          <div className="text-center">
+            <h4 className="text-lg font-bold text-white">{member.name}</h4>
+            <p className="text-seafoam-blue">{member.title}</p>
+          </div>
 
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="bg-dark-sapphire/90 p-4 rounded-lg max-w-[90%]">
-                        <h4 className="text-lg font-bold text-white mb-2">{member.name}</h4>
-                        <p className="text-seafoam-blue mb-2">{member.title}</p>
-                        <p className="text-white/70 text-sm">
-                          {member.bio}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </ScrollReveal>
-              ))}
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="bg-dark-sapphire/90 p-4 rounded-lg max-w-[90%]">
+              <h4 className="text-lg font-bold text-white mb-2">{member.name}</h4>
+              <p className="text-seafoam-blue mb-2">{member.title}</p>
+              <p className="text-white/70 text-sm">
+                {member.bio}
+              </p>
             </div>
-          </ScrollReveal>
+          </div>
+        </div>
+      </ScrollReveal>
+    ))}
+  </div>
+</ScrollReveal>
 
 
           {/* <ScrollReveal animation="fade-up" delay={200}>
