@@ -168,7 +168,7 @@ export default function SpirulinaPage() {
             <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="images/biotech.jpg"
+                  src="/images/biotech.jpg"
                   alt="NEUTRASEA Algae Blends"
                   fill
                   className="object-cover"
