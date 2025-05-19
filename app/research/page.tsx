@@ -11,25 +11,26 @@ import ScrollReveal from "@/components/scroll-reveal"
 export default function ResearchPage() {
   return (
     <>
-      {/* Hero Section */}
+       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/GENIX.png" alt="Seaverse Research" fill className="object-cover" />
-          {/* <div className="absolute inset-0 bg-dark-sapphire/80" /> */}
+          <Image src="/images/bostonlab.jpg" alt="Seaverse Research" fill className="object-cover" />
+          <div className="absolute inset-0 bg-dark-sapphire/80" />
           <ParticleBackground count={20} />
         </div>
 
-        {/* <div className="container mx-auto px-4 relative z-10 text-center mt-20">
+        <div className="container mx-auto px-4 relative z-10 text-center mt-20">
           <ScrollReveal animation="fade-up">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk">Research & Innovation</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk">GENIX</h1>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto">
               Exploring the depths of marine technology to solve tomorrow's challenges
             </p>
           </ScrollReveal>
-        </div> */}
+        </div>
       </section>
+
 
       <WaveSeparator />
 

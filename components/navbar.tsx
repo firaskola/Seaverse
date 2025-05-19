@@ -22,7 +22,7 @@ export default function Navbar() {
   }, [])
 
   // Pages where navbar should always have background
-  const bgPages = ['/technology']
+  const bgPages = ['']
 
   const navLinks = [
     { name: "Home", href: "/" },
