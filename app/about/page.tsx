@@ -62,7 +62,7 @@ export default function AboutPage() {
         <div className="relative">
           <div className="aspect-video relative rounded-lg overflow-hidden">
             <Image
-              src="/seaverse.png"
+              src="/Seaverse.png"
               alt="SEAVERSE Founder Shreesha H Acharya"
               fill
               className="object-cover"
@@ -206,14 +206,14 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="Meet the Team"
+              title="MEET THE CORE MEMBERS"
               subtitle="The innovative minds behind Seaverse's marine technology solutions."
               centered
             />
           </ScrollReveal>
 
           <ScrollReveal animation="fade-up" className="mb-12">
-  <h3 className="text-2xl font-bold text-white mb-6">Core Team</h3>
+  {/* <h3 className="text-2xl font-bold text-white mb-6">Core Team</h3> */}
   <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
     {[
       {
