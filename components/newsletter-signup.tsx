@@ -1,10 +1,9 @@
 "use client"
-import type React from "react"
-import { useState, useRef } from "react"
+import React, { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Send, CheckCircle, AlertCircle } from "lucide-react"
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 export default function NewsletterSignup() {
   const [email, setEmail] = useState("")
@@ -13,40 +12,52 @@ export default function NewsletterSignup() {
   const [error, setError] = useState("")
   const formRef = useRef<HTMLFormElement>(null)
 
+  useEffect(() => {
+    emailjs.init('ayB1wjAvqz1IBOvAg')
+  }, [])
+
+  const validateEmail = (email: string) => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    return re.test(email)
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    
+    if (!validateEmail(email)) {
+      setError("Please enter a valid email address")
+      return
+    }
+
     setIsLoading(true)
     setError("")
     
     try {
-      // Prepare data for EmailJS template
       const templateParams = {
         subscriber_email: email,
         subscription_type: "Newsletter",
         timestamp: new Date().toLocaleString()
       }
       
-      // Send email using EmailJS
-      // Replace these with your actual EmailJS credentials
       const result = await emailjs.send(
-        'service_2zzr648', 
+        'service_2zzr648',
         'template_qeoo1re',
-        templateParams,
-        'ayB1wjAvqz1IBOvAg'
+        templateParams
       )
+
+      if (result.status === 200) {
+        console.log('Email successfully sent!', result)
+        setIsSubmitted(true)
+        setEmail("")
+        setTimeout(() => setIsSubmitted(false), 5000)
+      } else {
+        throw new Error(`EmailJS returned status ${result.status}`)
+      }
       
-      console.log('Email successfully sent!', result.text)
-      setIsSubmitted(true)
-      setEmail("")
-      
-      // After 5 seconds, allow subscribing again
-      setTimeout(() => {
-        setIsSubmitted(false)
-      }, 5000)
-      
-    } catch (error) {
-      console.error('Failed to subscribe:', error)
-      setError("Something went wrong. Please try again later.")
+    } catch (error: any) {
+      console.error('EmailJS error:', error)
+      setError(error.message ) 
+      // || "Failed to send subscription. Please check your email and try again."
     } finally {
       setIsLoading(false)
     }
