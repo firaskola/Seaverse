@@ -1,9 +1,9 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import Image from "next/image"
+import emailjs from 'emailjs-com'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -16,6 +16,9 @@ import WaveSeparator from "@/components/wave-separator"
 import ParticleBackground from "@/components/particle-background"
 import ScrollReveal from "@/components/scroll-reveal"
 
+// Initialize EmailJS (you can also do this in a separate config file)
+emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_USER_ID || '')
+
 export default function ContactPage() {
   const [formState, setFormState] = useState({
     name: "",
@@ -27,6 +30,7 @@ export default function ContactPage() {
 
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [error, setError] = useState("")
   const [copySuccess, setCopySuccess] = useState(false)
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -42,13 +46,27 @@ export default function ContactPage() {
     setFormState((prev) => ({ ...prev, subject: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+    setError("")
 
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false)
+    try {
+      // Send email using EmailJS
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'service_2zzr648',
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'template_5oo3x2x',
+        {
+          from_name: formState.name,
+          from_email: formState.email,
+          subject: formState.subject,
+          message: formState.message,
+          newsletter_subscription: formState.newsletter ? "Yes" : "No",
+          timestamp: new Date().toLocaleString(),
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID || 'ayB1wjAvqz1IBOvAg'
+      )
+
       setIsSubmitted(true)
       setFormState({
         name: "",
@@ -57,7 +75,12 @@ export default function ContactPage() {
         message: "",
         newsletter: false,
       })
-    }, 1500)
+    } catch (err) {
+      console.error("Failed to send message:", err)
+      setError("Failed to send message. Please try again later.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const copyToClipboard = (text: string) => {
@@ -118,6 +141,11 @@ export default function ContactPage() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="bg-dark-sapphire/30 p-6 rounded-lg shadow-lg">
+                    {error && (
+                      <div className="mb-4 p-3 bg-red-500/20 text-red-200 rounded-lg">
+                        {error}
+                      </div>
+                    )}
                     <div className="space-y-4">
                       <div>
                         <label htmlFor="name" className="block text-white font-medium mb-1">
