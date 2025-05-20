@@ -1,51 +1,94 @@
 "use client"
-
 import type React from "react"
-
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Send } from "lucide-react"
+import { Send, CheckCircle, AlertCircle } from "lucide-react"
+import emailjs from 'emailjs-com'
 
 export default function NewsletterSignup() {
   const [email, setEmail] = useState("")
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState("")
+  const formRef = useRef<HTMLFormElement>(null)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsLoading(true)
-
-    // Simulate API call
-    setTimeout(() => {
-      setIsLoading(false)
+    setError("")
+    
+    try {
+      // Prepare data for EmailJS template
+      const templateParams = {
+        subscriber_email: email,
+        subscription_type: "Newsletter",
+        timestamp: new Date().toLocaleString()
+      }
+      
+      // Send email using EmailJS
+      // Replace these with your actual EmailJS credentials
+      const result = await emailjs.send(
+        'service_2zzr648', 
+        'template_qeoo1re',
+        templateParams,
+        'ayB1wjAvqz1IBOvAg'
+      )
+      
+      console.log('Email successfully sent!', result.text)
       setIsSubmitted(true)
       setEmail("")
-    }, 1500)
+      
+      // After 5 seconds, allow subscribing again
+      setTimeout(() => {
+        setIsSubmitted(false)
+      }, 5000)
+      
+    } catch (error) {
+      console.error('Failed to subscribe:', error)
+      setError("Something went wrong. Please try again later.")
+    } finally {
+      setIsLoading(false)
+    }
   }
-
+  
   return (
     <div className="bg-abyssal-teal/50 rounded-lg p-8 relative overflow-hidden">
       <h3 className="text-2xl font-bold text-white mb-2">Stay afloat with our latest innovations</h3>
       <p className="text-white/70 mb-6">Subscribe to our newsletter for updates on marine technology breakthroughs.</p>
-
+      
+      {error && (
+        <div className="bg-red-500/20 border border-red-500 rounded-lg p-4 flex items-start space-x-3 mb-6 animate-fade-in">
+          <AlertCircle className="h-5 w-5 text-red-400 mt-0.5 flex-shrink-0" />
+          <p className="text-white text-sm">{error}</p>
+        </div>
+      )}
+      
       {isSubmitted ? (
-        <div className="bg-seafoam-blue/20 p-4 rounded-lg text-white animate-fade-in-up">
-          <p className="font-medium">Thank you for subscribing!</p>
-          <p className="text-sm mt-1">We'll keep you updated with our latest news and innovations.</p>
+        <div className="bg-seafoam-blue/20 p-4 rounded-lg text-white animate-fade-in-up flex items-start space-x-3">
+          <CheckCircle className="h-5 w-5 text-seafoam-blue mt-0.5 flex-shrink-0" />
+          <div>
+            <p className="font-medium">Thank you for subscribing!</p>
+            <p className="text-sm mt-1">We'll keep you updated with our latest news and innovations.</p>
+          </div>
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="relative z-10">
+        <form ref={formRef} onSubmit={handleSubmit} className="relative z-10">
           <div className="flex flex-col sm:flex-row gap-3">
             <Input
               type="email"
+              name="subscriber_email"
               placeholder="Your email address"
               className="bg-dark-sapphire/50 border-abyssal-teal text-white placeholder:text-white/50"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
-            <Button type="submit" className="bg-coral-orange hover:bg-coral-orange/80 text-white" disabled={isLoading}>
+            <Button 
+              type="submit" 
+              className="bg-coral-orange hover:bg-coral-orange/80 text-white" 
+              disabled={isLoading}
+            >
               {isLoading ? (
                 <span className="flex items-center">
                   <svg
@@ -77,9 +120,13 @@ export default function NewsletterSignup() {
               )}
             </Button>
           </div>
+          
+          {/* Hidden fields for additional EmailJS data */}
+          <input type="hidden" name="subscription_type" value="Newsletter" />
+          <input type="hidden" name="timestamp" value={new Date().toLocaleString()} />
         </form>
       )}
-
+      
       {/* Particle effect */}
       <div className="absolute inset-0 pointer-events-none">
         {Array.from({ length: 10 }).map((_, i) => (

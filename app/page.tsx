@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Rubik_Glitch, VT323 } from 'next/font/google';
 import { ArrowDown, ArrowRight } from "lucide-react"
 import SectionHeading from "@/components/section-heading"
 import WaveSeparator from "@/components/wave-separator"
@@ -14,17 +13,6 @@ import TimelineItem from "@/components/timeline-item"
 
 
 
-// Define your fonts
-const rubikGlitch = Rubik_Glitch({ 
-  weight: '400', // Rubik Glitch only has one weight
-  subsets: ['latin'],
-  display: 'swap', // Optional: reduces layout shift
-});
-
-const vt323 = VT323({ 
-  weight: '400', // VT323 only has one weight
-  subsets: ['latin'],
-});
 
 export default function Home() {
   return (
