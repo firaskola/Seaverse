@@ -24,7 +24,10 @@ export const metadata: Metadata = {
   title: "Seaverse | Engineering the Ocean's Future",
   description:
     "Precision. Innovation. Depth. Seaverse is a marine technology company specializing in underwater welding, artificial ocean laboratories, and sustainable marine cultivation.",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+     icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
@@ -33,7 +36,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
+    
     <html lang="en" className={`${outfit.variable} ${spaceGrotesk.variable}`}>
+      
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <ProgressIndicator />
