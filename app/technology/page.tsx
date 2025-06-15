@@ -11,37 +11,37 @@ import RippleButton from "@/components/ripple-button"
 export default function TechnologyPage() {
   return (
     <>
-        {/* Hero Section */}
+      {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/whale.png"
-            alt="Ocean Rex Technology "
+            alt="Ocean Rex Technology"
             fill
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-dark-sapphire/80" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-surface/90 to-dark-surface/70" />
           <ParticleBackground count={20} />
         </div>
 
         <div className="container mx-auto px-4 relative z-10 text-center mt-20">
           <ScrollReveal animation="fade-up">
-           <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 font-rubik-glitch">
-             OCEAN REX
+            <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 font-rubik-glitch bg-gradient-to-r from-accent-orange to-accent-orange-light bg-clip-text text-transparent">
+              OCEAN REX
             </h1>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
-           <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto font-vt323">
-            Marine Technology Development Unit of Seaverse
-          </p>
+            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto font-vt323">
+              Marine Technology Development Unit of Seaverse
+            </p>
           </ScrollReveal>
         </div>
       </section>
       <WaveSeparator />
 
       {/* Current Technologies Section */}
-      <section className="py-20 bg-abyssal-teal relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+      <section className="py-20 bg-dark-surface relative">
+        <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
@@ -71,11 +71,11 @@ export default function TechnologyPage() {
         </div>
       </section>
 
-      <WaveSeparator color="abyssal-teal" />
+      <WaveSeparator />
 
       {/* Upcoming Technologies */}
-      <section className="py-20 bg-dark-sapphire relative">
-        <ParticleBackground count={10} />
+      <section className="py-20 bg-dark-card relative">
+        <ParticleBackground count={10} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
@@ -106,9 +106,8 @@ export default function TechnologyPage() {
               },
             ].map((item, index) => (
               <ScrollReveal key={index} animation="scale" delay={index * 100}>
-                <div className="bg-abyssal-teal/20 rounded-lg overflow-hidden relative group">
+                <div className="bg-dark-surface/50 rounded-lg overflow-hidden relative group border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
                   <div className="aspect-video relative">
-                    {/* Blurred image with "COMING SOON" text */}
                     <div className="absolute inset-0">
                       <Image
                         src={item.imageSrc}
@@ -117,33 +116,31 @@ export default function TechnologyPage() {
                         className="object-cover filter blur-sm"
                       />
                     </div>
-                    <div className="absolute inset-0 bg-dark-sapphire/60 flex items-center justify-center">
-                      <span className="text-2xl font-bold text-white px-8 py-3 border-2 border-seafoam-blue/50 rounded-md bg-dark-sapphire/70 tracking-wider font-rubik-glitch">
+                    <div className="absolute inset-0 bg-gradient-to-b from-dark-surface/80 to-dark-surface/60 flex items-center justify-center">
+                      <span className="text-2xl font-bold text-white px-8 py-3 border-2 border-accent-orange/50 rounded-md bg-dark-surface/70 tracking-wider font-rubik-glitch">
                         COMING SOON
                       </span>
                     </div>
                   </div>
 
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
-                    <p className="text-white/70">{item.description}</p>
+                  <div className="p-6 relative z-10">
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent-orange transition-colors duration-300">{item.title}</h3>
+                    <p className="text-gray-400">{item.description}</p>
                   </div>
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-dark-sapphire/80 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-dark-surface/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
               </ScrollReveal>
             ))}
           </div>
-
-         
         </div>
       </section>
 
       <WaveSeparator />
 
       {/* Energy Projects Section */}
-      <section className="py-20 bg-abyssal-teal relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+      <section className="py-20 bg-dark-surface relative">
+        <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
@@ -153,7 +150,7 @@ export default function TechnologyPage() {
           </ScrollReveal>
 
           <ScrollReveal animation="fade-up">
-            <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
+            <div className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
               <div className="aspect-video relative">
                 <Image
                   src="/images/energy.jpg"
@@ -161,18 +158,18 @@ export default function TechnologyPage() {
                   fill
                   className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-dark-sapphire/90 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-surface/90 to-transparent" />
               </div>
               <div className="p-8 relative">
-                <h3 className="text-2xl font-bold text-white mb-4">SEAVERSE Ocean Energy Solutions</h3>
-                <p className="text-white/80 mb-6 text-lg max-w-3xl">
+                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-accent-orange transition-colors duration-300">SEAVERSE Ocean Energy Solutions</h3>
+                <p className="text-gray-300 mb-6 text-lg max-w-3xl">
                   Starting in 2027, SEAVERSE will begin advanced R&D on India's first utility-scale Ocean Thermal Energy
                   Conversion (OTEC) and Tidal Energy Systems, laying the foundation for the next generation of clean,
                   24/7 ocean power.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Link href="/technology/energy-projects">
-                    <RippleButton className="bg-coral-orange hover:bg-coral-orange/80 text-white">
+                    <RippleButton className="bg-accent-orange hover:bg-accent-orange-light text-white transition-colors duration-300">
                       Explore Ocean Energy Solutions
                     </RippleButton>
                   </Link>
@@ -183,11 +180,11 @@ export default function TechnologyPage() {
         </div>
       </section>
 
-      <WaveSeparator color="abyssal-teal" />
+      <WaveSeparator />
 
       {/* Case Studies */}
-      <section className="py-20 bg-dark-sapphire relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+      <section className="py-20 bg-dark-card relative">
+        <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
@@ -198,7 +195,7 @@ export default function TechnologyPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <ScrollReveal animation="fade-right">
-              <div className="bg-abyssal-teal/30 rounded-lg overflow-hidden">
+              <div className="bg-dark-surface/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
                 <div className="aspect-video relative">
                   <Image
                     src="/images/weld.jpg"
@@ -208,19 +205,19 @@ export default function TechnologyPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-2">Offshore Platform Maintenance</h3>
-                  <p className="text-white/70 mb-4">
+                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent-orange transition-colors duration-300">Offshore Platform Maintenance</h3>
+                  <p className="text-gray-400 mb-4">
                     How REXWELD AI transformed underwater repairs for a major oil company, reducing downtime by 60%.
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-seafoam-blue">Oil & Gas Industry</span>
+                    <span className="text-accent-orange">Oil & Gas Industry</span>
                   </div>
                 </div>
               </div>
             </ScrollReveal>
 
             <ScrollReveal animation="fade-left">
-              <div className="bg-abyssal-teal/30 rounded-lg overflow-hidden">
+              <div className="bg-dark-surface/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
                 <div className="aspect-video relative">
                   <Image
                     src="/images/quality_check.jpg"
@@ -230,20 +227,20 @@ export default function TechnologyPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-2">Coastal Water Quality Monitoring</h3>
-                  <p className="text-white/70 mb-4">
+                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent-orange transition-colors duration-300">Coastal Water Quality Monitoring</h3>
+                  <p className="text-gray-400 mb-4">
                     How our comprehensive water quality assessment helped a coastal resort prevent an environmental
                     crisis.
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-seafoam-blue">Tourism & Hospitality</span>
+                    <span className="text-accent-orange">Tourism & Hospitality</span>
                   </div>
                 </div>
               </div>
             </ScrollReveal>
           </div>
-           <ScrollReveal animation="fade-up" delay={400} className="mt-12">
-            <NewsletterSignup />  
+          <ScrollReveal animation="fade-up" delay={400} className="mt-12">
+            <NewsletterSignup />
           </ScrollReveal>
         </div>
       </section>

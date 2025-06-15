@@ -18,11 +18,36 @@ const config: Config = {
     },
     extend: {
       colors: {
-        // Marine color palette
-        "dark-sapphire": "#012E40",
-        "abyssal-teal": "#026873",
-        "seafoam-blue": "#38A3A5",
-        "coral-orange": "#FF6B6B",
+        // Enhanced dark theme with rich grays and oranges
+        "dark-bg": "#000000",
+        "dark-surface": "#121212",
+        "dark-card": "#1E1E1E",
+        "dark-card-hover": "#2A2A2A",
+        "dark-border": "#333333",
+        "dark-muted": "#666666",
+        
+        // Rich orange palette
+        "accent-orange": "#FF6B35",
+        "accent-orange-light": "#FF8C61",
+        "accent-orange-lighter": "#FFA07A",
+        "accent-orange-dark": "#E64A19",
+        "accent-orange-darker": "#D84315",
+        
+        // Gradient oranges
+        "orange-gradient-start": "#FF6B35",
+        "orange-gradient-end": "#FF8C61",
+        
+        // Accent grays
+        "gray-100": "#F5F5F5",
+        "gray-200": "#EEEEEE",
+        "gray-300": "#E0E0E0",
+        "gray-400": "#BDBDBD",
+        "gray-500": "#9E9E9E",
+        "gray-600": "#757575",
+        "gray-700": "#616161",
+        "gray-800": "#424242",
+        "gray-900": "#212121",
+        
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

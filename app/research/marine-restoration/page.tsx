@@ -11,6 +11,8 @@ import {
   Building,
   School,
   Smartphone,
+  Mail,
+  Phone,
 } from "lucide-react"
 import SectionHeading from "@/components/section-heading"
 import WaveSeparator from "@/components/wave-separator"
@@ -30,16 +32,16 @@ export default function MarineRestorationPage() {
             fill
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-sapphire/90 to-dark-sapphire/70" />
-          <ParticleBackground count={20} />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-surface/90 to-dark-surface/70" />
+          <ParticleBackground count={20} color="rgba(255, 140, 0, 0.05)" />
         </div>
 
         <div className="container mx-auto px-4 relative z-10 text-center mt-20">
           <ScrollReveal animation="fade-up">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk bg-gradient-to-r from-accent-orange to-accent-orange-light bg-clip-text text-transparent">
               GENIX Marine Restoration
             </h1>
-            <p className="text-2xl md:text-3xl text-seafoam-blue mb-4">
+            <p className="text-2xl md:text-3xl text-accent-orange mb-4">
               Rebuilding Coastal Ecosystems – One Root at a Time
             </p>
           </ScrollReveal>
@@ -48,7 +50,7 @@ export default function MarineRestorationPage() {
             <h2 className="text-2xl md:text-4xl font-bold text-white mb-6">
               Nature's Coastal Guardians – Restored & Thriving.
             </h2>
-            <p className="text-xl text-white/80 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
               We're merging science and community to restore mangrove forests and seagrass meadows, protect coastlines,
               and create the largest blue carbon sinks in South Asia.
             </p>
@@ -68,32 +70,32 @@ export default function MarineRestorationPage() {
 
           <ScrollReveal animation="fade-up" delay={400}>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="bg-dark-sapphire/50 backdrop-blur-sm p-6 rounded-lg border border-seafoam-blue/30">
+              <div className="bg-dark-card/50 backdrop-blur-sm p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
                 <div className="flex items-center justify-center mb-3">
-                  <BarChart3 className="h-8 w-8 text-seafoam-blue" />
+                  <BarChart3 className="h-8 w-8 text-accent-orange" />
                 </div>
-                <div className="text-2xl font-bold text-white">CO₂ Sequestered</div>
-                <div className="text-seafoam-blue text-lg">
+                <div className="text-2xl font-bold text-white group-hover:text-accent-orange transition-colors duration-300">CO₂ Sequestered</div>
+                <div className="text-accent-orange text-lg">
                   <span className="font-mono">125,487</span> tons
                 </div>
-                <div className="text-white/60 text-sm">Live counter</div>
+                <div className="text-gray-400 text-sm">Live counter</div>
               </div>
 
-              <div className="bg-dark-sapphire/50 backdrop-blur-sm p-6 rounded-lg border border-seafoam-blue/30">
+              <div className="bg-dark-card/50 backdrop-blur-sm p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
                 <div className="flex items-center justify-center mb-3">
-                  <Fish className="h-8 w-8 text-seafoam-blue" />
+                  <Fish className="h-8 w-8 text-accent-orange" />
                 </div>
-                <div className="text-2xl font-bold text-white">Fish species supported</div>
-                <div className="text-seafoam-blue text-lg">80,000+</div>
+                <div className="text-2xl font-bold text-white group-hover:text-accent-orange transition-colors duration-300">Fish species supported</div>
+                <div className="text-accent-orange text-lg">80,000+</div>
               </div>
 
-              <div className="bg-dark-sapphire/50 backdrop-blur-sm p-6 rounded-lg border border-seafoam-blue/30">
+              <div className="bg-dark-card/50 backdrop-blur-sm p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
                 <div className="flex items-center justify-center mb-3">
-                  <MapPin className="h-8 w-8 text-seafoam-blue" />
+                  <MapPin className="h-8 w-8 text-accent-orange" />
                 </div>
-                <div className="text-2xl font-bold text-white">Sites restored</div>
-                <div className="text-seafoam-blue text-lg">12</div>
-                <div className="text-white/60 text-sm">and growing</div>
+                <div className="text-2xl font-bold text-white group-hover:text-accent-orange transition-colors duration-300">Sites restored</div>
+                <div className="text-accent-orange text-lg">12</div>
+                <div className="text-gray-400 text-sm">and growing</div>
               </div>
             </div>
           </ScrollReveal>
@@ -103,8 +105,8 @@ export default function MarineRestorationPage() {
       <WaveSeparator />
 
       {/* What We Do Section */}
-      <section className="py-20 bg-abyssal-teal relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+      <section className="py-20 bg-dark-surface relative">
+        <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading title="What We Do" subtitle="Restoring coastal ecosystems through innovative approaches" />
@@ -113,7 +115,7 @@ export default function MarineRestorationPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-12">
             {/* Smart Mangrove Reforestation */}
             <ScrollReveal animation="fade-right">
-              <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
+              <div className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
                 <div className="aspect-video relative">
                   <Image
                     src="/images/Mangroves.jpg"
@@ -121,78 +123,77 @@ export default function MarineRestorationPage() {
                     fill
                     className="object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-dark-sapphire to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 bg-coral-orange text-white px-3 py-1 rounded-full text-sm font-medium">
+                  <div className="absolute inset-0 bg-gradient-to-t from-dark-surface to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 bg-accent-orange text-white px-3 py-1 rounded-full text-sm font-medium">
                     1
                   </div>
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold text-white flex items-center mb-4">
-                  
+                  <h3 className="text-2xl font-bold text-white flex items-center mb-4 group-hover:text-accent-orange transition-colors duration-300">
                     Smart Mangrove Reforestation
                   </h3>
-                  <p className="text-white/80 mb-6">We're rebuilding India's natural sea walls — smarter and faster.</p>
+                  <p className="text-gray-300 mb-6">We're rebuilding India's natural sea walls — smarter and faster.</p>
 
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-seafoam-blue mb-3">Our Approach:</h4>
+                    <h4 className="text-lg font-semibold text-accent-orange mb-3">Our Approach:</h4>
                     <ul className="space-y-3">
-                      <li className="flex items-start">
-                        <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                          <Leaf className="h-4 w-4 text-seafoam-blue" />
+                      <li className="flex items-start group/item">
+                        <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <Leaf className="h-4 w-4 text-accent-orange" />
                         </div>
                         <div>
-                          <span className="text-white font-medium">AI-Powered Planting Drones</span>
-                          <span className="text-white/70"> – 10x faster than manual seeding</span>
+                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">AI-Powered Planting Drones</span>
+                          <span className="text-gray-300"> – 10x faster than manual seeding</span>
                         </div>
                       </li>
-                      <li className="flex items-start">
-                        <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                          <Leaf className="h-4 w-4 text-seafoam-blue" />
+                      <li className="flex items-start group/item">
+                        <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <Leaf className="h-4 w-4 text-accent-orange" />
                         </div>
                         <div>
-                          <span className="text-white font-medium">Climate-Resilient Species</span>
-                          <span className="text-white/70"> – Engineered to survive saltwater, floods</span>
+                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Climate-Resilient Species</span>
+                          <span className="text-gray-300"> – Engineered to survive saltwater, floods</span>
                         </div>
                       </li>
-                      <li className="flex items-start">
-                        <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                          <Leaf className="h-4 w-4 text-seafoam-blue" />
+                      <li className="flex items-start group/item">
+                        <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <Leaf className="h-4 w-4 text-accent-orange" />
                         </div>
                         <div>
-                          <span className="text-white font-medium">Hydrogel Root Boosters</span>
-                          <span className="text-white/70"> – Speed up survival and growth</span>
+                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Hydrogel Root Boosters</span>
+                          <span className="text-gray-300"> – Speed up survival and growth</span>
                         </div>
                       </li>
                     </ul>
                   </div>
 
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-seafoam-blue mb-3">Results:</h4>
+                    <h4 className="text-lg font-semibold text-accent-orange mb-3">Results:</h4>
                     <ul className="space-y-3">
-                      <li className="flex items-center">
-                        <div className="bg-coral-orange/20 p-1 rounded-full mr-3">
-                          <div className="h-4 w-4 flex items-center justify-center text-coral-orange font-bold">✓</div>
+                      <li className="flex items-center group/item">
+                        <div className="bg-accent-orange/10 p-1 rounded-full mr-3 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">✓</div>
                         </div>
-                        <span className="text-white">200% faster growth rates</span>
+                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">200% faster growth rates</span>
                       </li>
-                      <li className="flex items-center">
-                        <div className="bg-coral-orange/20 p-1 rounded-full mr-3">
-                          <div className="h-4 w-4 flex items-center justify-center text-coral-orange font-bold">✓</div>
+                      <li className="flex items-center group/item">
+                        <div className="bg-accent-orange/10 p-1 rounded-full mr-3 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">✓</div>
                         </div>
-                        <span className="text-white">1 Mangrove captures 12x more CO₂ than typical trees</span>
+                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">1 Mangrove captures 12x more CO₂ than typical trees</span>
                       </li>
                     </ul>
                   </div>
 
                   <div>
-                    <h4 className="text-lg font-semibold text-seafoam-blue mb-3">Active Restoration Zones:</h4>
+                    <h4 className="text-lg font-semibold text-accent-orange mb-3">Active Restoration Zones:</h4>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-dark-sapphire/50 px-3 py-1 rounded-full text-white/80">Sundarbans, WB</span>
-                      <span className="bg-dark-sapphire/50 px-3 py-1 rounded-full text-white/80">
+                      <span className="bg-dark-surface/50 px-3 py-1 rounded-full text-gray-300 hover:text-white transition-colors duration-300">Sundarbans, WB</span>
+                      <span className="bg-dark-surface/50 px-3 py-1 rounded-full text-gray-300 hover:text-white transition-colors duration-300">
                         Gulf of Kutch, GJ
                       </span>
-                      <span className="bg-dark-sapphire/50 px-3 py-1 rounded-full text-white/80">Andaman Islands</span>
+                      <span className="bg-dark-surface/50 px-3 py-1 rounded-full text-gray-300 hover:text-white transition-colors duration-300">Andaman Islands</span>
                     </div>
                   </div>
                 </div>
@@ -201,7 +202,7 @@ export default function MarineRestorationPage() {
 
             {/* Seagrass Meadow Revival */}
             <ScrollReveal animation="fade-left">
-              <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden">
+              <div className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
                 <div className="aspect-video relative">
                   <Image
                     src="/images/seagrass.webp"
@@ -209,84 +210,75 @@ export default function MarineRestorationPage() {
                     fill
                     className="object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-dark-sapphire to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 bg-seafoam-blue text-white px-3 py-1 rounded-full text-sm font-medium">
+                  <div className="absolute inset-0 bg-gradient-to-t from-dark-surface to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 bg-accent-orange text-white px-3 py-1 rounded-full text-sm font-medium">
                     2
                   </div>
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold text-white flex items-center mb-4">
-
+                  <h3 className="text-2xl font-bold text-white flex items-center mb-4 group-hover:text-accent-orange transition-colors duration-300">
                     Seagrass Meadow Revival
                   </h3>
-                  <p className="text-white/80 mb-6">The lungs of our shallow seas, rebuilt blade by blade.</p>
+                  <p className="text-gray-300 mb-6">The lungs of our shallow seas, rebuilt blade by blade.</p>
 
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-seafoam-blue mb-3">How We Do It:</h4>
+                    <h4 className="text-lg font-semibold text-accent-orange mb-3">How We Do It:</h4>
                     <ul className="space-y-3">
-                      <li className="flex items-start">
-                        <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                          <Leaf className="h-4 w-4 text-seafoam-blue" />
+                      <li className="flex items-start group/item">
+                        <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <Leaf className="h-4 w-4 text-accent-orange" />
                         </div>
                         <div>
-                          <span className="text-white font-medium">Robotic Seed Dispersal</span>
-                          <span className="text-white/70"> – Precision planting at depth</span>
+                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Robotic Seed Dispersal</span>
+                          <span className="text-gray-300"> – Precision planting at depth</span>
                         </div>
                       </li>
-                      <li className="flex items-start">
-                        <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                          <Leaf className="h-4 w-4 text-seafoam-blue" />
+                      <li className="flex items-start group/item">
+                        <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <Leaf className="h-4 w-4 text-accent-orange" />
                         </div>
                         <div>
-                          <span className="text-white font-medium">3D-Printed Limestone Beds</span>
-                          <span className="text-white/70"> – Anchor growth, simulate natural reefs</span>
+                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">3D-Printed Limestone Beds</span>
+                          <span className="text-gray-300"> – Anchor growth, simulate natural reefs</span>
                         </div>
                       </li>
-                      <li className="flex items-start">
-                        <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                          <Leaf className="h-4 w-4 text-seafoam-blue" />
+                      <li className="flex items-start group/item">
+                        <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <Leaf className="h-4 w-4 text-accent-orange" />
                         </div>
                         <div>
-                          <span className="text-white font-medium">Natural Grazing</span>
-                          <span className="text-white/70"> – Goat partnerships to curb invasive algae</span>
+                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Smart Monitoring Systems</span>
+                          <span className="text-gray-300"> – Real-time growth and health tracking</span>
                         </div>
                       </li>
                     </ul>
                   </div>
 
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-seafoam-blue mb-3">Why It Matters:</h4>
+                    <h4 className="text-lg font-semibold text-accent-orange mb-3">Impact:</h4>
                     <ul className="space-y-3">
-                      <li className="flex items-center">
-                        <div className="bg-coral-orange/20 p-1 rounded-full mr-3">
-                          <div className="h-4 w-4 flex items-center justify-center text-coral-orange font-bold">✓</div>
+                      <li className="flex items-center group/item">
+                        <div className="bg-accent-orange/10 p-1 rounded-full mr-3 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">✓</div>
                         </div>
-                        <span className="text-white">
-                          1 hectare seagrass = 30x more carbon storage than a rainforest
-                        </span>
+                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">35x more carbon sequestration than tropical forests</span>
                       </li>
-                      <li className="flex items-center">
-                        <div className="bg-coral-orange/20 p-1 rounded-full mr-3">
-                          <div className="h-4 w-4 flex items-center justify-center text-coral-orange font-bold">✓</div>
+                      <li className="flex items-center group/item">
+                        <div className="bg-accent-orange/10 p-1 rounded-full mr-3 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
+                          <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">✓</div>
                         </div>
-                        <span className="text-white">Supports over 200 invertebrate species</span>
-                      </li>
-                      <li className="flex items-center">
-                        <div className="bg-coral-orange/20 p-1 rounded-full mr-3">
-                          <div className="h-4 w-4 flex items-center justify-center text-coral-orange font-bold">✓</div>
-                        </div>
-                        <span className="text-white">1 hectare = home for 80,000+ fish</span>
+                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">Critical nursery habitats for marine life</span>
                       </li>
                     </ul>
                   </div>
 
                   <div>
-                    <h4 className="text-lg font-semibold text-seafoam-blue mb-3">Flagship Project:</h4>
+                    <h4 className="text-lg font-semibold text-accent-orange mb-3">Current Projects:</h4>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-dark-sapphire/50 px-3 py-1 rounded-full text-white/80">
-                        Palk Bay, Tamil Nadu — 50 acres by 2025
-                      </span>
+                      <span className="bg-dark-surface/50 px-3 py-1 rounded-full text-gray-300 hover:text-white transition-colors duration-300">Gulf of Mannar</span>
+                      <span className="bg-dark-surface/50 px-3 py-1 rounded-full text-gray-300 hover:text-white transition-colors duration-300">Lakshadweep</span>
+                      <span className="bg-dark-surface/50 px-3 py-1 rounded-full text-gray-300 hover:text-white transition-colors duration-300">Andaman Sea</span>
                     </div>
                   </div>
                 </div>
@@ -296,11 +288,11 @@ export default function MarineRestorationPage() {
         </div>
       </section>
 
-      <WaveSeparator color="abyssal-teal" />
+      <WaveSeparator />
 
       {/* Why Invest in Blue Carbon */}
-      <section className="py-20 bg-dark-sapphire relative">
-        <ParticleBackground count={10} />
+      <section className="py-20 bg-dark-card relative">
+        <ParticleBackground count={10} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
@@ -314,24 +306,24 @@ export default function MarineRestorationPage() {
               <table className="w-full border-collapse">
                 <thead>
                   <tr>
-                    <th className="text-left p-4 bg-abyssal-teal/30 text-white rounded-tl-lg">Metric</th>
-                    <th className="text-left p-4 bg-abyssal-teal/30 text-white">Mangroves</th>
-                    <th className="text-left p-4 bg-abyssal-teal/30 text-white rounded-tr-lg">Seagrass</th>
+                    <th className="text-left p-4 bg-dark-surface/30 text-white rounded-tl-lg">Metric</th>
+                    <th className="text-left p-4 bg-dark-surface/30 text-white">Mangroves</th>
+                    <th className="text-left p-4 bg-dark-surface/30 text-white rounded-tr-lg">Seagrass</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-abyssal-teal/20">
-                    <td className="p-4 text-seafoam-blue font-medium">CO₂ Capture</td>
+                  <tr className="border-b border-dark-surface/20">
+                    <td className="p-4 text-accent-orange font-medium">CO₂ Capture</td>
                     <td className="p-4 text-white">1,000 tons/ha (25 yrs)</td>
                     <td className="p-4 text-white">35,000 tons/km²</td>
                   </tr>
-                  <tr className="border-b border-abyssal-teal/20">
-                    <td className="p-4 text-seafoam-blue font-medium">Flood Protection</td>
+                  <tr className="border-b border-dark-surface/20">
+                    <td className="p-4 text-accent-orange font-medium">Flood Protection</td>
                     <td className="p-4 text-white">$300K/km/year saved</td>
                     <td className="p-4 text-white">90% erosion reduction</td>
                   </tr>
                   <tr>
-                    <td className="p-4 text-seafoam-blue font-medium rounded-bl-lg">Biodiversity Boost</td>
+                    <td className="p-4 text-accent-orange font-medium rounded-bl-lg">Biodiversity Boost</td>
                     <td className="p-4 text-white">5x fish stocks</td>
                     <td className="p-4 text-white rounded-br-lg">Coral-compatible nursery zones</td>
                   </tr>
@@ -344,12 +336,12 @@ export default function MarineRestorationPage() {
             <div className="mt-8">
               <h3 className="text-xl font-semibold text-white mb-4">Accreditations & Certifications:</h3>
               <div className="flex flex-wrap gap-4">
-                <div className="flex items-center bg-abyssal-teal/20 px-4 py-2 rounded-lg">
-                  <Award className="h-5 w-5 text-seafoam-blue mr-2" />
+                <div className="flex items-center bg-dark-surface/20 px-4 py-2 rounded-lg">
+                  <Award className="h-5 w-5 text-accent-orange mr-2" />
                   <span className="text-white">Verified Carbon Standard (VCS)</span>
                 </div>
-                <div className="flex items-center bg-abyssal-teal/20 px-4 py-2 rounded-lg">
-                  <Award className="h-5 w-5 text-seafoam-blue mr-2" />
+                <div className="flex items-center bg-dark-surface/20 px-4 py-2 rounded-lg">
+                  <Award className="h-5 w-5 text-accent-orange mr-2" />
                   <span className="text-white">Gold Standard Blue Carbon (Mikoko Pamoja Certified)</span>
                 </div>
               </div>
@@ -361,8 +353,8 @@ export default function MarineRestorationPage() {
       <WaveSeparator />
 
       {/* How You Can Partner */}
-      <section className="py-20 bg-abyssal-teal relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+      <section className="py-20 bg-dark-surface relative">
+        <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading title="How You Can Partner" subtitle="Join our mission to restore coastal ecosystems" />
@@ -371,24 +363,24 @@ export default function MarineRestorationPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
             {/* For Corporates */}
             <ScrollReveal animation="fade-up" delay={100}>
-              <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden h-full">
+              <div className="bg-dark-card/50 rounded-lg overflow-hidden h-full">
                 <div className="p-6">
                   <div className="flex items-center mb-4">
-                    <Building className="h-6 w-6 text-coral-orange mr-2" />
+                    <Building className="h-6 w-6 text-accent-orange mr-2" />
                     <h3 className="text-xl font-bold text-white">For Corporates (CSR / ESG)</h3>
                   </div>
 
                   <div className="space-y-6">
-                    <div className="bg-abyssal-teal/20 p-4 rounded-lg">
+                    <div className="bg-dark-surface/20 p-4 rounded-lg">
                       <h4 className="text-lg font-semibold text-white mb-2">Adopt-a-Mangrove</h4>
-                      <p className="text-seafoam-blue font-medium mb-1">₹4,000/tree ($50)</p>
-                      <p className="text-white/80 text-sm">Blockchain growth tracking + employee branding</p>
+                      <p className="text-accent-orange font-medium mb-1">₹4,000/tree ($50)</p>
+                      <p className="text-gray-300 text-sm">Blockchain growth tracking + employee branding</p>
                     </div>
 
-                    <div className="bg-abyssal-teal/20 p-4 rounded-lg">
+                    <div className="bg-dark-surface/20 p-4 rounded-lg">
                       <h4 className="text-lg font-semibold text-white mb-2">Seagrass Sponsorship</h4>
-                      <p className="text-seafoam-blue font-medium mb-1">₹20L/acre ($25K)</p>
-                      <p className="text-white/80 text-sm">Corporate naming rights + CO₂ credit packages</p>
+                      <p className="text-accent-orange font-medium mb-1">₹20L/acre ($25K)</p>
+                      <p className="text-gray-300 text-sm">Corporate naming rights + CO₂ credit packages</p>
                     </div>
 
                     {/* <div>
@@ -419,29 +411,29 @@ export default function MarineRestorationPage() {
 
             {/* For Governments */}
             <ScrollReveal animation="fade-up" delay={200}>
-              <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden h-full">
+              <div className="bg-dark-card/50 rounded-lg overflow-hidden h-full">
                 <div className="p-6">
                   <div className="flex items-center mb-4">
-                    <Globe className="h-6 w-6 text-seafoam-blue mr-2" />
+                    <Globe className="h-6 w-6 text-accent-orange mr-2" />
                     <h3 className="text-xl font-bold text-white">For Governments</h3>
                   </div>
 
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                        <div className="h-4 w-4 flex items-center justify-center text-seafoam-blue font-bold">•</div>
+                      <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
+                        <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
                       <span className="text-white">Build turnkey marine restoration hubs</span>
                     </li>
                     <li className="flex items-start">
-                      <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                        <div className="h-4 w-4 flex items-center justify-center text-seafoam-blue font-bold">•</div>
+                      <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
+                        <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
                       <span className="text-white">Integrate eco-tourism and citizen science</span>
                     </li>
                     <li className="flex items-start">
-                      <div className="bg-seafoam-blue/20 p-2 rounded-full mr-3 mt-1">
-                        <div className="h-4 w-4 flex items-center justify-center text-seafoam-blue font-bold">•</div>
+                      <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
+                        <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
                       <span className="text-white">Enhance compliance with COP/NDC targets</span>
                     </li>
@@ -462,29 +454,29 @@ export default function MarineRestorationPage() {
 
             {/* For Scientists */}
             <ScrollReveal animation="fade-up" delay={300}>
-              <div className="bg-dark-sapphire/30 rounded-lg overflow-hidden h-full">
+              <div className="bg-dark-card/50 rounded-lg overflow-hidden h-full">
                 <div className="p-6">
                   <div className="flex items-center mb-4">
-                    <Users className="h-6 w-6 text-coral-orange mr-2" />
+                    <Users className="h-6 w-6 text-accent-orange mr-2" />
                     <h3 className="text-xl font-bold text-white">For Scientists</h3>
                   </div>
 
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <div className="bg-coral-orange/20 p-2 rounded-full mr-3 mt-1">
-                        <div className="h-4 w-4 flex items-center justify-center text-coral-orange font-bold">•</div>
+                      <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
+                        <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
                       <span className="text-white">Access to 10+ years of biodiversity & growth data</span>
                     </li>
                     <li className="flex items-start">
-                      <div className="bg-coral-orange/20 p-2 rounded-full mr-3 mt-1">
-                        <div className="h-4 w-4 flex items-center justify-center text-coral-orange font-bold">•</div>
+                      <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
+                        <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
                       <span className="text-white">Partnership in marine genotype research</span>
                     </li>
                     <li className="flex items-start">
-                      <div className="bg-coral-orange/20 p-2 rounded-full mr-3 mt-1">
-                        <div className="h-4 w-4 flex items-center justify-center text-coral-orange font-bold">•</div>
+                      <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
+                        <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
                       <span className="text-white">Seed bank access (120+ coastal strains)</span>
                     </li>
@@ -502,11 +494,11 @@ export default function MarineRestorationPage() {
         </div>
       </section>
 
-      <WaveSeparator color="abyssal-teal" />
+      <WaveSeparator />
 
       {/* Impact Amplifiers */}
-      <section className="py-20 bg-dark-sapphire relative">
-        <ParticleBackground count={10} />
+      <section className="py-20 bg-dark-card relative">
+        <ParticleBackground count={10} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
@@ -517,13 +509,13 @@ export default function MarineRestorationPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
             <ScrollReveal animation="fade-right" delay={100}>
-              <div className="bg-abyssal-teal/20 p-6 rounded-lg flex items-start">
-                <div className="bg-coral-orange/20 p-3 rounded-full mr-4">
-                  <Users className="h-6 w-6 text-coral-orange" />
+              <div className="bg-dark-surface/20 p-6 rounded-lg flex items-start">
+                <div className="bg-accent-orange/20 p-3 rounded-full mr-4">
+                  <Users className="h-6 w-6 text-accent-orange" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">500+ Women Empowered</h3>
-                  <p className="text-white/80">
+                  <p className="text-gray-300">
                     Coastal nursery co-operatives providing sustainable livelihoods for local communities
                   </p>
                 </div>
@@ -531,13 +523,13 @@ export default function MarineRestorationPage() {
             </ScrollReveal>
 
             <ScrollReveal animation="fade-left" delay={150}>
-              <div className="bg-abyssal-teal/20 p-6 rounded-lg flex items-start">
-                <div className="bg-coral-orange/20 p-3 rounded-full mr-4">
-                  <Award className="h-6 w-6 text-coral-orange" />
+              <div className="bg-dark-surface/20 p-6 rounded-lg flex items-start">
+                <div className="bg-accent-orange/20 p-3 rounded-full mr-4">
+                  <Award className="h-6 w-6 text-accent-orange" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Verified Carbon Credits</h3>
-                  <p className="text-white/80">
+                  <p className="text-gray-300">
                     Sell to tech firms, airlines, crypto platforms to generate sustainable revenue
                   </p>
                 </div>
@@ -545,13 +537,13 @@ export default function MarineRestorationPage() {
             </ScrollReveal>
 
             <ScrollReveal animation="fade-right" delay={200}>
-              <div className="bg-abyssal-teal/20 p-6 rounded-lg flex items-start">
-                <div className="bg-coral-orange/20 p-3 rounded-full mr-4">
-                  <School className="h-6 w-6 text-coral-orange" />
+              <div className="bg-dark-surface/20 p-6 rounded-lg flex items-start">
+                <div className="bg-accent-orange/20 p-3 rounded-full mr-4">
+                  <School className="h-6 w-6 text-accent-orange" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Blue Schools Program</h3>
-                  <p className="text-white/80">
+                  <p className="text-gray-300">
                     Teaching ocean ecology to 10,000+ schoolchildren to build the next generation of ocean stewards
                   </p>
                 </div>
@@ -559,13 +551,13 @@ export default function MarineRestorationPage() {
             </ScrollReveal>
 
             <ScrollReveal animation="fade-left" delay={250}>
-              <div className="bg-abyssal-teal/20 p-6 rounded-lg flex items-start">
-                <div className="bg-coral-orange/20 p-3 rounded-full mr-4">
-                  <Smartphone className="h-6 w-6 text-coral-orange" />
+              <div className="bg-dark-surface/20 p-6 rounded-lg flex items-start">
+                <div className="bg-accent-orange/20 p-3 rounded-full mr-4">
+                  <Smartphone className="h-6 w-6 text-accent-orange" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Track & Trace App</h3>
-                  <p className="text-white/80">
+                  <p className="text-gray-300">
                     Monitor growth, offset impact, and biodiversity changes live through our mobile application
                   </p>
                 </div>
@@ -578,8 +570,8 @@ export default function MarineRestorationPage() {
       <WaveSeparator />
 
       {/* Get Involved Today */}
-      <section className="py-20 bg-abyssal-teal relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+      <section className="py-20 bg-dark-surface relative">
+        <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
@@ -591,14 +583,14 @@ export default function MarineRestorationPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <ScrollReveal animation="fade-up" delay={100}>
-              <div className="bg-dark-sapphire/30 p-6 rounded-lg text-center">
-                <Building className="h-12 w-12 text-coral-orange mx-auto mb-4" />
+              <div className="bg-dark-card/50 p-6 rounded-lg text-center">
+                <Building className="h-12 w-12 text-accent-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-white mb-4">For Companies</h3>
                 <div className="space-y-4">
-                  <RippleButton className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white">
+                  <RippleButton className="w-full bg-accent-orange hover:bg-accent-orange/80 text-white">
                     Calculate Your Blue Carbon Footprint
                   </RippleButton>
-                  <RippleButton className="w-full bg-dark-sapphire hover:bg-dark-sapphire/80 text-white border border-coral-orange">
+                  <RippleButton className="w-full bg-dark-surface hover:bg-dark-surface/80 text-white border border-accent-orange">
                     Get Impact ROI Report
                   </RippleButton>
                 </div>
@@ -606,14 +598,14 @@ export default function MarineRestorationPage() {
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={200}>
-              <div className="bg-dark-sapphire/30 p-6 rounded-lg text-center">
-                <Globe className="h-12 w-12 text-seafoam-blue mx-auto mb-4" />
+              <div className="bg-dark-card/50 p-6 rounded-lg text-center">
+                <Globe className="h-12 w-12 text-accent-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-white mb-4">For NGOs</h3>
                 <div className="space-y-4">
-                  <RippleButton className="w-full bg-seafoam-blue hover:bg-seafoam-blue/80 text-white">
+                  <RippleButton className="w-full bg-accent-orange hover:bg-accent-orange/80 text-white">
                     Request Training Toolkit
                   </RippleButton>
-                  <RippleButton className="w-full bg-dark-sapphire hover:bg-dark-sapphire/80 text-white border border-seafoam-blue">
+                  <RippleButton className="w-full bg-dark-surface hover:bg-dark-surface/80 text-white border border-accent-orange">
                     Join Community Partnership Network
                   </RippleButton>
                 </div>
@@ -621,14 +613,14 @@ export default function MarineRestorationPage() {
             </ScrollReveal>
 
             <ScrollReveal animation="fade-up" delay={300}>
-              <div className="bg-dark-sapphire/30 p-6 rounded-lg text-center">
-                <Users className="h-12 w-12 text-coral-orange mx-auto mb-4" />
+              <div className="bg-dark-card/50 p-6 rounded-lg text-center">
+                <Users className="h-12 w-12 text-accent-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-white mb-4">For Volunteers</h3>
                 <div className="space-y-4">
-                  <RippleButton className="w-full bg-coral-orange hover:bg-coral-orange/80 text-white">
+                  <RippleButton className="w-full bg-accent-orange hover:bg-accent-orange/80 text-white">
                     Join Our Mangrove Camps
                   </RippleButton>
-                  <RippleButton className="w-full bg-dark-sapphire hover:bg-dark-sapphire/80 text-white border border-coral-orange">
+                  <RippleButton className="w-full bg-dark-surface hover:bg-dark-surface/80 text-white border border-accent-orange">
                     Host a Blue Cleanup Day
                   </RippleButton>
                 </div>
@@ -638,11 +630,11 @@ export default function MarineRestorationPage() {
         </div>
       </section>
 
-      <WaveSeparator color="abyssal-teal" />
+      <WaveSeparator />
 
       {/* Project Goals */}
-      <section className="py-20 bg-dark-sapphire relative">
-        <ParticleBackground count={10} />
+      <section className="py-20 bg-dark-card relative">
+        <ParticleBackground count={10} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
@@ -656,25 +648,25 @@ export default function MarineRestorationPage() {
               <table className="w-full border-collapse">
                 <thead>
                   <tr>
-                    <th className="text-left p-4 bg-abyssal-teal/30 text-white rounded-tl-lg">Target</th>
-                    <th className="text-left p-4 bg-abyssal-teal/30 text-white rounded-tr-lg">Value</th>
+                    <th className="text-left p-4 bg-dark-surface/30 text-white rounded-tl-lg">Target</th>
+                    <th className="text-left p-4 bg-dark-surface/30 text-white rounded-tr-lg">Value</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-abyssal-teal/20">
-                    <td className="p-4 text-seafoam-blue font-medium">Mangroves Planted</td>
+                  <tr className="border-b border-dark-surface/20">
+                    <td className="p-4 text-accent-orange font-medium">Mangroves Planted</td>
                     <td className="p-4 text-white">1 Million</td>
                   </tr>
-                  <tr className="border-b border-abyssal-teal/20">
-                    <td className="p-4 text-seafoam-blue font-medium">Seagrass Restored</td>
+                  <tr className="border-b border-dark-surface/20">
+                    <td className="p-4 text-accent-orange font-medium">Seagrass Restored</td>
                     <td className="p-4 text-white">200+ Acres</td>
                   </tr>
-                  <tr className="border-b border-abyssal-teal/20">
-                    <td className="p-4 text-seafoam-blue font-medium">CO₂ Sequestered</td>
+                  <tr className="border-b border-dark-surface/20">
+                    <td className="p-4 text-accent-orange font-medium">CO₂ Sequestered</td>
                     <td className="p-4 text-white">100,000+ Tons</td>
                   </tr>
                   <tr>
-                    <td className="p-4 text-seafoam-blue font-medium rounded-bl-lg">Jobs Created</td>
+                    <td className="p-4 text-accent-orange font-medium rounded-bl-lg">Jobs Created</td>
                     <td className="p-4 text-white rounded-br-lg">2,000+ Coastal Livelihoods</td>
                   </tr>
                 </tbody>
@@ -686,9 +678,43 @@ export default function MarineRestorationPage() {
 
       <WaveSeparator />
 
+      {/* Contact Section */}
+      <section className="py-20 bg-dark-card relative">
+        <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
+        <div className="container mx-auto px-4 text-center">
+          <ScrollReveal>
+            <SectionHeading
+              title="Join Our Restoration Mission"
+              subtitle="Partner with us to restore and protect our coastal ecosystems"
+              centered
+            />
+          </ScrollReveal>
+
+          <ScrollReveal animation="fade-up" delay={200}>
+            <div className="max-w-2xl mx-auto">
+              <div className="bg-dark-surface/50 p-8 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
+                <h3 className="text-2xl font-bold text-white mb-6">Get in Touch</h3>
+                <div className="space-y-4">
+                  <a href="mailto:seaversetechnology@gmail.com" className="flex items-center justify-center text-gray-300 hover:text-accent-orange transition-colors duration-300">
+                    <Mail className="mr-2 h-5 w-5" />
+                    seaversetechnology@gmail.com
+                  </a>
+                  <a href="tel:+1234567890" className="flex items-center justify-center text-gray-300 hover:text-accent-orange transition-colors duration-300">
+                    <Phone className="mr-2 h-5 w-5" />
+                    +1 (234) 567-890
+                  </a>
+                </div>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      <WaveSeparator />
+
       {/* Footer CTA */}
-      <section className="py-20 bg-abyssal-teal relative">
-        <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
+      <section className="py-20 bg-dark-surface relative">
+        <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4 text-center">
           <ScrollReveal animation="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
@@ -698,7 +724,7 @@ export default function MarineRestorationPage() {
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-8">
               <a
                 href="mailto:seaverseresearch@gmail.com"
-                className="flex items-center text-white hover:text-seafoam-blue transition-colors"
+                className="flex items-center text-white hover:text-accent-orange transition-colors"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -719,7 +745,7 @@ export default function MarineRestorationPage() {
 
               <a
                 href="https://www.seaverse.co/research/marine-restoration"
-                className="flex items-center text-white hover:text-seafoam-blue transition-colors"
+                className="flex items-center text-white hover:text-accent-orange transition-colors"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -740,7 +766,7 @@ export default function MarineRestorationPage() {
 
               <a
                 href="tel:+916363477139"
-                className="flex items-center text-white hover:text-seafoam-blue transition-colors"
+                className="flex items-center text-white hover:text-accent-orange transition-colors"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

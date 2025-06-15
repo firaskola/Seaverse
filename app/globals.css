@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 195 100% 13%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 98%;
-    --card: 187 96% 23%;
+    --card: 0 0% 12%;
     --card-foreground: 0 0% 98%;
-    --popover: 195 100% 13%;
+    --popover: 0 0% 0%;
     --popover-foreground: 0 0% 98%;
-    --primary: 187 96% 23%;
+    --primary: 16 100% 60%;
     --primary-foreground: 0 0% 98%;
-    --secondary: 187 49% 43%;
+    --secondary: 16 100% 70%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 195 50% 20%;
+    --muted: 0 0% 15%;
     --muted-foreground: 0 0% 80%;
-    --accent: 187 49% 43%;
+    --accent: 16 100% 60%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 85% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 187 30% 30%;
-    --input: 187 30% 30%;
-    --ring: 187 96% 23%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 16 100% 60%;
     --radius: 0.5rem;
 
     /* Custom colors as CSS variables */
@@ -34,24 +34,24 @@
 
   .light {
     --background: 0 0% 100%;
-    --foreground: 195 100% 13%;
+    --foreground: 0 0% 0%;
     --card: 0 0% 98%;
-    --card-foreground: 195 100% 13%;
+    --card-foreground: 0 0% 0%;
     --popover: 0 0% 100%;
-    --popover-foreground: 195 100% 13%;
-    --primary: 187 96% 23%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 16 100% 60%;
     --primary-foreground: 0 0% 98%;
-    --secondary: 187 49% 43%;
+    --secondary: 16 100% 70%;
     --secondary-foreground: 0 0% 98%;
     --muted: 0 0% 96%;
-    --muted-foreground: 195 50% 40%;
-    --accent: 187 49% 43%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 16 100% 60%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 85% 60%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 187 96% 23%;
+    --ring: 16 100% 60%;
   }
 }
 
@@ -60,7 +60,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-dark-sapphire text-foreground font-outfit;
+    @apply bg-dark-bg text-foreground font-outfit;
   }
   h1,
   h2,
@@ -79,7 +79,7 @@
 }
 
 .cursor-ripple {
-  @apply absolute w-8 h-8 bg-seafoam-blue rounded-full opacity-50;
+  @apply absolute w-8 h-8 bg-accent-orange rounded-full opacity-50;
   animation: ripple-effect 1s ease-out;
 }
 
@@ -110,7 +110,7 @@
   bottom: 0;
   height: 10px;
   background-size: 20px 40px;
-  background-image: radial-gradient(circle at 10px -15px, transparent 20px, var(--seafoam-blue) 20px);
+  background-image: radial-gradient(circle at 10px -15px, transparent 20px, var(--accent-orange) 20px);
 }
 
 .wave-separator::after {
@@ -121,12 +121,12 @@
   bottom: 0;
   height: 15px;
   background-size: 40px 40px;
-  background-image: radial-gradient(circle at 10px 26px, var(--seafoam-blue) 20px, transparent 20px);
+  background-image: radial-gradient(circle at 10px 26px, var(--accent-orange) 20px, transparent 20px);
 }
 
 /* Progress indicator */
 .progress-indicator {
-  @apply fixed top-0 left-0 h-1 bg-coral-orange z-50;
+  @apply fixed top-0 left-0 h-1 bg-accent-orange z-50;
   width: 0%;
   transition: width 0.2s ease-out;
 }
@@ -134,12 +134,12 @@
 /* Depth effect */
 .depth-effect {
   @apply relative overflow-hidden;
-  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
 }
 
 .depth-effect::before {
   content: "";
-  @apply absolute inset-0 bg-gradient-to-b from-transparent to-black/30 pointer-events-none;
+  @apply absolute inset-0 bg-gradient-to-b from-transparent to-black/50 pointer-events-none;
 }
 
 /* Underwater particle effect */
@@ -148,7 +148,7 @@
 }
 
 .particle {
-  @apply absolute rounded-full bg-seafoam-blue/20;
+  @apply absolute rounded-full bg-accent-orange/20;
   animation: float-particle 15s infinite ease-in-out;
 }
 
@@ -255,87 +255,67 @@ html {
 }
 
 .stagger-reveal.is-revealed > *:nth-child(1) {
-  opacity: 1;
-  transform: translateY(0);
   transition-delay: 0.1s;
 }
 
 .stagger-reveal.is-revealed > *:nth-child(2) {
-  opacity: 1;
-  transform: translateY(0);
   transition-delay: 0.2s;
 }
 
 .stagger-reveal.is-revealed > *:nth-child(3) {
-  opacity: 1;
-  transform: translateY(0);
   transition-delay: 0.3s;
 }
 
 .stagger-reveal.is-revealed > *:nth-child(4) {
-  opacity: 1;
-  transform: translateY(0);
   transition-delay: 0.4s;
 }
 
 .stagger-reveal.is-revealed > *:nth-child(5) {
-  opacity: 1;
-  transform: translateY(0);
   transition-delay: 0.5s;
 }
 
 .stagger-reveal.is-revealed > *:nth-child(6) {
-  opacity: 1;
-  transform: translateY(0);
   transition-delay: 0.6s;
 }
 
-/* Ripple animation for buttons */
+/* Button ripple effect */
 .btn-ripple {
-  position: relative;
-  overflow: hidden;
+  @apply relative overflow-hidden;
 }
 
 .btn-ripple::after {
   content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 5px;
-  height: 5px;
-  background: rgba(255, 255, 255, 0.5);
+  @apply absolute w-full h-full bg-accent-orange/30 rounded-full scale-0;
+  transform-origin: center;
+  transition: transform 0.5s ease-out;
+}
+
+.btn-ripple:active::after {
+  transform: scale(2);
   opacity: 0;
-  border-radius: 100%;
-  transform: scale(1, 1) translate(-50%, -50%);
-  transform-origin: 50% 50%;
 }
 
 .btn-ripple:focus:not(:active)::after {
-  animation: ripple 1s ease-out;
+  animation: ripple 0.6s ease-out;
 }
 
 @keyframes ripple {
   0% {
-    transform: scale(0, 0);
+    transform: scale(0);
     opacity: 0.5;
   }
-  20% {
-    transform: scale(25, 25);
-    opacity: 0.3;
-  }
   100% {
+    transform: scale(2);
     opacity: 0;
-    transform: scale(40, 40);
   }
 }
 
-/* Mobile optimizations */
 @media (max-width: 768px) {
   .particle {
-    display: none;
+    @apply hidden;
   }
-
+  
   .custom-cursor {
-    display: none;
+    @apply hidden;
   }
 }
