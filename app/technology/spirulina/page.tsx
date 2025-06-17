@@ -219,7 +219,7 @@ export default function SpirulinaPage() {
                       seaverse: "Mild, nutty flavor profile"
                     }
                   ].map((row, index) => (
-                    <tr key={index} className="border-t border-dark-border/30 hover:bg-dark-surface/30 transition-colors duration-300">
+                    <tr key={index} className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                       <td className="px-6 py-4 text-gray-300">{row.traditional}</td>
                       <td className="px-6 py-4 text-accent-orange font-medium">{row.seaverse}</td>
                     </tr>

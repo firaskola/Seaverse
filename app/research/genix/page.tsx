@@ -189,27 +189,27 @@ export default function GenixPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-t border-dark-border/50 hover:bg-dark-surface/30 transition-colors duration-300">
+                  <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Atlantic Salmon</td>
                     <td className="px-6 py-4 text-gray-300">Premium meat</td>
                     <td className="px-6 py-4 text-gray-300">Europe, Japan, UAE</td>
                   </tr>
-                  <tr className="border-t border-dark-border/50 hover:bg-dark-surface/30 transition-colors duration-300">
+                  <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Bluefin Tuna</td>
                     <td className="px-6 py-4 text-gray-300">Sashimi-grade seafood</td>
                     <td className="px-6 py-4 text-gray-300">East Asia, US</td>
                   </tr>
-                  <tr className="border-t border-dark-border/50 hover:bg-dark-surface/30 transition-colors duration-300">
+                  <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Sturgeon</td>
                     <td className="px-6 py-4 text-gray-300">Caviar production</td>
                     <td className="px-6 py-4 text-gray-300">Luxury hotels, gourmet markets</td>
                   </tr>
-                  <tr className="border-t border-dark-border/50 hover:bg-dark-surface/30 transition-colors duration-300">
+                  <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Yellowtail Kingfish</td>
                     <td className="px-6 py-4 text-gray-300">Gourmet cuisine</td>
                     <td className="px-6 py-4 text-gray-300">Australia, Middle East</td>
                   </tr>
-                  <tr className="border-t border-dark-border/50 hover:bg-dark-surface/30 transition-colors duration-300">
+                  <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Other luxury marine finfish</td>
                     <td className="px-6 py-4 text-gray-300">Pharma-grade proteins</td>
                     <td className="px-6 py-4 text-gray-300">Global</td>
@@ -413,7 +413,7 @@ export default function GenixPage() {
                       milestone: "Global shipping, luxury markets entry",
                     },
                   ].map((item, index) => (
-                    <tr key={index} className="border-t border-dark-border/50 hover:bg-dark-surface/30 transition-colors duration-300">
+                    <tr key={index} className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                       <td className="px-6 py-4 text-white font-medium">{item.phase}</td>
                       <td className="px-6 py-4 text-gray-300">{item.timeline}</td>
                       <td className="px-6 py-4 text-gray-300">{item.milestone}</td>

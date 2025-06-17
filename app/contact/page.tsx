@@ -277,9 +277,10 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="text-lg font-bold text-white mb-1 group-hover:text-accent-orange transition-colors duration-300">Email</h3>
-                        <p className="text-gray-300 mb-2">info@seaverse.com</p>
+                        <p className="text-gray-300 mb-1">seaversetechnology@gmail.com</p>
+                        <p className="text-gray-300 mb-2">seaverseresearch@gmail.com</p>
                         <button
-                          onClick={() => copyToClipboard("info@seaverse.com")}
+                          onClick={() => copyToClipboard("seaversetechnology@gmail.com")}
                           className="text-sm text-accent-orange hover:text-accent-orange-light transition-colors duration-300 flex items-center"
                         >
                           {copySuccess ? (
@@ -305,9 +306,10 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="text-lg font-bold text-white mb-1 group-hover:text-accent-orange transition-colors duration-300">Phone</h3>
-                        <p className="text-gray-300 mb-2">+91 1234567890</p>
+                        <p className="text-gray-300 mb-1">+916363477139</p>
+                        <p className="text-gray-300 mb-2">+918310862870</p>
                         <button
-                          onClick={() => copyToClipboard("+91 1234567890")}
+                          onClick={() => copyToClipboard("+91 63634 77139")}
                           className="text-sm text-accent-orange hover:text-accent-orange-light transition-colors duration-300 flex items-center"
                         >
                           {copySuccess ? (
@@ -335,7 +337,8 @@ export default function ContactPage() {
                         <h3 className="text-lg font-bold text-white mb-1 group-hover:text-accent-orange transition-colors duration-300">Location</h3>
                         <p className="text-gray-300">
                           Seaverse Headquarters<br />
-                          Bangalore, Karnataka<br />
+                          Kuloor, Mangaluru, Karnataka 575013<br />
+                          Mallikatte, Kadri, Mangaluru, Karnataka 575002<br />
                           India
                         </p>
                       </div>

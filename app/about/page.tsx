@@ -154,13 +154,13 @@ export default function AboutPage() {
                 },
                 {
                   name: "Lakshmish Bhandary",
-                  title: "Executive Director",
+                  title: "Managing Director",
                   bio: "Experienced in operations and business development. Oversees strategic execution and organizational growth.",
                   image: "/team/5.jpg"
                 },
                 {
-                  name: "Darshithchandra",
-                  title: "Associate Director",
+                  name: "Darshith Chandra",
+                  title: "Executive Director",
                   bio: "Plays a key role in project management and coordination. Bridges engineering with execution.",
                   image: "/team/2.jpg"
                 },

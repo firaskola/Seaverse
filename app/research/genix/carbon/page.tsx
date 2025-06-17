@@ -339,19 +339,19 @@ export default function CarbonSolutionsPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">ALGAELOCK™</td>
                     <td className="px-6 py-4 text-white/70">100K tons/site</td>
                     <td className="px-6 py-4 text-white/70">$120</td>
                     <td className="px-6 py-4 text-white/70">Protein byproduct</td>
                   </tr>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">KELP FORGE™</td>
                     <td className="px-6 py-4 text-white/70">50K tons/km²</td>
                     <td className="px-6 py-4 text-white/70">$90</td>
                     <td className="px-6 py-4 text-white/70">Habitat restoration</td>
                   </tr>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">ABYSS STORAGE™</td>
                     <td className="px-6 py-4 text-white/70">1M+ tons/site</td>
                     <td className="px-6 py-4 text-white/70">$150</td>

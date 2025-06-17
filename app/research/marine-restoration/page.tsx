@@ -312,12 +312,12 @@ export default function MarineRestorationPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-dark-surface/20">
+                  <tr className="border-b border-accent-orange/30">
                     <td className="p-4 text-accent-orange font-medium">CO₂ Capture</td>
                     <td className="p-4 text-white">1,000 tons/ha (25 yrs)</td>
                     <td className="p-4 text-white">35,000 tons/km²</td>
                   </tr>
-                  <tr className="border-b border-dark-surface/20">
+                  <tr className="border-b border-accent-orange/30">
                     <td className="p-4 text-accent-orange font-medium">Flood Protection</td>
                     <td className="p-4 text-white">$300K/km/year saved</td>
                     <td className="p-4 text-white">90% erosion reduction</td>
@@ -653,15 +653,15 @@ export default function MarineRestorationPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-dark-surface/20">
+                  <tr className="border-b border-accent-orange/30">
                     <td className="p-4 text-accent-orange font-medium">Mangroves Planted</td>
                     <td className="p-4 text-white">1 Million</td>
                   </tr>
-                  <tr className="border-b border-dark-surface/20">
+                  <tr className="border-b border-accent-orange/30">
                     <td className="p-4 text-accent-orange font-medium">Seagrass Restored</td>
                     <td className="p-4 text-white">200+ Acres</td>
                   </tr>
-                  <tr className="border-b border-dark-surface/20">
+                  <tr className="border-b border-accent-orange/30">
                     <td className="p-4 text-accent-orange font-medium">CO₂ Sequestered</td>
                     <td className="p-4 text-white">100,000+ Tons</td>
                   </tr>

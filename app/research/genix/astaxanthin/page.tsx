@@ -223,15 +223,15 @@ export default function AstaxanthinPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-t border-accent-orange/30">
+                      <tr className="border-t border-accent-orange/50">
                         <td className="px-4 py-2 text-white font-medium">Oleoresin (10%)</td>
                         <td className="px-4 py-2 text-white/70">Capsules, tablets, oil blends</td>
                       </tr>
-                      <tr className="border-t border-accent-orange/30">
+                      <tr className="border-t border-accent-orange/50">
                         <td className="px-4 py-2 text-white font-medium">Beadlets (5%)</td>
                         <td className="px-4 py-2 text-white/70">Functional foods, gummies</td>
                       </tr>
-                      <tr className="border-t border-accent-orange/30">
+                      <tr className="border-t border-accent-orange/50">
                         <td className="px-4 py-2 text-white font-medium">Water-dispersible</td>
                         <td className="px-4 py-2 text-white/70">Cosmetics, skincare emulsions</td>
                       </tr>
@@ -353,22 +353,22 @@ export default function AstaxanthinPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">CO₂ Footprint</td>
                     <td className="px-6 py-4 text-white/70">8 kg CO₂/kg</td>
                     <td className="px-6 py-4 text-white font-medium">0.5 kg CO₂/kg</td>
                   </tr>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">Production Time</td>
                     <td className="px-6 py-4 text-white/70">6 weeks</td>
                     <td className="px-6 py-4 text-white font-medium">3 weeks</td>
                   </tr>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">Contamination Risk</td>
                     <td className="px-6 py-4 text-white/70">Solvent residues</td>
                     <td className="px-6 py-4 text-white font-medium">Solvent-free</td>
                   </tr>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">Yield Efficiency</td>
                     <td className="px-6 py-4 text-white/70">Moderate</td>
                     <td className="px-6 py-4 text-white font-medium">AI-optimized maximum yield</td>
@@ -546,15 +546,15 @@ export default function AstaxanthinPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">2026</td>
                     <td className="px-6 py-4 text-gray-300">Pilot reactors live – 500 kg/month</td>
                   </tr>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">2026</td>
                     <td className="px-6 py-4 text-gray-300">Scale-up to 5 tons/month across 3 states</td>
                   </tr>
-                  <tr className="border-t border-accent-orange/30">
+                  <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">2026</td>
                     <td className="px-6 py-4 text-gray-300">
                      Commercial production begins – Full-capacity facilities online

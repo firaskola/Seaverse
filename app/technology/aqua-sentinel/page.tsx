@@ -207,7 +207,7 @@ export default function AquaSentinelPage() {
                       useCase: "Continuous data collection for marine studies"
                     }
                   ].map((row, index) => (
-                    <tr key={index} className="border-t border-dark-border/30 hover:bg-dark-surface/30 transition-colors duration-300">
+                    <tr key={index} className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                       <td className="px-6 py-4 text-gray-300">{row.sector}</td>
                       <td className="px-6 py-4 text-accent-orange font-medium">{row.useCase}</td>
                     </tr>
@@ -323,19 +323,19 @@ export default function AquaSentinelPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-t border-dark-border/30">
+                  <tr className="border-t border-accent-orange/30">
                     <td className="px-6 py-4 text-gray-300">Data latency (hours/days)</td>
                     <td className="px-6 py-4 text-white font-medium">Real-time edge processing</td>
                   </tr>
-                  <tr className="border-t border-dark-border/30">
+                  <tr className="border-t border-accent-orange/30">
                     <td className="px-6 py-4 text-gray-300">Battery-dependent units</td>
                     <td className="px-6 py-4 text-white font-medium">Self-recharging (wave + solar)</td>
                   </tr>
-                  <tr className="border-t border-dark-border/30">
+                  <tr className="border-t border-accent-orange/30">
                     <td className="px-6 py-4 text-gray-300">Single-sensor design</td>
                     <td className="px-6 py-4 text-white font-medium">27+ parameters & visual cross-validation</td>
                   </tr>
-                  <tr className="border-t border-dark-border/30">
+                  <tr className="border-t border-accent-orange/30">
                     <td className="px-6 py-4 text-gray-300">Manual maintenance</td>
                     <td className="px-6 py-4 text-white font-medium">18-month autonomous operations</td>
                   </tr>
@@ -467,8 +467,8 @@ export default function AquaSentinelPage() {
                 </div>
                 <div className="flex items-center justify-center group">
                   <Phone className="text-accent-orange mr-3 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" size={20} />
-                  <a href="tel:+1234567890" className="text-gray-300 hover:text-accent-orange transition-colors duration-300">
-                    +1 (234) 567-890
+                  <a href="tel:+916363477139" className="text-gray-300 hover:text-accent-orange transition-colors duration-300">
+                    +91 63634 77139
                   </a>
                 </div>
               </div>
