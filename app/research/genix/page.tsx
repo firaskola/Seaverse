@@ -34,7 +34,7 @@ export default function GenixPage() {
           <ScrollReveal animation="scale" delay={400}>
             <div className="inline-block bg-dark-card/50 px-6 py-3 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
               <p className="text-accent-orange font-medium">
-                Revolutionizing Luxury Aquaculture & Caviar Farming in India (Launching 2026)
+                Revolutionizing Proficient Aquaculture & Caviar Farming in India (Launching 2026)
               </p>
             </div>
           </ScrollReveal>
@@ -50,11 +50,11 @@ export default function GenixPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <ScrollReveal animation="fade-right">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-6">The Future of Aquaculture Begins Here</h2>
+                <h2 className="text-3xl font-bold text-white mb-6">The Future of Aquaculture, Begins Here</h2>
                 <p className="text-gray-300 mb-6">
-                  At GENIX, the research arm of SEAVERSE, we're redefining the boundaries of marine science and food
-                  innovation. In 2026, we proudly launch India's first Artificial Ocean Laboratory, a pioneering
-                  ecosystem designed to cultivate high-value, luxury marine species such as:
+                  At GENIX, the research arm of SEAVERSE, we redefine the boundaries of marine science and food
+                  innovation. In 2026, we would proudly launch India's first Artificial Ocean Laboratory, a pioneering
+                  ecosystem designed to cultivate high-valued marine species.
                 </p>
 
                 <ScrollReveal animation="stagger" className="stagger-reveal space-y-2 mb-6">
@@ -89,7 +89,7 @@ export default function GenixPage() {
                     <h3 className="text-xl font-bold text-white mb-3">Vision</h3>
                     <p className="text-gray-300">
                       To make India a global hub for sustainable high-end seafood and ethical caviar production,
-                      engineered through controlled ocean simulation and advanced biotechnology.
+                      which is engineered through controlled ocean simulation and advanced biotechnology.
                     </p>
                   </div>
                 </ScrollReveal>
@@ -126,7 +126,7 @@ export default function GenixPage() {
           <ScrollReveal>
             <SectionHeading
               title="What Makes This Project Unique?"
-              subtitle="Groundbreaking features that set Genix apart from conventional aquaculture."
+              subtitle="The groundbreaking features that set Genix apart from conventional aquaculture."
               centered
             />
           </ScrollReveal>
@@ -136,17 +136,17 @@ export default function GenixPage() {
               {
                 title: "Artificial Ocean Ecosystem",
                 description:
-                  "A fully monitored, AI-regulated environment that mimics real ocean conditions — salinity, pH, light, and temperature — enabling tropical and cold-water species to thrive in inland India.",
+                  "A fully monitored, AI regulated environment that mimics real ocean conditions like salinity, pH, light, and temperature — enabling tropical and cold species to thrive in the inlands of India.",
               },
               {
                 title: "Luxury Aquaculture R&D",
                 description:
-                  "The first-of-its-kind Indian laboratory dedicated to luxury aquaculture, precision breeding, and bio-secure marine hatcheries.",
+                  "A sole Indian laboratory dedicated to luxury aquaculture, precision breeding, and bio-secure marine hatcheries.",
               },
               {
                 title: "Caviar Production in India",
                 description:
-                  "Introducing India's first ethical caviar production ecosystem using sustainable sturgeon farming methods — opening new export and pharmaceutical markets.",
+                  "Introducing India's first ethical caviar production ecosystem using sustainable sturgeon farming methods, which opens new export and pharmaceutical markets.",
               },
               {
                 title: "AI & Robotics Integration",
@@ -190,29 +190,29 @@ export default function GenixPage() {
                 </thead>
                 <tbody>
                   <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
-                    <td className="px-6 py-4 text-white font-medium">Atlantic Salmon</td>
+                    <td className="px-6 py-4 text-white font-medium"> Atlantic Salmon</td>
                     <td className="px-6 py-4 text-gray-300">Premium meat</td>
                     <td className="px-6 py-4 text-gray-300">Europe, Japan, UAE</td>
                   </tr>
                   <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Bluefin Tuna</td>
-                    <td className="px-6 py-4 text-gray-300">Sashimi-grade seafood</td>
+                    <td className="px-6 py-4 text-gray-300">Sashimi graded seafood</td>
                     <td className="px-6 py-4 text-gray-300">East Asia, US</td>
                   </tr>
                   <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Sturgeon</td>
                     <td className="px-6 py-4 text-gray-300">Caviar production</td>
-                    <td className="px-6 py-4 text-gray-300">Luxury hotels, gourmet markets</td>
+                    <td className="px-6 py-4 text-gray-300">United Kingdom, Netherlands</td>
                   </tr>
                   <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Yellowtail Kingfish</td>
                     <td className="px-6 py-4 text-gray-300">Gourmet cuisine</td>
-                    <td className="px-6 py-4 text-gray-300">Australia, Middle East</td>
+                    <td className="px-6 py-4 text-gray-300">Australia, The Middle East</td>
                   </tr>
                   <tr className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
                     <td className="px-6 py-4 text-white font-medium">Other luxury marine finfish</td>
                     <td className="px-6 py-4 text-gray-300">Pharma-grade proteins</td>
-                    <td className="px-6 py-4 text-gray-300">Global</td>
+                    <td className="px-6 py-4 text-gray-300">Global Needs</td>
                   </tr>
                 </tbody>
               </table>
@@ -230,7 +230,7 @@ export default function GenixPage() {
           <ScrollReveal>
             <SectionHeading
               title="Infrastructure Highlights (2026 Onwards)"
-              subtitle="State-of-the-art facilities designed for premium marine species cultivation."
+              subtitle="A state of the art facility designed for premium marine species cultivation."
             />
           </ScrollReveal>
 
@@ -238,15 +238,15 @@ export default function GenixPage() {
             {[
               {
                 title: "Artificial Ocean Tanks",
-                description: "Large-scale recirculating marine systems (RAS)",
+                description: "Large-scale recirculating marine systems",
               },
               {
                 title: "Integrated Hatcheries",
-                description: "Genetic purity and disease-resistance breeding",
+                description: "Genetic purity and protective breeding",
               },
               {
                 title: "Water Treatment Systems",
-                description: "Real-time biofiltration and UV sterilization",
+                description: "Dynamic biofiltration and UV sterilization",
               },
               {
                 title: "Cold & Warm Zone Labs",
@@ -258,7 +258,7 @@ export default function GenixPage() {
               },
               {
                 title: "Research & Development Center",
-                description: "Advanced breeding and genetic research facilities",
+                description: "Advanced breeding and genetic research",
               },
             ].map((item, index) => (
               <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
@@ -300,7 +300,7 @@ export default function GenixPage() {
                 </ScrollReveal>
 
                 <p className="text-gray-300 font-medium">
-                  Every fish we produce is ethical, traceable, and of the highest international standard.
+                  Every fish that we produce is ethical, traceable, and of the highest international standard.
                 </p>
               </div>
             </ScrollReveal>
@@ -343,7 +343,7 @@ export default function GenixPage() {
               },
               {
                 title: "Import Reduction",
-                description: "Reduce reliance on imported salmon and tuna.",
+                description: "Reduce reliance on imported salmon and tuna, which benefits the economy as well.",
               },
               {
                 title: "Revenue Generation",
@@ -408,7 +408,7 @@ export default function GenixPage() {
                       milestone: "First ethical harvests",
                     },
                     {
-                      phase: "Exports Begin",
+                      phase: "Beginning of Exports",
                       timeline: "Early 2027",
                       milestone: "Global shipping, luxury markets entry",
                     },
@@ -443,7 +443,7 @@ export default function GenixPage() {
             <ScrollReveal animation="fade-up" delay={100}>
               <TechnologyCard
                 title="Haematococcus pluvialis"
-                description="India's first sustainable astaxanthin production from marine algae, delivering nature's most powerful antioxidant."
+                description="India's first sustainable astaxanthin production from marine algae, which delivers nature's most powerful antioxidant."
                 imageSrc="/images/astax2.jpg"
                 href="/research/genix/astaxanthin"
               />
@@ -451,7 +451,7 @@ export default function GenixPage() {
             <ScrollReveal animation="fade-up" delay={200}>
               <TechnologyCard
                 title="Carbon Solutions"
-                description="Next-generation marine-based carbon removal technologies helping the ocean fight climate change intelligently."
+                description="Next-gen marine-based carbon removal technologies, which help the ocean fight climate change intelligently."
                 imageSrc="/images/carbon_cap1.jpg"
                 href="/research/genix/carbon"
               />

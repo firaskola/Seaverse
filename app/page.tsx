@@ -61,7 +61,7 @@ export default function Home() {
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Marine Technology</h2>
                 <p className="text-gray-300 mb-6">
-                  At Seaverse, we're dedicated to revolutionizing underwater technology and sustainable marine
+                  At Seaverse, we're dedicated in revolutionizing underwater technology and providing sustainable marine
                   solutions. Our innovations are designed to explore, protect, and harness the power of our
                   oceans.
                 </p>
@@ -72,7 +72,7 @@ export default function Home() {
                 <div className="bg-dark-card/50 p-4 border-l-4 border-accent-orange rounded hover:border-accent-orange/80 transition-colors duration-300">
                   <h3 className="text-xl font-bold text-white mb-2">Our Mission</h3>
                   <p className="text-gray-300">
-                    To develop sustainable marine technologies that solve critical underwater challenges while
+                    To develop sustainable marine technologies that solve critical underwater challenges while also
                     preserving our ocean ecosystems for future generations.
                   </p>
                 </div>
@@ -102,7 +102,7 @@ export default function Home() {
           <ScrollReveal>
             <SectionHeading
               title="Featured Projects"
-              subtitle="Discover our innovative marine solutions designed to transform underwater operations and sustainable ocean cultivation."
+              subtitle="Discover our innovative marine solutions that are designed to transform underwater operations and sustainable ocean cultivation."
               centered
             />
           </ScrollReveal>
@@ -163,26 +163,26 @@ export default function Home() {
               {[
                 {
                   year: 2024,
-                  title: "Seaverse Founded",
+                  title: "Seaverse was Founded",
                   description: "Established with a mission to revolutionize marine technology.",
                   color: "from-blue-500/20 to-accent-orange/20",
                 },
                 {
                   year: 2024,
                   title: "Ocean Rex Division",
-                  description: "Specialized division focused on underwater robotics and AI systems.",
+                  description: "A specialized division focused on underwater robotics and AI systems.",
                   color: "from-accent-orange/20 to-purple-500/20",
                 },
                 {
                   year: 2024,
                   title: "Genix Division",
-                  description: "Specialized division focused on research of marine micro-organisms and biotechnology.",
+                  description: "A specialized division focused on research of marine micro-organisms and biotechnology.",
                   color: "from-purple-500/20 to-blue-500/20",
                 },
                 {
                   year: 2025,
                   title: "Spirulina Biotech",
-                  description: "Breakthrough in sustainable marine spirulina cultivation technology.",
+                  description: "Annuled a breakthrough in sustainable marine spirulina cultivation technology.",
                   color: "from-blue-500/20 to-accent-orange/20",
                 },
                 {
@@ -194,7 +194,7 @@ export default function Home() {
                 {
                   year: 2026,
                   title: "Astaxanthin Production",
-                  description: "Natures most potent antioxidant.",
+                  description: "Promised to be nature's most potent antioxidant.",
                   color: "from-purple-500/20 to-blue-500/20",
                 },
               ].map((item, index) => (
@@ -257,7 +257,7 @@ export default function Home() {
           <ScrollReveal>
             <SectionHeading
               title="What Our Partners Say"
-              subtitle="Hear from the organizations and individuals who have experienced the Seaverse difference."
+              subtitle="Hear from the individuals who have experienced the Seaverse difference."
               centered
             />
           </ScrollReveal>
@@ -267,16 +267,16 @@ export default function Home() {
               <Testimonial
                 quote="Seaverse's REXWELD AI technology will transform our underwater maintenance operations, reducing costs by 40% while improving safety standards."
                 author="Shreesha H Acharya"
-                role="Founder & CEO"
+                role="Founder & CEO,"
                 company="Seaverse Research & Development"
                 imageSrc="/placeholder.svg?height=200&width=200"
               />
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={200}>
               <Testimonial
-                quote="The Genix Ocean Labs concept is revolutionary. It has the potential to make India a global leader in sustainable luxury aquaculture."
+                quote="The Genix Ocean Labs concept is revolutionary. It has the potential to make India a global leader in sustainable aquaculture."
                 author="Darshithchandra"
-                role="Associate Director"
+                role="Associate Director,"
                 company="Seaverse Research & Development"
                 imageSrc="/placeholder.svg?height=200&width=200"
               />
@@ -285,7 +285,7 @@ export default function Home() {
               <Testimonial
                 quote="Their water quality monitoring system has been instrumental in helping us maintain optimal conditions for our marine life."
                 author="Sambit Singh"
-                role="Chief Scientist Officer"
+                role="Chief Scientist Officer,"
                 company="Seaverse Research & Development"
                 imageSrc="/placeholder.svg?height=200&width=200"
               />

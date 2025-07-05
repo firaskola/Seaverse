@@ -46,7 +46,7 @@ export default function TechnologyPage() {
           <ScrollReveal>
             <SectionHeading
               title="Our Technologies"
-              subtitle="Explore our innovative marine technology solutions designed to transform underwater operations."
+              subtitle="Explore our innovative marine technology solutions that are designed to transform underwater operations."
             />
           </ScrollReveal>
 
@@ -54,7 +54,7 @@ export default function TechnologyPage() {
             <ScrollReveal animation="fade-up" delay={400}>
               <TechnologyCard
                 title="AQUA SENTINEL"
-                description="Autonomous underwater drones providing 24/7 insights on ocean life, climate shifts, and ecological risks in real time."
+                description="Autonomous underwater drones, providing 24/7 insights on ocean life, climate shifts, and ecological risks dynamically."
                 imageSrc="/images/aqua_senti.jpg"
                 href="/technology/aqua-sentinel"
               />
@@ -62,7 +62,7 @@ export default function TechnologyPage() {
             <ScrollReveal animation="fade-up" delay={400}>
               <TechnologyCard
                 title="Spirulina Biotech"
-                description="Sustainable marine spirulina cultivation technology for future-proof nutrition solutions."
+                description="Sustainable marine spirulina cultivation technology for dedicative nutrition solutions."
                 imageSrc="/images/spiri.jpg"
                 href="/technology/spirulina"
               />
@@ -87,9 +87,9 @@ export default function TechnologyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Nano Bots Swarms",
+                title: "Nano Bot Swarms",
                 description:
-                  "Microplastic cleanup technology using nano bot swarms will be tested in Mediterranean Sea field trials",
+                  "Microplastic cleanup technology using nano bot swarms to be tested in the Mediterranean Sea field trials",
                 imageSrc: "/images/placeholder-nano.jpg"
               },
               {
@@ -101,7 +101,7 @@ export default function TechnologyPage() {
               {
                 title: "Marine Data Nexus",
                 description:
-                  "Global ocean intelligence platform aggregating real-time marine data from satellites, drones, and sensors",
+                  "Global ocean intelligence platform collecting real-time marine data from satellites, drones, and sensors",
                 imageSrc: "/images/placeholder-data.jpg"
               },
             ].map((item, index) => (
@@ -164,8 +164,8 @@ export default function TechnologyPage() {
                 <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-accent-orange transition-colors duration-300">SEAVERSE Ocean Energy Solutions</h3>
                 <p className="text-gray-300 mb-6 text-lg max-w-3xl">
                   Starting in 2027, SEAVERSE will begin advanced R&D on India's first utility-scale Ocean Thermal Energy
-                  Conversion (OTEC) and Tidal Energy Systems, laying the foundation for the next generation of clean,
-                  24/7 ocean power.
+                  Conversion (OTEC) and Tidal Energy Systems, laying the foundation for the next generation of clean
+                 ocean power, 24/7.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Link href="/technology/energy-projects">
@@ -207,7 +207,7 @@ export default function TechnologyPage() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent-orange transition-colors duration-300">Offshore Platform Maintenance</h3>
                   <p className="text-gray-400 mb-4">
-                    How REXWELD AI transformed underwater repairs for a major oil company, reducing downtime by 60%.
+                    How REXWELD AI would have transformed underwater repairs for a major oil company, reducing downtime by 60%.
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="text-accent-orange">Oil & Gas Industry</span>

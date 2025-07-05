@@ -25,7 +25,7 @@ export default function ResearchPage() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Research Unit of Seaverse
+             The Research Unit of Seaverse
             </p>
           </ScrollReveal>
         </div>
@@ -42,13 +42,13 @@ export default function ResearchPage() {
               <div>
                 <h2 className="text-3xl font-bold text-white mb-6">Pioneering Marine Research</h2>
                 <p className="text-gray-300 mb-6">
-                  At Seaverse, research and innovation are at the core of everything we do. Our dedicated teams work
-                  tirelessly to push the boundaries of marine technology, developing solutions that address critical
-                  underwater challenges while preserving our ocean ecosystems.
+                  At Seaverse, research and innovation are at the core of everything we do. Our teams work dedicatedly & 
+                  tirelessly to push the boundaries of marine technology, developing solutions that would solve critical
+                  underwater challenges while actually preserving our ocean ecosystems.
                 </p>
 
                 <p className="text-gray-300 mb-6">
-                  From artificial ocean laboratories to advanced underwater robotics, our research initiatives span a
+                  From artificial ocean laboratories to advanced underwater robotics, our research initiatives do span to a
                   wide range of disciplines, combining expertise in marine engineering, oceanography, biotechnology, and
                   artificial intelligence.
                 </p>
@@ -56,8 +56,8 @@ export default function ResearchPage() {
                 <div className="bg-dark-card/50 p-4 border-l-4 border-accent-orange rounded group hover:bg-dark-card/70 transition-colors duration-300">
                   <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent-orange transition-colors duration-300">Our Approach</h3>
                   <p className="text-gray-300">
-                    We believe in collaborative, interdisciplinary research that bridges the gap between scientific
-                    discovery and practical application, creating technologies that make a real-world impact.
+                    We believe that collaborative and interdisciplinary research bridges the gap between scientific
+                    discovery and practical application, helping to create technologies that make a real-world impact.
                   </p>
                 </div>
               </div>
@@ -93,7 +93,7 @@ export default function ResearchPage() {
           <ScrollReveal>
             <SectionHeading
               title="Research Initiatives"
-              subtitle="Explore our groundbreaking research programs and innovations."
+              subtitle="Explore our groundbreaking R&D programs and innovations."
             />
           </ScrollReveal>
 
@@ -101,7 +101,7 @@ export default function ResearchPage() {
             <ScrollReveal animation="fade-up" delay={100}>
               <TechnologyCard
                 title="Genix Ocean Laboratories"
-                description="Artificial ocean laboratories revolutionizing luxury aquaculture, sustainable marine research, and astaxanthin production."
+                description="Artificial ocean laboratories that revolve around luxury aquaculture, sustainable marine research, and astaxanthin production."
                 imageSrc="/images/ocean_lab3.jpg"
                 href="/research/genix"
               />
@@ -109,7 +109,7 @@ export default function ResearchPage() {
             <ScrollReveal animation="fade-up" delay={200}>
               <TechnologyCard
                 title="Genix Carbon Solutions"
-                description="Advanced marine-based carbon removal technologies including algae farms, AI-optimized kelp forests, and deep-sea CO₂ mineralization."
+                description="Advanced marine-friendly carbon removal technologies including algae farms, optimized kelp forests, and deep CO₂ mineralization."
                 imageSrc="/images/carbon_cap1.jpg"
                 href="/research/genix/carbon"
               />
@@ -117,7 +117,7 @@ export default function ResearchPage() {
             <ScrollReveal animation="fade-up" delay={300}>
               <TechnologyCard
                 title="Haematococcus pluvialis"
-                description="India's first sustainable astaxanthin production from marine algae, delivering nature's most powerful antioxidant."
+                description="India's first sustainable astaxanthin production from marine algae, delivering nature's most powerful and healthy antioxidant."
                 imageSrc="/images/astax1.jpg"
                 href="/research/genix/astaxanthin"
               />
@@ -125,7 +125,7 @@ export default function ResearchPage() {
             <ScrollReveal animation="fade-up" delay={400}>
               <TechnologyCard
                 title="Genix Marine Restoration"
-                description="Rebuilding coastal ecosystems through smart mangrove reforestation and seagrass meadow revival to create blue carbon sinks."
+                description="Rebuilding of coastal ecosystems through proper mangrove reforestation and seagrass meadow revivals to create blue carbon sinks."
                 imageSrc="/images/coral1.jpg"
                 href="/research/marine-restoration"
               />
@@ -163,13 +163,13 @@ export default function ResearchPage() {
                 <div className="p-8 flex flex-col justify-center">
                   <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-accent-orange transition-colors duration-300">Genix: Artificial Ocean Laboratories</h3>
                   <p className="text-gray-300 mb-6">
-                    Our flagship research initiative, Genix is revolutionizing luxury aquaculture and caviar farming in
+                    Our flagship research initiative, GENIX, is revolutionizing luxury aquaculture and caviar farming in
                     India. Launching in 2026, this pioneering ecosystem is designed to cultivate high-value marine
                     species in controlled environments that perfectly simulate ocean conditions.
                   </p>
                   <p className="text-gray-300 mb-6">
-                    Using AI-regulated systems to monitor and maintain optimal conditions, Genix represents the future
-                    of sustainable seafood production and marine biotechnology.
+                    Using AI-regulated systems to maintain optimal conditions, GENIX represents the future
+                    of sustainable seafood production and improving marine biotechnology.
                   </p>
                   <Link
                     href="/research/genix"
@@ -213,7 +213,7 @@ export default function ResearchPage() {
           <ScrollReveal>
             <SectionHeading
               title="Research Publications"
-              subtitle="Scientific papers and technical reports from our research teams."
+              subtitle="The scientific papers and technical reports from our research teams."
             />
           </ScrollReveal>
 
@@ -225,7 +225,7 @@ export default function ResearchPage() {
                 journal: "Journal of Marine Biotechnology",
                 year: "2024",
                 abstract:
-                  "This paper explores the technical challenges and potential benefits of creating controlled artificial ocean environments for sustainable aquaculture and marine research.",
+                  "Explores the technical challenges and potential benefits of creating controlled artificial ocean environments for sustainable aquaculture and marine research.",
               },
               {
                 title: "AI-Driven Underwater Welding: Precision Techniques for Deep Sea Infrastructure Maintenance",
@@ -233,7 +233,7 @@ export default function ResearchPage() {
                 journal: "International Journal of Marine Engineering",
                 year: "2023",
                 abstract:
-                  "A comprehensive analysis of artificial intelligence applications in underwater welding operations, with a focus on autonomous systems for deep sea infrastructure maintenance.",
+                  "Comprehensive analysis of applications of AI in underwater welding operations, with focus on autonomous systems for deep sea infrastructure maintenance.",
               },
               {
                 title: "Sustainable Spirulina Cultivation in Marine Environments: Nutritional Profile and Scalability",
@@ -241,7 +241,7 @@ export default function ResearchPage() {
                 journal: "Algal Research",
                 year: "2023",
                 abstract:
-                  "This study examines the nutritional benefits and commercial scalability of marine-grown spirulina compared to traditional cultivation methods.",
+                  "Focuses on examining the nutritional benefits and commercial scalability of spirulina grown from our methods compared to traditional cultivation methods.",
               },
               {
                 title: "Water Quality Monitoring Systems for Coastal Ecosystems: A Comparative Analysis",
@@ -249,7 +249,7 @@ export default function ResearchPage() {
                 journal: "Environmental Monitoring and Assessment",
                 year: "2023",
                 abstract:
-                  "An in-depth comparison of various water quality monitoring systems and their effectiveness in coastal ecosystem management.",
+                  "In-depth comparison of various water quality monitoring systems and their effectiveness in coastal ecosystem management.",
               },
             ].map((publication, index) => (
               <ScrollReveal key={index} animation="fade-up" delay={index * 100}>

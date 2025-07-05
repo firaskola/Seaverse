@@ -37,8 +37,8 @@ export default function CarbonSolutionsPage() {
           <ScrollReveal animation="scale" delay={400}>
             <div className="inline-block bg-dark-card/50 px-6 py-3 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
               <p className="text-accent-orange font-medium">
-                From scalable algae farms to AI-optimized kelp forests, GENIX delivers nature-aligned, tech-empowered
-                carbon removal. Our mission: help the ocean fight climate change — intelligently.
+                From scalable algae farms to AI optimized kelp forests, GENIX delivers natural and tech-empowered
+                carbon removal to help the ocean fight climate change intelligently.
               </p>
             </div>
           </ScrollReveal>
@@ -68,7 +68,7 @@ export default function CarbonSolutionsPage() {
           <ScrollReveal>
             <SectionHeading
               title="The Problem We Solve"
-              subtitle="Carbon capture is broken — either it's too small, too slow, or too expensive."
+              subtitle="Carbon capture is really broken. Either it's too small, too slow, or too expensive."
             />
           </ScrollReveal>
 
@@ -81,19 +81,19 @@ export default function CarbonSolutionsPage() {
                     <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 group-hover:bg-accent-orange/20 transition-colors duration-300">
                       <Check className="text-accent-orange" size={14} />
                     </div>
-                    <p className="text-gray-300">Land-based and vulnerable to wildfires</p>
+                    <p className="text-gray-300">Land-based, which are vulnerable to wildfires</p>
                   </div>
                   <div className="flex items-start">
                     <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 group-hover:bg-accent-orange/20 transition-colors duration-300">
                       <Check className="text-accent-orange" size={14} />
                     </div>
-                    <p className="text-gray-300">Industrial, with energy-heavy footprints</p>
+                    <p className="text-gray-300">Industrial, that leave energy-heavy footprints</p>
                   </div>
                   <div className="flex items-start">
                     <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 group-hover:bg-accent-orange/20 transition-colors duration-300">
                       <Check className="text-accent-orange" size={14} />
                     </div>
-                    <p className="text-gray-300">Ocean-based, but severely underdeveloped</p>
+                    <p className="text-gray-300">Ocean-based, which is underdeveloped and mostly, untouched</p>
                   </div>
                 </div>
 
@@ -171,11 +171,11 @@ export default function CarbonSolutionsPage() {
                     </div>
                     <h3 className="text-2xl font-bold text-white">ALGAELOCK™</h3>
                   </div>
-                  <p className="text-gray-300 mb-4">Industrial-scale algae farms engineered for CO₂ drawdown</p>
+                  <p className="text-gray-300 mb-4">Industrial-scale algae farms prepared for CO₂ drawdown</p>
                   <ul className="space-y-3 text-gray-300 mb-6">
                     <li className="flex items-start">
                       <Check className="text-accent-orange mr-2 mt-1 flex-shrink-0" size={18} />
-                      <span>Grows genetically-optimized super spirulina</span>
+                      <span>Grows genetically optimized super spirulina</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="text-accent-orange mr-2 mt-1 flex-shrink-0" size={18} />
@@ -183,7 +183,7 @@ export default function CarbonSolutionsPage() {
                     </li>
                     <li className="flex items-start">
                       <Check className="text-accent-orange mr-2 mt-1 flex-shrink-0" size={18} />
-                      <span>Biomass is sunk deep for permanent sequestration</span>
+                      <span>Biomasses are sunk deep for permanent isolation</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="text-accent-orange mr-2 mt-1 flex-shrink-0" size={18} />
@@ -281,7 +281,7 @@ export default function CarbonSolutionsPage() {
                     </div>
                     <h3 className="text-2xl font-bold text-white">ABYSS STORAGE™</h3>
                   </div>
-                  <p className="text-gray-300 mb-4">Deep-sea CO₂ mineralization in basalt rock formations</p>
+                  <p className="text-gray-300 mb-4">Deep CO₂ mineralization in basalt rock formations</p>
                   <ul className="space-y-3 text-gray-300 mb-6">
                     <li className="flex items-start">
                       <Check className="text-accent-orange mr-2 mt-1 flex-shrink-0" size={18} />
@@ -289,18 +289,18 @@ export default function CarbonSolutionsPage() {
                     </li>
                     <li className="flex items-start">
                       <Check className="text-accent-orange mr-2 mt-1 flex-shrink-0" size={18} />
-                      <span>Reacts with rock to form stable carbonate minerals</span>
+                      <span>Reacts with rocks to form stable carbonate minerals</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="text-accent-orange mr-2 mt-1 flex-shrink-0" size={18} />
-                      <span>Converts in &lt;2 years — with zero leakage</span>
+                      <span>Converts in &lt;2 years, with zero leakage</span>
                     </li>
                   </ul>
                   <div className="bg-dark-surface/20 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Why It Matters:</h4>
                     <div className="flex items-center">
                       <Check className="text-accent-orange mr-2 flex-shrink-0" size={18} />
-                      <span className="text-gray-300">Largest-scale marine sequestration method</span>
+                      <span className="text-gray-300">Largest-scale marine isolation method</span>
                     </div>
                     <div className="flex items-center mt-2">
                       <Check className="text-accent-orange mr-2 flex-shrink-0" size={18} />
@@ -343,7 +343,7 @@ export default function CarbonSolutionsPage() {
                     <td className="px-6 py-4 text-white font-medium">ALGAELOCK™</td>
                     <td className="px-6 py-4 text-white/70">100K tons/site</td>
                     <td className="px-6 py-4 text-white/70">$120</td>
-                    <td className="px-6 py-4 text-white/70">Protein byproduct</td>
+                    <td className="px-6 py-4 text-white/70">Byproduct for protein</td>
                   </tr>
                   <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">KELP FORGE™</td>
@@ -355,7 +355,7 @@ export default function CarbonSolutionsPage() {
                     <td className="px-6 py-4 text-white font-medium">ABYSS STORAGE™</td>
                     <td className="px-6 py-4 text-white/70">1M+ tons/site</td>
                     <td className="px-6 py-4 text-white/70">$150</td>
-                    <td className="px-6 py-4 text-white/70">Permanent, secure</td>
+                    <td className="px-6 py-4 text-white/70">Secure and Permanent</td>
                   </tr>
                 </tbody>
               </table>
@@ -424,9 +424,9 @@ export default function CarbonSolutionsPage() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">Corporate Clients</h3>
                 <ul className="space-y-3 text-gray-300">
-                  <li>• Meet science-based net-zero targets</li>
+                  <li>• To meet net-zero targets</li>
                   <li>• Secure long-term carbon credits</li>
-                  <li>• Build climate-positive branding</li>
+                  <li>• Build a positive climatic branding</li>
                 </ul>
               </div>
             </ScrollReveal>
@@ -482,7 +482,7 @@ export default function CarbonSolutionsPage() {
                 <h3 className="text-xl font-bold text-white mb-4">Investors</h3>
                 <ul className="space-y-3 text-gray-300">
                   <li>• Gain first-mover access to marine carbon markets</li>
-                  <li>• IP access: algae strains, kelp genomics, robotic planters</li>
+                  <li>• IP access for algae strains, kelp genomics and robotic planters</li>
                 </ul>
               </div>
             </ScrollReveal>
@@ -498,8 +498,8 @@ export default function CarbonSolutionsPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="Case Study: ALGAELOCK in Norway"
-              subtitle="Real-world implementation of our carbon capture technology."
+              title="Case Study: ALGAELOCK™ in Norway"
+              subtitle="A real-world implementation of our carbon capture technology."
             />
           </ScrollReveal>
 
@@ -508,7 +508,7 @@ export default function CarbonSolutionsPage() {
               <div>
                 <div className="bg-dark-card/30 p-6 rounded-lg mb-6">
                   <h3 className="text-xl font-bold text-white mb-3">Client: North Sea Energy Consortium</h3>
-                  <p className="text-gray-300">Challenge: Offset 500K tons CO₂ annually from oil rigs</p>
+                  <p className="text-gray-300"> The Challenge: To offset 500K tons of CO₂ annually from oil rigs</p>
                 </div>
 
                 <h3 className="text-xl font-bold text-white mb-4">GENIX Deployment:</h3>
@@ -523,7 +523,7 @@ export default function CarbonSolutionsPage() {
                     <div className="bg-dark-card/50 p-1 rounded-full mr-3 mt-1">
                       <span className="text-accent-orange text-sm">•</span>
                     </div>
-                    <p>Real-time AI monitoring & biomass sinking</p>
+                    <p>Dynamic AI monitoring & biomass sinking</p>
                   </li>
                 </ul>
 
@@ -531,7 +531,7 @@ export default function CarbonSolutionsPage() {
                 <div className="space-y-3">
                   <div className="flex items-center">
                     <Check className="text-accent-orange mr-2 flex-shrink-0" size={18} />
-                    <span className="text-gray-300">520,000 tons verified CO₂ removed</span>
+                    <span className="text-gray-300">520,000 tons of verified CO₂ removed</span>
                   </div>
                   <div className="flex items-center">
                     <Check className="text-accent-orange mr-2 flex-shrink-0" size={18} />

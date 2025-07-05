@@ -409,17 +409,17 @@ export default function ContactPage() {
                 {
                   question: "What services does Seaverse offer?",
                   answer:
-                    "Seaverse specializes in marine technology solutions, including underwater robotics, AI-powered welding systems, water quality monitoring, and sustainable aquaculture technologies. We also offer research and development services in marine biotechnology.",
+                    "Seaverse specializes exclusively in marine technology solutions, including underwater robotics, dynamic welding systems, water quality monitoring, and sustainable aquaculture technologies. We also offer R&D services in marine biotechnology.",
                 },
                 {
                   question: "How can I partner with Seaverse?",
                   answer:
-                    "We welcome partnerships with organizations that share our vision for sustainable marine technology. You can reach out through our contact form, selecting 'Partnership Opportunity' as the subject. Our team will review your proposal and get back to you.",
+                    "We welcome partnerships with organizations that share our vision for sustainable marine technology. You can reach us through our contact form, selecting 'Partnership Opportunity' as the subject. Our team will review your proposal and get back to you.",
                 },
                 {
                   question: "Does Seaverse offer internships or career opportunities?",
                   answer:
-                    "Yes, we regularly offer internships and career opportunities for passionate individuals in marine technology, engineering, and research. Check our careers page or contact us for current openings.",
+                    "Yes, we regularly offer internships and career opportunities for passionate individuals in marine technology, engineering, and research. Check out our careers page or contact us for current openings.",
                 },
                 {
                   question: "How can I stay updated with Seaverse's developments?",

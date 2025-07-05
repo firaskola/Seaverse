@@ -53,7 +53,7 @@ export default function WaterQualityPage() {
                     Your Water Is Talking. We Help You Understand It.
                   </h3>
                   <p className="text-gray-300">
-                    We translate the ocean's complex language into simple, actionable insights – so you can make smarter
+                    We translate the complex language of the ocean into simple and actionable insights, so you can make smarter
                     decisions about the water you depend on.
                   </p>
                 </div>
@@ -95,7 +95,7 @@ export default function WaterQualityPage() {
           <ScrollReveal>
             <SectionHeading
               title="The Services You Need"
-              subtitle="Comprehensive water quality assessment services explained in simple terms."
+              subtitle="Comprehensive water quality assessment services, explained in simple terms."
             />
           </ScrollReveal>
 
@@ -104,7 +104,7 @@ export default function WaterQualityPage() {
               {[
                 {
                   title: "Bathymetric Surveys",
-                  description: "The ocean's depth chart – we map the underwater terrain so you don't hit surprises.",
+                  description: "A depth chart of the ocean – we map the underwater terrain so you don't hit surprises.",
                 },
                 {
                   title: "Sediment Sampling",
@@ -116,15 +116,15 @@ export default function WaterQualityPage() {
                 },
                 {
                   title: "Metocean Surveys",
-                  description: "The ocean's weather report – currents, waves, and how they move problems around.",
+                  description: "The ocean's weather report – tides, currents, waves, and how they move problems around.",
                 },
                 {
                   title: "Water-Column Profiling",
-                  description: "A full-body scan for your bay – checking health at every depth.",
+                  description: "A full body scan for your bay – checking health at every depth.",
                 },
                 {
                   title: "Nutrient & Chlorophyll Analysis",
-                  description: "Algae's grocery list – we measure what's feeding those dangerous blooms.",
+                  description: "An algae's grocery list – measuring what's feeding those dangerous blooms.",
                 },
                 {
                   title: "Elemental Analysis",
@@ -139,7 +139,7 @@ export default function WaterQualityPage() {
                   description: "Chemical fingerprinting – spotting oil spills, sewage, and industrial runoff.",
                 },
                 {
-                  title: "Core-Logging",
+                  title: "Core Logging",
                   description: "The ocean's history book – reading sediment layers like tree rings.",
                 },
                 {
@@ -168,7 +168,7 @@ export default function WaterQualityPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="Why This Matters to You"
+              title="Why This Matters to You?"
               subtitle="How our water quality assessment services benefit different stakeholders."
             />
           </ScrollReveal>
@@ -178,16 +178,16 @@ export default function WaterQualityPage() {
               {[
                 {
                   title: "Fishery Manager",
-                  subtitle: "We'll tell you why your catch is declining before it's too late.",
+                  subtitle: "We'll tell you why your catch is declining, before it's too late.",
                   features: [
                     "Early detection of harmful algal blooms",
-                    "Monitoring of dissolved oxygen levels",
-                    "Identification of pollution sources affecting fish stocks"
+                    "Monitoring dissolved oxygen levels",
+                    "Identification of pollution sources that affect fish stocks"
                   ]
                 },
                 {
                   title: "Tourism Operator",
-                  subtitle: "Know your water is safe before TripAdvisor does.",
+                  subtitle: "Know that your water is safe before TripAdvisor does.",
                   features: [
                     "Regular beach and water quality certifications",
                     "Predictive modeling for potential contamination events",
@@ -196,16 +196,16 @@ export default function WaterQualityPage() {
                 },
                 {
                   title: "Port Engineer",
-                  subtitle: "Avoid million-dollar dredging mistakes with better sediment data.",
+                  subtitle: "Avoid million dollar dredging mistakes with better sediment data.",
                   features: [
                     "Detailed sediment composition analysis",
                     "Contaminant mapping for disposal planning",
-                    "Hydrodynamic modeling for sedimentation prediction"
+                    "A Hydrodynamic model for sedimentation prediction"
                   ]
                 },
                 {
                   title: "Environmentalist",
-                  subtitle: "Get the hard proof you need to hold polluters accountable.",
+                  subtitle: "Get the hard proof you need, to hold polluters accountable.",
                   features: [
                     "Forensic water quality analysis",
                     "Chemical fingerprinting of contaminant sources",
@@ -241,7 +241,7 @@ export default function WaterQualityPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="How We Work"
+              title="How We Work?"
               subtitle="Our proven process for delivering accurate and actionable water quality assessments."
               centered
             />
@@ -252,7 +252,7 @@ export default function WaterQualityPage() {
               {[
                 {
                   title: "Assessment",
-                  description: "We analyze your water quality needs and design a comprehensive testing plan."
+                  description: "We analyze the needs of your water quality and then, design a comprehensive testing plan."
                 },
                 {
                   title: "Analysis",
@@ -260,7 +260,7 @@ export default function WaterQualityPage() {
                 },
                 {
                   title: "Action",
-                  description: "We provide clear, actionable insights and recommendations for improvement."
+                  description: "We provide clear and actionable insights and recommendations for improvement."
                 }
               ].map((step, index) => (
                 <div key={index} className="bg-dark-surface/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">

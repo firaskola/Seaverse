@@ -80,7 +80,7 @@ export default function AstaxanthinPage() {
         <ParticleBackground count={15} color="rgba(1, 46, 64, 0.2)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
-            <SectionHeading title="Why Astaxanthin?" subtitle="The antioxidant that makes antioxidants look lazy." />
+            <SectionHeading title="Why Astaxanthin?" subtitle="The antioxidant, that makes antioxidants look lazy." />
           </ScrollReveal>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -116,7 +116,7 @@ export default function AstaxanthinPage() {
                     <div className="w-6 h-6 bg-accent-orange/20 rounded-full flex items-center justify-center mr-2">
                       <span className="text-accent-orange">✓</span>
                     </div>
-                    <span className="text-gray-300">Support vision and cognitive clarity</span>
+                    <span className="text-gray-300">Support vision and improve cognitive clarity</span>
                   </div>
                 </div>
 
@@ -126,19 +126,19 @@ export default function AstaxanthinPage() {
                     <div className="bg-dark-card/50 p-1 rounded-full mr-3 mt-1">
                       <span className="text-accent-orange text-sm">•</span>
                     </div>
-                    <p className="text-gray-300">Over 90% of global supply is synthetic (petroleum-based)</p>
+                    <p className="text-gray-300">Over 90% of global supply is synthetic</p>
                   </div>
                   <div className="flex items-start">
                     <div className="bg-dark-card/50 p-1 rounded-full mr-3 mt-1">
                       <span className="text-accent-orange text-sm">•</span>
                     </div>
-                    <p className="text-gray-300">Wild-salmon derived sources are unsustainable</p>
+                    <p className="text-gray-300">The derived sources of wild-salmon are quite unsustainable</p>
                   </div>
                   <div className="flex items-start">
                     <div className="bg-dark-card/50 p-1 rounded-full mr-3 mt-1">
                       <span className="text-accent-orange text-sm">•</span>
                     </div>
-                    <p className="text-gray-300">India imports 100% of what it consumes — at a premium</p>
+                    <p className="text-gray-300">India imports 100% of what it consumes — at a premium, not helping the economy tariffs.</p>
                   </div>
                 </div>
               </div>
@@ -174,7 +174,7 @@ export default function AstaxanthinPage() {
           <ScrollReveal>
             <SectionHeading
               title="Our Solution: Ocean-Grown Purity"
-              subtitle="Sustainable, high-quality astaxanthin production in India."
+              subtitle="Sustainably grown and high-quality astaxanthin production in India."
               centered
             />
           </ScrollReveal>
@@ -189,7 +189,7 @@ export default function AstaxanthinPage() {
                 <ul className="space-y-3 text-gray-300">
                   <li>• Heat-tolerant Haematococcus pluvialis thriving at 38°C</li>
                   <li>• CRISPR-assisted selection yields 2x pigment density</li>
-                  <li>• Adapted to both coastal and high-altitude climates</li>
+                  <li>• Adapts to both coastal and high-altitude climates</li>
                 </ul>
               </div>
             </ScrollReveal>
@@ -202,7 +202,7 @@ export default function AstaxanthinPage() {
                 <h3 className="text-xl font-bold text-white mb-4">Closed-Loop Solar Bioreactors</h3>
                 <ul className="space-y-3 text-gray-300">
                   <li>• Powered by India's largest solar parks</li>
-                  <li>• Zero freshwater use — brackish & saline adaptation</li>
+                  <li>• Zero freshwater in order to use to increase adaptation of brackish & saline water </li>
                   <li>• Fully automated, AI-regulated growth cycles</li>
                 </ul>
               </div>
@@ -243,7 +243,7 @@ export default function AstaxanthinPage() {
                   <div className="flex items-center mt-2">
                     <Check className="text-accent-orange mr-2 flex-shrink-0" size={18} />
                     <span className="text-gray-300">
-                      <span className="text-accent-orange font-medium">98% trans-isomer content</span> (Versus 75–80% in
+                      <span className="text-accent-orange font-medium">98% trans-isomer content</span> (compared to 80% in
                       synthetic)
                     </span>
                   </div>
@@ -263,7 +263,7 @@ export default function AstaxanthinPage() {
           <ScrollReveal>
             <SectionHeading
               title="Why India? Why Now?"
-              subtitle="The perfect timing for local astaxanthin production."
+              subtitle="It's the perfect timing for local astaxanthin production."
             />
           </ScrollReveal>
 
@@ -291,8 +291,8 @@ export default function AstaxanthinPage() {
                 <ul className="space-y-3 text-gray-300">
                   <li>• $250M+ Indian demand by 2025</li>
                   <li>• No local producers until GENIX</li>
-                  <li>• 40% cost edge over Chinese imports</li>
-                  <li>• Surging wellness + vegan + clean-label demand</li>
+                  <li>• 40% cost edge over global imports</li>
+                  <li>• A proactive surge in wellness, vegan and clean label demand</li>
                 </ul>
               </div>
             </ScrollReveal>
@@ -458,7 +458,7 @@ export default function AstaxanthinPage() {
                     </div>
                     <div>
                       <span className="text-white font-medium">Cosmetics Firms:</span>
-                      <p>Replace synthetic red dyes with bio-pigment</p>
+                      <p>Can replace synthetic red dyes</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -557,7 +557,7 @@ export default function AstaxanthinPage() {
                   <tr className="border-t border-accent-orange/50">
                     <td className="px-6 py-4 text-white font-medium">2026</td>
                     <td className="px-6 py-4 text-gray-300">
-                     Commercial production begins – Full-capacity facilities online
+                     Commercial production begins – Capacitive facilities online
                     </td>
                   </tr>
                 </tbody>

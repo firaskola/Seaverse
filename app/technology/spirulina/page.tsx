@@ -40,25 +40,24 @@ export default function SpirulinaPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <ScrollReveal animation="fade-right">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-6">The Spirulina Story: Nature's Oldest Superfood</h2>
+                <h2 className="text-3xl font-bold text-white mb-6">The Story of Spirulina: Nature's Ancient Superfood</h2>
                 <div className="bg-dark-card/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 mb-6">
-                  <h3 className="text-2xl font-bold text-white mb-3">The Original Superfood – Now Smarter Than Ever</h3>
+                  <h3 className="text-2xl font-bold text-white mb-3">The OG Superfood – Now, Smarter Than Ever</h3>
                   <p className="text-gray-300">
-                    Fed to Aztec warriors, studied by NASA for space travel – we're reinventing Earth's most
-                    nutrient-dense organism for modern challenges.
+                    Transforming Earth's most nutrient-dense organism, formerly fed to Aztec warriors and investigated by NASA for space flight, to meet current difficulties.
                   </p>
                 </div>
 
                 <h3 className="text-xl font-bold text-white mb-4">What is Spirulina?</h3>
                 <p className="text-gray-300 mb-4">
-                  <em>A 3.5-billion-year-old cyanobacterium that:</em>
+                  <em>A 3.5 billion year old cyanobacterium that:</em>
                 </p>
 
                 <ul className="space-y-4 mb-6">
                   {[
-                    "Contains 60-70% complete protein (vs. 20% in beef)",
-                    "Packs 40x more iron than spinach",
-                    "Delivers 100+ bioavailable nutrients"
+                    "Contains 60-70% complete protein (compared to 20% in beef)",
+                    "Brings 40x more iron than spinach",
+                    "Provides 100+ bioavailable nutrients"
                   ].map((item, index) => (
                     <li key={index} className="flex items-start group">
                       <div className="p-2 bg-accent-orange/10 rounded-lg mr-3 group-hover:bg-accent-orange/20 transition-colors duration-300">
@@ -71,8 +70,8 @@ export default function SpirulinaPage() {
 
                 <div className="bg-dark-card/50 p-4 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
                   <p className="text-accent-orange italic">
-                    "The French called it 'the food of the future' in the 1970s... they just didn't have our tech to scale
-                    it properly."
+                    "The French called it 'the food of the future' in the 1970s... they just didn't have our technology to scale
+                    it out properly."
                   </p>
                 </div>
               </div>
@@ -108,7 +107,7 @@ export default function SpirulinaPage() {
           <ScrollReveal>
             <SectionHeading
               title="Our Spirulina Products"
-              subtitle="Innovative marine-based nutrition solutions for various applications."
+              subtitle="Innovative nutrition solutions based on marine for various applications."
               centered
             />
           </ScrollReveal>
@@ -121,24 +120,24 @@ export default function SpirulinaPage() {
                   subtitle: "The world's cleanest blue-green algae",
                   image: "/images/blue2.jpg",
                   features: [
-                    "Grown in: Solar-powered ocean pods",
-                    "Key Benefit: 3x higher phycocyanin (anti-inflammatory compound) than land-grown",
-                    "Forms: Powder, tablets, protein crisps"
+                    "Grown in solar-powered oceanic pods",
+                    "A key benefit being 3x higher in phycocyanin than land-grown",
+                    "Comes in forms of powder, tablets and protein crisps"
                   ]
                 },
                 {
                   title: "AZURE™ Natural Blue",
-                  subtitle: "Plant-based food coloring that's actually healthy",
+                  subtitle: "Plant-based food coloring, that's actually healthy",
                   image: "/images/blue.jpg",
                   features: [
-                    "Replaces: Synthetic FD&C Blue #1",
-                    "Used in: Ice creams, candies, beverages",
-                    "Why Chefs Love It: Stable at high heat, pH-resistant"
+                    " It replaces the usual synthetic FD&C Blue #1",
+                    "Majorly used in ice creams, candies, beverages",
+                    "Most favourable for having stability at high heat and being pH-resistant"
                   ]
                 },
                 {
                   title: "NEUTRASEA® Algae Blends",
-                  subtitle: '"The multivitamin that grows on water"',
+                  subtitle: '"A water-growing multivitamin"',
                   image: "/images/biotech.jpg",
                   features: [
                     "Spirulina + chlorella for detox",
@@ -187,7 +186,7 @@ export default function SpirulinaPage() {
           <ScrollReveal>
             <SectionHeading
               title="Why Our Spirulina Wins"
-              subtitle="A comparison between traditional farming methods and our innovative ocean-grown approach."
+              subtitle="Here's a comparison between traditional farming methods and our innovative approach."
             />
           </ScrollReveal>
 
@@ -204,19 +203,19 @@ export default function SpirulinaPage() {
                   {[
                     {
                       traditional: "Grows in concrete tanks",
-                      seaverse: "Thrives in mineral-rich seawater"
+                      seaverse: "Facilitated in mineral-rich seawater"
                     },
                     {
                       traditional: "Risk of heavy metals",
-                      seaverse: "Lab-tested purity guarantee"
+                      seaverse: "Lab-tested purity is a guarantee"
                     },
                     {
-                      traditional: "4 harvests/year",
+                      traditional: "4 harvests per year",
                       seaverse: "12 continuous harvests"
                     },
                     {
-                      traditional: "Earthy taste",
-                      seaverse: "Mild, nutty flavor profile"
+                      traditional: "An earthy taste",
+                      seaverse: "A mild and nutty flavor profile"
                     }
                   ].map((row, index) => (
                     <tr key={index} className="border-t border-accent-orange/30 hover:bg-dark-surface/30 transition-colors duration-300">
@@ -239,8 +238,8 @@ export default function SpirulinaPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="Where We Will Be Scaling"
-              subtitle="Our global expansion strategy for sustainable spirulina cultivation."
+              title="Where We Will Be Scaling?"
+              subtitle="Our expansion strategy globally for a sustainable way of spirulina cultivation."
             />
           </ScrollReveal>
 
@@ -250,8 +249,8 @@ export default function SpirulinaPage() {
                 <h3 className="text-2xl font-bold text-white mb-6">Current Sites</h3>
                 <div className="space-y-6">
                   <div className="bg-dark-surface/50 p-6 rounded-lg">
-                    <h4 className="text-xl font-bold text-white mb-2">Manglore</h4>
-                    <p className="text-gray-300">Advance Technology based Spirulina Cultivation setup</p>
+                    <h4 className="text-xl font-bold text-white mb-2">Mangalore, IN</h4>
+                    <p className="text-gray-300">An advanced technology based Spirulina Cultivation setup</p>
                   </div>
                 </div>
               </div>
@@ -261,7 +260,7 @@ export default function SpirulinaPage() {
                 <div className="space-y-6">
                   <div className="bg-dark-surface/50 p-6 rounded-lg">
                     <h4 className="text-xl font-bold text-white mb-2">Norway</h4>
-                    <p className="text-gray-300">Arctic-grown spirulina (higher Omega-3s)</p>
+                    <p className="text-gray-300">Arctic-grown spirulina (higher Omega 3s)</p>
                   </div>
                 </div>
               </div>
@@ -278,8 +277,8 @@ export default function SpirulinaPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="Who Needs This"
-              subtitle="Target markets and applications for our spirulina products."
+              title="Who Needs This?"
+              subtitle="The most probable target markets and applications for our spirulina products."
             />
           </ScrollReveal>
 
@@ -290,17 +289,17 @@ export default function SpirulinaPage() {
                 <div className="space-y-4">
                   <div className="bg-dark-surface/50 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Food Brands</h4>
-                    <p className="text-gray-300">"Make your protein bars 300% more sustainable"</p>
+                    <p className="text-gray-300">"Could make your protein bars 300% more sustainable"</p>
                   </div>
 
                   <div className="bg-dark-surface/50 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Beauty Companies</h4>
-                    <p className="text-gray-300">"Swap synthetic blue pigments for our AZURE™"</p>
+                    <p className="text-gray-300">"Can swap synthetic blue pigments for our AZURE™"</p>
                   </div>
 
                   <div className="bg-dark-surface/50 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Governments</h4>
-                    <p className="text-gray-300">"Fortify school meals for $0.02/serving"</p>
+                    <p className="text-gray-300">"Can reduce the burden of school meals for $0.02/serving"</p>
                   </div>
                 </div>
               </div>
@@ -310,17 +309,17 @@ export default function SpirulinaPage() {
                 <div className="space-y-4">
                   <div className="bg-dark-surface/50 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Biohackers</h4>
-                    <p className="text-gray-300">"The original nootropic"</p>
+                    <p className="text-gray-300">"An original smart tropic "</p>
                   </div>
 
                   <div className="bg-dark-surface/50 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Vegan Athletes</h4>
-                    <p className="text-gray-300">"Complete protein without the bloat"</p>
+                    <p className="text-gray-300">"Could complete protein intake without bloating"</p>
                   </div>
 
                   <div className="bg-dark-surface/50 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Eco-Parents</h4>
-                    <p className="text-gray-300">"Hidden veggie boost for picky eaters"</p>
+                    <p className="text-gray-300">"A hidden vegetarian boost for picky eaters"</p>
                   </div>
                 </div>
               </div>
@@ -337,8 +336,8 @@ export default function SpirulinaPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="Collaborations Driving Change"
-              subtitle="Strategic partnerships advancing spirulina innovation and applications."
+              title=" Driving Collaborative Forces"
+              subtitle="Strategic partnerships with us to help in advancement of spirulina innovation and applications."
               centered
             />
           </ScrollReveal>
@@ -347,17 +346,17 @@ export default function SpirulinaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="bg-dark-surface/50 p-6 rounded-lg hover:bg-dark-surface/30 transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-xl font-bold text-white mb-3">With NASA</h3>
-                <p className="text-gray-300">Testing our space-grown strain for Mars missions</p>
+                <p className="text-gray-300">Testing our space-grown strain for missions to Mars</p>
               </div>
 
               <div className="bg-dark-surface/50 p-6 rounded-lg hover:bg-dark-surface/30 transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-xl font-bold text-white mb-3">With UNICEF</h3>
-                <p className="text-gray-300">Combating childhood anemia in Malawi</p>
+                <p className="text-gray-300">To combat childhood anemia in Malawi</p>
               </div>
 
               <div className="bg-dark-surface/50 p-6 rounded-lg hover:bg-dark-surface/30 transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-xl font-bold text-white mb-3">With L'Oréal</h3>
-                <p className="text-gray-300">Replacing microplastics in cosmetics with algae beads</p>
+                <p className="text-gray-300">Replacement of microplastics in cosmetics with algae beads</p>
               </div>
             </div>
           </ScrollReveal>
@@ -372,8 +371,8 @@ export default function SpirulinaPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="The Proof"
-              subtitle="Clinical evidence and customer testimonials supporting our spirulina products."
+              title="Proof of Evidence"
+              subtitle="Clinical trials and testimonials from our customers support our spirulina products."
             />
           </ScrollReveal>
 
@@ -389,11 +388,11 @@ export default function SpirulinaPage() {
                       </div>
                       <div>
                         <h4 className="text-lg font-bold text-white">Faster Recovery</h4>
-                        <p className="text-gray-300 text-sm">University of Tokyo study</p>
+                        <p className="text-gray-300 text-sm">A study from the University of Tokyo</p>
                       </div>
                     </div>
                     <p className="text-gray-300">
-                      Athletes supplementing with our spirulina showed 12% faster recovery times after intense training.
+                      Athletes supplementing using our spirulina showed 12% faster recovery times after intense training.
                     </p>
                   </div>
 
@@ -404,18 +403,18 @@ export default function SpirulinaPage() {
                       </div>
                       <div>
                         <h4 className="text-lg font-bold text-white">Allergy Reduction</h4>
-                        <p className="text-gray-300 text-sm">Brazilian clinical trial</p>
+                        <p className="text-gray-300 text-sm">A Brazilian clinical trial</p>
                       </div>
                     </div>
                     <p className="text-gray-300">
-                      Participants experienced a 37% reduction in allergy symptoms when taking our spirulina daily.
+                      Participants experienced a 37% reduction in allergic symptoms by having an intake of our spirulina daily.
                     </p>
                   </div>
                 </div>
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Customers Love</h3>
+                <h3 className="text-2xl font-bold text-white mb-6">The Love of our Customers</h3>
                 <div className="space-y-6">
                   <div className="bg-dark-surface/50 p-6 rounded-lg">
                     <div className="flex items-start mb-4">
@@ -426,7 +425,7 @@ export default function SpirulinaPage() {
                     </div>
                     <p className="text-gray-300 italic">
                       "I've tried every spirulina on the market, and SEABLUE is in a different league. No fishy taste, and
-                      my clients actually stick with it because it's so easy to use."
+                      my clients can actually stick with it because it's so easy to use."
                     </p>
                   </div>
 
@@ -439,7 +438,7 @@ export default function SpirulinaPage() {
                     </div>
                     <p className="text-gray-300 italic">
                       "AZURE has revolutionized my desserts. Finally, a natural blue that doesn't break down during baking
-                      and actually adds nutritional value."
+                      and actually adds proper nutritional value."
                     </p>
                   </div>
                 </div>
@@ -458,7 +457,7 @@ export default function SpirulinaPage() {
           <ScrollReveal>
             <SectionHeading
               title="Try the Difference"
-              subtitle="Experience the superior quality and benefits of our ocean-grown spirulina products."
+              subtitle="Experience the absolute quality and benefits of our ocean-grown spirulina products."
               centered
             />
           </ScrollReveal>
@@ -485,7 +484,7 @@ export default function SpirulinaPage() {
 
             <div className="mt-12">
               <p className="text-gray-300 text-lg font-medium max-w-2xl mx-auto">
-                "This isn't just algae. It's the most efficient nutrition system ever designed – and we're just getting
+                "This is not just some algae. It  is one of the most efficient nutrition system ever designed, and we're just getting
                 started."
               </p>
             </div>

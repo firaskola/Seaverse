@@ -42,11 +42,11 @@ export default function AboutPage() {
             <ScrollReveal animation="fade-right">
               <div>
                 <p className="text-gray-300 mb-6">
-                  SEAVERSE was founded in 2024 by Shreesha H Acharya, entrepreneur with a deep passion for the ocean and a mind wired for innovation. What started as a dream to merge marine science with advanced technology has evolved into one of the most ambitious marine Research & technology ventures of our time.
+                  SEAVERSE was founded in 2024 by Shreesha H Acharya, an entrepreneur with a deep passion for the ocean and a mind wired for innovation. What started as a dream to merge marine science with advanced technology has evolved into one of the most ambitious marine research & technology ventures of our time.
                 </p>
 
                 <p className="text-gray-300 mb-6">
-                  With a clear mission to harness the power of the ocean through sustainability, biotechnology, and robotics, SEAVERSE has become a pioneering force in the blue economy. From AI-powered underwater bots to algae-based nutraceutical breakthroughs, every project we build is rooted in scientific precision, environmental responsibility, and a bold drive to reimagine the relationship between humanity and the sea.
+                  With a clear mission to harness the power of the ocean through sustainability, biotechnology, and robotics, SEAVERSE has become a pioneering force in the marine economy. From AI-powered underwater bots to nutraceutical algae breakthroughs, every project we build is rooted in scientific precision, environmental responsibility, and a bold drive to reimagine the relationship between humanity and the ocean.
                 </p>
 
                 <div className="bg-dark-card/50 p-4 border-l-4 border-accent-orange rounded group hover:bg-dark-card/70 transition-colors duration-300">
@@ -97,17 +97,17 @@ export default function AboutPage() {
             {[
               {
                 title: "Innovation",
-                description: "Pushing the boundaries of marine technology through continuous research and development.",
+                description: "Pushing the boundaries of marine technology through meticulous research and development.",
               },
               {
                 title: "Sustainability",
                 description:
-                  "Developing solutions that protect and preserve our ocean ecosystems for future generations.",
+                  "Developing proactive solutions to preserve our ocean ecosystems for future generations.",
               },
               {
                 title: "Precision",
                 description:
-                  "Delivering accurate technology that performs in the most challenging underwater environments.",
+                  "Delivering accurate technology that performs in challenging underwater environments.",
               },
               {
                 title: "Collaboration",
@@ -161,13 +161,13 @@ export default function AboutPage() {
                 {
                   name: "Darshith Chandra",
                   title: "Executive Director",
-                  bio: "Plays a key role in project management and coordination. Bridges engineering with execution.",
+                  bio: "Plays a key role in project management and coordination and also bridges engineering with execution.",
                   image: "/team/2.jpg"
                 },
                 {
                   name: "Sambit Singh",
                   title: "Chief Scientist Officer @ Genix",
-                  bio: "Experienced as a project scientist @center for marine living resources and ecology.",
+                  bio: "Experienced as a project scientist for marine living resources and ecology.",
                   image: "/team/3.jpeg"
                 },
                 {

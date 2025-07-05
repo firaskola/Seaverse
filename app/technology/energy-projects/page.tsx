@@ -35,14 +35,14 @@ export default function EnergyProjectsPage() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={300}>
             <h2 className="text-2xl md:text-4xl font-bold text-white mb-6">
-              "The Ocean Breathes Energy – We're Preparing to Capture It."
+              “The Ocean Breathes Energy & We're Preparing to Capture It.”
             </h2>
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={400}>
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
               Starting in 2027, SEAVERSE will begin advanced R&D on India's first utility-scale Ocean Thermal Energy
-              Conversion (OTEC) and Tidal Energy Systems, laying the foundation for the next generation of clean, 24/7
-              ocean power.
+              Conversion (OTEC) and Tidal Energy Systems, laying the stone for the next generation of clean
+              ocean power, 24/7.
             </p>
           </ScrollReveal>
         </div>
@@ -57,7 +57,7 @@ export default function EnergyProjectsPage() {
           <ScrollReveal>
             <SectionHeading
               title="2027 Onwards: The R&D Mission"
-              subtitle="Beginning in Q2 2027, SEAVERSE's marine energy division will initiate its multi-phase research plan to develop commercially viable, low-impact ocean energy systems."
+              subtitle="Beginning in Q2 2027, SEAVERSE's marine energy division will start its multi-phase research plan to develop commercially viable ocean energy systems."
             />
           </ScrollReveal>
 
@@ -66,9 +66,9 @@ export default function EnergyProjectsPage() {
               <h3 className="text-2xl font-bold text-white mb-6">Focus Areas:</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
-                  "OTEC prototype development and low-grade heat turbine efficiency",
+                  "OTEC prototype development and propagate heat turbine efficiency",
                   "Tidal blade hydrodynamics and AI-controlled flow optimization",
-                  "Marine biofouling resistance coatings",
+                  "Marine biofouling through resistance coatings",
                   "Hybrid integration with desalination and offshore aquaculture",
                 ].map((item, index) => (
                   <div key={index} className="flex items-start group">
@@ -93,7 +93,7 @@ export default function EnergyProjectsPage() {
           <ScrollReveal>
             <SectionHeading
               title="The Two Pillars of Our Ocean Energy Research"
-              subtitle="Innovative approaches to harness the ocean's vast energy potential"
+              subtitle="Our innovative approaches to harness the ocean's vast energy potential"
             />
           </ScrollReveal>
 
@@ -119,14 +119,14 @@ export default function EnergyProjectsPage() {
 
                   <div className="mb-6">
                     <h4 className="text-xl font-semibold text-accent-orange mb-3">
-                      How It Works (Future Tech Preview):
+                      How It Works (A Preview):
                     </h4>
                     <ul className="space-y-2 text-gray-300">
                       <li className="flex items-start group/item">
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="w-2 h-2 rounded-full bg-accent-orange"></div>
                         </div>
-                        <span className="group-hover/item:text-white transition-colors duration-300">Utilizes temperature gradients (warm surface vs. cold deep water)</span>
+                        <span className="group-hover/item:text-white transition-colors duration-300">Utilizes temperature gradients (the warm surface vs. cold deep water)</span>
                       </li>
                       <li className="flex items-start group/item">
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
@@ -138,7 +138,7 @@ export default function EnergyProjectsPage() {
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="w-2 h-2 rounded-full bg-accent-orange"></div>
                         </div>
-                        <span className="group-hover/item:text-white transition-colors duration-300">Simultaneously produces electricity and freshwater</span>
+                        <span className="group-hover/item:text-white transition-colors duration-300">Simultaneously produces electricity and processes freshwater</span>
                       </li>
                     </ul>
                   </div>
@@ -150,13 +150,13 @@ export default function EnergyProjectsPage() {
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="w-2 h-2 rounded-full bg-accent-orange"></div>
                         </div>
-                        <span className="group-hover/item:text-white transition-colors duration-300">Build 1MW prototype system</span>
+                        <span className="group-hover/item:text-white transition-colors duration-300">Build 1 MW prototype system</span>
                       </li>
                       <li className="flex items-start group/item">
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="w-2 h-2 rounded-full bg-accent-orange"></div>
                         </div>
-                        <span className="group-hover/item:text-white transition-colors duration-300">Establish test facility in Lakshadweep or Andaman Islands</span>
+                        <span className="group-hover/item:text-white transition-colors duration-300">Establish a test facility in Lakshadweep or the Andaman Islands</span>
                       </li>
                     </ul>
                   </div>
@@ -195,7 +195,7 @@ export default function EnergyProjectsPage() {
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="w-2 h-2 rounded-full bg-accent-orange"></div>
                         </div>
-                        <span className="group-hover/item:text-white transition-colors duration-300">AI-enhanced blade orientation and current prediction models</span>
+                        <span className="group-hover/item:text-white transition-colors duration-300">Enhanced dynamic blade orientation and current prediction models using AI</span>
                       </li>
                       <li className="flex items-start group/item">
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
@@ -213,7 +213,7 @@ export default function EnergyProjectsPage() {
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="w-2 h-2 rounded-full bg-accent-orange"></div>
                         </div>
-                        <span className="group-hover/item:text-white transition-colors duration-300">5MW demo system by 2030 in Gulf of Kutch</span>
+                        <span className="group-hover/item:text-white transition-colors duration-300">5 MW demo system by 2030 in the Gulf of Kutch</span>
                       </li>
                       <li className="flex items-start group/item">
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
@@ -225,7 +225,7 @@ export default function EnergyProjectsPage() {
                         <div className="w-6 h-6 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 mt-1 flex-shrink-0 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="w-2 h-2 rounded-full bg-accent-orange"></div>
                         </div>
-                        <span className="group-hover/item:text-white transition-colors duration-300">Tidal power forecasting algorithms</span>
+                        <span className="group-hover/item:text-white transition-colors duration-300">Forecasting algorithms for tidal power </span>
                       </li>
                     </ul>
                   </div>
@@ -245,7 +245,7 @@ export default function EnergyProjectsPage() {
           <ScrollReveal>
             <SectionHeading
               title="Our Innovation Timeline"
-              subtitle="A journey of continuous advancement in ocean energy technology"
+              subtitle="The journey of continuous advancement in ocean energy technology"
             />
           </ScrollReveal>
 
@@ -266,19 +266,19 @@ export default function EnergyProjectsPage() {
                   {
                     year: "2028",
                     title: "Phase 2: Prototype Testing",
-                    description: "Deploy and test 1MW OTEC prototype in controlled environment",
+                    description: "Deploy and test the 1 MW OTEC prototype in controlled environment",
                     icon: <Target className="w-6 h-6" />
                   },
                   {
                     year: "2029",
-                    title: "Phase 3: Pilot Deployment",
+                    title: "Phase 3: Initial Deployment",
                     description: "Launch first commercial-scale OTEC plant in Lakshadweep",
                     icon: <Zap className="w-6 h-6" />
                   },
                   {
                     year: "2030",
-                    title: "Phase 4: Expansion",
-                    description: "Deploy 5MW tidal energy system in Gulf of Kutch",
+                    title: "Phase 4: Expansion Strategy",
+                    description: "Deploy a 5 MW tidal energy system in the Gulf of Kutch",
                     icon: <BarChart3 className="w-6 h-6" />
                   }
                 ].map((item, index) => (

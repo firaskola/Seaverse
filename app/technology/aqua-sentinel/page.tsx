@@ -24,16 +24,16 @@ export default function AquaSentinelPage() {
               AQUA SENTINEL™
             </h1>
             <p className="text-2xl md:text-3xl text-accent-orange mb-4">
-              Autonomous Guardians of the Ocean
+              The Autonomous Guardians of the Ocean
             </p>
           </ScrollReveal>
 
           <ScrollReveal animation="fade-up" delay={200}>
             <h2 className="text-2xl md:text-4xl font-bold text-white mb-6">
-              Real-time Ocean Intelligence Network
+              Dynamic Ocean Intelligence Network
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              A fleet of AI-powered underwater sentinels providing continuous monitoring and protection of marine ecosystems.
+              A fleet of AI-powered underwater sentinels that provide continuous monitoring and protection of marine ecosystems.
             </p>
           </ScrollReveal>
         </div>
@@ -48,7 +48,7 @@ export default function AquaSentinelPage() {
           <ScrollReveal>
             <SectionHeading
               title="The Challenge"
-              subtitle="Traditional ocean monitoring methods are limited by human constraints and technological barriers."
+              subtitle="Traditional ocean monitoring methods are limited mostly by human constraints and technological barriers."
             />
           </ScrollReveal>
 
@@ -60,7 +60,7 @@ export default function AquaSentinelPage() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">Limited Coverage</h3>
                 <p className="text-gray-300">
-                  Traditional monitoring methods can only cover a fraction of the ocean's vast expanse, leaving critical areas unmonitored.
+                  Traditional monitoring methods can only cover a fraction of the ocean's entity as a whole, leaving critical areas unmonitored.
                 </p>
               </div>
             </ScrollReveal>
@@ -72,7 +72,7 @@ export default function AquaSentinelPage() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">Reactive Response</h3>
                 <p className="text-gray-300">
-                  Current systems often detect issues too late, leading to irreversible damage to marine ecosystems.
+                  The current systems often detect issues too late, which often leads to irreversible damage to the marine ecosystems.
                 </p>
               </div>
             </ScrollReveal>
@@ -114,14 +114,14 @@ export default function AquaSentinelPage() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4 group-hover:text-accent-orange transition-colors duration-300">Intelligent Hardware</h3>
                 <ul className="space-y-3 text-gray-300">
-                  <li>• Operational Depth: Up to 6,000 meters</li>
-                  <li>• Power Source: Hybrid solar + wave kinetic</li>
+                  <li>• Operational Depth goes up to 6,000 meters</li>
+                  <li>• Its power source comes from hybrid solar and wave kinetics</li>
                   <li className="font-medium text-white">• Sensor Suite:</li>
                   <li className="ml-4">◦ LIDAR for 3D biomass mapping</li>
                   <li className="ml-4">◦ Hyperspectral & thermal cameras</li>
                   <li className="ml-4">◦ eDNA samplers for biodiversity ID</li>
                   <li className="ml-4">◦ Acoustic hydrophones for mammal & vessel detection</li>
-                  <li className="ml-4">◦ pH, turbidity, salinity, DO, nitrate, ammonia sensors</li>
+                  <li className="ml-4">◦ Sensors for pH, turbidity, salinity, nitrates and ammonia.</li>
                 </ul>
               </div>
             </ScrollReveal>
@@ -135,11 +135,11 @@ export default function AquaSentinelPage() {
                 <ul className="space-y-3 text-gray-300">
                   <li>• Trained on 10 million marine datasets</li>
                   <li>• Uses edge AI for anomaly detection</li>
-                  <li className="font-medium text-white">• Tracks patterns:</li>
+                  <li className="font-medium text-white">• Tracks patterns of:</li>
                   <li className="ml-4">◦ Illegal trawling</li>
-                  <li className="ml-4">◦ Coral bleaching onset</li>
+                  <li className="ml-4">◦ Onset of Coral bleaching</li>
                   <li className="ml-4">◦ Harmful algal blooms (HABs)</li>
-                  <li className="ml-4">◦ Methane venting from seafloor</li>
+                  <li className="ml-4">◦ Methane venting from the seafloor</li>
                 </ul>
               </div>
             </ScrollReveal>
@@ -151,10 +151,10 @@ export default function AquaSentinelPage() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4 group-hover:text-accent-orange transition-colors duration-300">Live Data Infrastructure</h3>
                 <ul className="space-y-3 text-gray-300">
-                  <li>• Real-time sync with satellite uplinks</li>
-                  <li>• Blockchain-based tamper-proof logs</li>
-                  <li>• Compatible with global research & defense APIs</li>
-                  <li>• Push alerts for seismic activity, pH crashes, or oil film detection</li>
+                  <li>• Dynamic syncing with satellite uplinks</li>
+                  <li>• Blockchained tamper-proof logs</li>
+                  <li>• Compatibility with global research & defense APIs</li>
+                  <li>• Push alerts for seismic activity, pH crashes or oil film detection</li>
                 </ul>
               </div>
             </ScrollReveal>
@@ -171,7 +171,7 @@ export default function AquaSentinelPage() {
           <ScrollReveal>
             <SectionHeading
               title="Industries We Serve"
-              subtitle="Tailored solutions for various sectors requiring ocean monitoring."
+              subtitle="We provide tailored solutions for various sectors that require ocean monitoring."
             />
           </ScrollReveal>
 
@@ -192,15 +192,15 @@ export default function AquaSentinelPage() {
                     },
                     {
                       sector: "Aquaculture",
-                      useCase: "Early warning system for disease outbreaks and water quality"
+                      useCase: "Predictive warning system for disease outbreaks and water quality"
                     },
                     {
                       sector: "Oil & Gas",
-                      useCase: "Pipeline integrity monitoring and spill detection"
+                      useCase: "Monitoring pipeline integrity and spill detection"
                     },
                     {
                       sector: "Maritime Security",
-                      useCase: "Detection of unauthorized vessels and activities"
+                      useCase: "Detection of unauthorized vessels and suspicious activities"
                     },
                     {
                       sector: "Research",
@@ -249,7 +249,7 @@ export default function AquaSentinelPage() {
                   <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">1. Sentinel Pods (Static Nodes)</h3>
                   <ul className="space-y-2 text-gray-300">
                     <li>• Anchored monitoring units</li>
-                    <li>• Ideal for: Offshore wind farms, coral zones</li>
+                    <li>• Ideally for offshore wind farms, coral zones</li>
                   </ul>
                 </div>
               </div>
@@ -270,7 +270,7 @@ export default function AquaSentinelPage() {
                   <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">2. Drone Swarms (Mobile Fleet)</h3>
                   <ul className="space-y-2 text-gray-300">
                     <li>• Patrolling AUVs (Autonomous Underwater Vehicles)</li>
-                    <li>• Ideal for: Rapid response, oil spill mapping</li>
+                    <li>• Ideally for rapid response mechanism, oil spill mapping</li>
                   </ul>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function AquaSentinelPage() {
                   <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">3. Vertical Profilers (Floaters)</h3>
                   <ul className="space-y-2 text-gray-300">
                     <li>• Scans full water column from surface to seafloor</li>
-                    <li>• Ideal for: Deep-sea science, defense scans</li>
+                    <li>• Ideally for deep-sea science, defense scans</li>
                   </ul>
                 </div>
               </div>
@@ -308,7 +308,7 @@ export default function AquaSentinelPage() {
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
-              title="Why We're Different"
+              title="Why We're Different?"
               subtitle="Comparing AQUA SENTINEL™ with legacy ocean monitoring technologies."
             />
           </ScrollReveal>
@@ -325,14 +325,14 @@ export default function AquaSentinelPage() {
                 <tbody>
                   <tr className="border-t border-accent-orange/30">
                     <td className="px-6 py-4 text-gray-300">Data latency (hours/days)</td>
-                    <td className="px-6 py-4 text-white font-medium">Real-time edge processing</td>
+                    <td className="px-6 py-4 text-white font-medium">Dynamic and real-time edge processing</td>
                   </tr>
                   <tr className="border-t border-accent-orange/30">
-                    <td className="px-6 py-4 text-gray-300">Battery-dependent units</td>
-                    <td className="px-6 py-4 text-white font-medium">Self-recharging (wave + solar)</td>
+                    <td className="px-6 py-4 text-gray-300"> Units are battery dependent</td>
+                    <td className="px-6 py-4 text-white font-medium">Self-recharging (wave & solar)</td>
                   </tr>
                   <tr className="border-t border-accent-orange/30">
-                    <td className="px-6 py-4 text-gray-300">Single-sensor design</td>
+                    <td className="px-6 py-4 text-gray-300">Single sensor design</td>
                     <td className="px-6 py-4 text-white font-medium">27+ parameters & visual cross-validation</td>
                   </tr>
                   <tr className="border-t border-accent-orange/30">
@@ -358,7 +358,7 @@ export default function AquaSentinelPage() {
                 </div>
                 <div className="flex items-center group">
                   <Check className="text-accent-orange mr-2 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" size={18} />
-                  <span className="text-gray-300 group-hover:text-white transition-colors duration-300">Environmental data ISO standards</span>
+                  <span className="text-gray-300 group-hover:text-white transition-colors duration-300">ISO standards of environmental data</span>
                 </div>
               </div>
             </div>

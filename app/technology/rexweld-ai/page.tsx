@@ -26,7 +26,7 @@ export default function RexweldAIPage() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={300}>
             <div className="inline-block bg-dark-card/50 px-6 py-3 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
-              <p className="text-accent-orange font-medium">"Intelligent. Resilient. Subsea Precision."</p>
+              <p className="text-accent-orange font-medium">"Intelligent. Resilient. Precision."</p>
             </div>
           </ScrollReveal>
         </div>
@@ -44,12 +44,12 @@ export default function RexweldAIPage() {
                 <h2 className="text-3xl font-bold text-white mb-6">What is REXWELD AI?</h2>
                 <p className="text-gray-300 mb-6">
                   REXWELD AI is Seaverse's groundbreaking underwater welding robot, developed under the Ocean Rex sector
-                  to redefine how critical subsea infrastructure is maintained and repaired. Powered by advanced AI
+                  to redefine exactly how critical subsea infrastructure is maintained and repaired. Powered by advanced AI
                   algorithms, machine vision, and autonomous navigation, REXWELD AI performs inspection, damage detection,
-                  and precision welding operations beneath the ocean's surface—even in the harshest environments.
+                  and precision welding operations beneath the ocean's surface, even in the harshest environments.
                 </p>
                 <p className="text-gray-300 mb-6">
-                  It is purpose-built for applications in oil refineries, subsea pipelines, offshore drilling rigs, and
+                  Its purpose is built for applications in oil refineries, subsea pipelines, offshore drilling rigs, and
                   marine industrial installations.
                 </p>
 
@@ -59,15 +59,15 @@ export default function RexweldAIPage() {
                     {[
                       {
                         title: "Smart Inspection",
-                        description: "Real-time data collection and visual analysis using AI-powered sensors and imaging systems."
+                        description: "Real time data collection and visual analysis using AI-powered sensors and imaging systems."
                       },
                       {
                         title: "Crack Detection",
-                        description: "Machine learning models trained to identify microfractures, corrosion, and potential points of failure."
+                        description: "Machine learning models that are trained to identify microfractures, corrosion, and potential points of failure."
                       },
                       {
                         title: "Automated Welding",
-                        description: "High-precision welding arm with intelligent motion control and corrosion-resistant design."
+                        description: "High precision welding arm with intelligent motion control and corrosion resistant design."
                       },
                       {
                         title: "Deep-Sea Durability",
@@ -75,7 +75,7 @@ export default function RexweldAIPage() {
                       },
                       {
                         title: "Remote Access",
-                        description: "Encrypted control system for real-time remote operations, monitoring, and diagnostics from control hubs."
+                        description: "Encrypted control system for real time remote operations, monitoring, and diagnostics from control hubs."
                       }
                     ].map((item, index) => (
                       <li key={index} className="flex items-start group">
@@ -125,7 +125,7 @@ export default function RexweldAIPage() {
           <ScrollReveal>
             <SectionHeading
               title="Technical Highlights"
-              subtitle="Cutting-edge features that make REXWELD AI a revolutionary underwater welding system."
+              subtitle="The absolute features that make REXWELD AI a revolutionary underwater welding system."
               centered
             />
           </ScrollReveal>
@@ -135,7 +135,7 @@ export default function RexweldAIPage() {
               {[
                 {
                   title: "AI Vision System",
-                  description: "Deep learning analytics for real-time underwater assessment and decision-making.",
+                  description: "Deep learning analytics for dynamic underwater assessment and decision-making.",
                 },
                 {
                   title: "Robotic Arm",
@@ -143,11 +143,11 @@ export default function RexweldAIPage() {
                 },
                 {
                   title: "Autonomous Navigation",
-                  description: "Advanced obstacle avoidance technology for safe underwater maneuvering.",
+                  description: "Advanced obstacle avoidance technology for safely maneuvering underwater.",
                 },
                 {
                   title: "Structural Health Monitoring",
-                  description: "Real-time assessment of underwater infrastructure integrity.",
+                  description: "Dynamic assessment of underwater infrastructure integrity.",
                 },
                 {
                   title: "Subsea GPS & Sensor Fusion",
@@ -155,7 +155,7 @@ export default function RexweldAIPage() {
                 },
                 {
                   title: "Corrosion & Pressure Resistant Shell",
-                  description: "Titanium composite construction capable of withstanding extreme depths.",
+                  description: "Titanium composite construction, capable of withstanding extreme depths.",
                 },
               ].map((item, index) => (
                 <div
@@ -188,7 +188,7 @@ export default function RexweldAIPage() {
           <ScrollReveal>
             <SectionHeading
               title="Applications"
-              subtitle="Industries and scenarios where REXWELD AI delivers transformative results."
+              subtitle="The industries and scenarios, where REXWELD AI delivers transformative results."
             />
           </ScrollReveal>
 
@@ -207,7 +207,7 @@ export default function RexweldAIPage() {
                 },
                 {
                   title: "Underwater Infrastructure",
-                  description: "Bridges, ports, turbines, and energy platforms requiring precision underwater maintenance.",
+                  description: "Bridges, ports, turbines, and energy platforms requiring precise underwater maintenance.",
                   image: "/images/rex5.jpg"
                 },
                 {

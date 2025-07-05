@@ -48,10 +48,10 @@ export default function MarineRestorationPage() {
 
           <ScrollReveal animation="fade-up" delay={200}>
             <h2 className="text-2xl md:text-4xl font-bold text-white mb-6">
-              Nature's Coastal Guardians – Restored & Thriving.
+              Nature's Coastal Guardians – Restore & Thrive.
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              We're merging science and community to restore mangrove forests and seagrass meadows, protect coastlines,
+              We're merging science and community standards to restore mangrove forests and seagrass meadows, protect coastlines,
               and create the largest blue carbon sinks in South Asia.
             </p>
           </ScrollReveal>
@@ -78,14 +78,14 @@ export default function MarineRestorationPage() {
                 <div className="text-accent-orange text-lg">
                   <span className="font-mono">125,487</span> tons
                 </div>
-                <div className="text-gray-400 text-sm">Live counter</div>
+                <div className="text-gray-400 text-sm">Live Counter</div>
               </div>
 
               <div className="bg-dark-card/50 backdrop-blur-sm p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
                 <div className="flex items-center justify-center mb-3">
                   <Fish className="h-8 w-8 text-accent-orange" />
                 </div>
-                <div className="text-2xl font-bold text-white group-hover:text-accent-orange transition-colors duration-300">Fish species supported</div>
+                <div className="text-2xl font-bold text-white group-hover:text-accent-orange transition-colors duration-300">Supported fish species</div>
                 <div className="text-accent-orange text-lg">80,000+</div>
               </div>
 
@@ -93,7 +93,7 @@ export default function MarineRestorationPage() {
                 <div className="flex items-center justify-center mb-3">
                   <MapPin className="h-8 w-8 text-accent-orange" />
                 </div>
-                <div className="text-2xl font-bold text-white group-hover:text-accent-orange transition-colors duration-300">Sites restored</div>
+                <div className="text-2xl font-bold text-white group-hover:text-accent-orange transition-colors duration-300">Sites Restored</div>
                 <div className="text-accent-orange text-lg">12</div>
                 <div className="text-gray-400 text-sm">and growing</div>
               </div>
@@ -133,7 +133,7 @@ export default function MarineRestorationPage() {
                   <h3 className="text-2xl font-bold text-white flex items-center mb-4 group-hover:text-accent-orange transition-colors duration-300">
                     Smart Mangrove Reforestation
                   </h3>
-                  <p className="text-gray-300 mb-6">We're rebuilding India's natural sea walls — smarter and faster.</p>
+                  <p className="text-gray-300 mb-6">We're on course to rebuild India's natural sea walls — smartly and swiftly.</p>
 
                   <div className="mb-6">
                     <h4 className="text-lg font-semibold text-accent-orange mb-3">Our Approach:</h4>
@@ -152,7 +152,7 @@ export default function MarineRestorationPage() {
                           <Leaf className="h-4 w-4 text-accent-orange" />
                         </div>
                         <div>
-                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Climate-Resilient Species</span>
+                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Climatically Tough Species</span>
                           <span className="text-gray-300"> – Engineered to survive saltwater, floods</span>
                         </div>
                       </li>
@@ -161,8 +161,8 @@ export default function MarineRestorationPage() {
                           <Leaf className="h-4 w-4 text-accent-orange" />
                         </div>
                         <div>
-                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Hydrogel Root Boosters</span>
-                          <span className="text-gray-300"> – Speed up survival and growth</span>
+                          <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Hydrogelic Root Boosters</span>
+                          <span className="text-gray-300"> – To speed up survival and growth</span>
                         </div>
                       </li>
                     </ul>
@@ -181,7 +181,7 @@ export default function MarineRestorationPage() {
                         <div className="bg-accent-orange/10 p-1 rounded-full mr-3 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">✓</div>
                         </div>
-                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">1 Mangrove captures 12x more CO₂ than typical trees</span>
+                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">A single Mangrove captures 12x more CO₂ than typical trees</span>
                       </li>
                     </ul>
                   </div>
@@ -231,7 +231,7 @@ export default function MarineRestorationPage() {
                         </div>
                         <div>
                           <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Robotic Seed Dispersal</span>
-                          <span className="text-gray-300"> – Precision planting at depth</span>
+                          <span className="text-gray-300"> – Precision planting to be done in-depth</span>
                         </div>
                       </li>
                       <li className="flex items-start group/item">
@@ -240,7 +240,7 @@ export default function MarineRestorationPage() {
                         </div>
                         <div>
                           <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">3D-Printed Limestone Beds</span>
-                          <span className="text-gray-300"> – Anchor growth, simulate natural reefs</span>
+                          <span className="text-gray-300"> – Anchors growth and to simulate natural reefs</span>
                         </div>
                       </li>
                       <li className="flex items-start group/item">
@@ -249,7 +249,7 @@ export default function MarineRestorationPage() {
                         </div>
                         <div>
                           <span className="text-white font-medium group-hover/item:text-accent-orange transition-colors duration-300">Smart Monitoring Systems</span>
-                          <span className="text-gray-300"> – Real-time growth and health tracking</span>
+                          <span className="text-gray-300"> – Real-time growth and tracking health repository</span>
                         </div>
                       </li>
                     </ul>
@@ -262,13 +262,13 @@ export default function MarineRestorationPage() {
                         <div className="bg-accent-orange/10 p-1 rounded-full mr-3 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">✓</div>
                         </div>
-                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">35x more carbon sequestration than tropical forests</span>
+                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">35x more carbon disposal than tropical forests</span>
                       </li>
                       <li className="flex items-center group/item">
                         <div className="bg-accent-orange/10 p-1 rounded-full mr-3 group-hover/item:bg-accent-orange/20 transition-colors duration-300">
                           <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">✓</div>
                         </div>
-                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">Critical nursery habitats for marine life</span>
+                        <span className="text-gray-300 group-hover/item:text-white transition-colors duration-300">Critical nursery habitats for helping marine life</span>
                       </li>
                     </ul>
                   </div>
@@ -313,7 +313,7 @@ export default function MarineRestorationPage() {
                 </thead>
                 <tbody>
                   <tr className="border-b border-accent-orange/30">
-                    <td className="p-4 text-accent-orange font-medium">CO₂ Capture</td>
+                    <td className="p-4 text-accent-orange font-medium">CO₂ Capturing</td>
                     <td className="p-4 text-white">1,000 tons/ha (25 yrs)</td>
                     <td className="p-4 text-white">35,000 tons/km²</td>
                   </tr>
@@ -325,7 +325,7 @@ export default function MarineRestorationPage() {
                   <tr>
                     <td className="p-4 text-accent-orange font-medium rounded-bl-lg">Biodiversity Boost</td>
                     <td className="p-4 text-white">5x fish stocks</td>
-                    <td className="p-4 text-white rounded-br-lg">Coral-compatible nursery zones</td>
+                    <td className="p-4 text-white rounded-br-lg">Compatible coral nursery zones</td>
                   </tr>
                 </tbody>
               </table>
@@ -357,7 +357,7 @@ export default function MarineRestorationPage() {
         <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
-            <SectionHeading title="How You Can Partner" subtitle="Join our mission to restore coastal ecosystems" />
+            <SectionHeading title="How You Can Partner" subtitle="Join our healthy mission to restore coastal ecosystems" />
           </ScrollReveal>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
@@ -372,15 +372,15 @@ export default function MarineRestorationPage() {
 
                   <div className="space-y-6">
                     <div className="bg-dark-surface/20 p-4 rounded-lg">
-                      <h4 className="text-lg font-semibold text-white mb-2">Adopt-a-Mangrove</h4>
+                      <h4 className="text-lg font-semibold text-white mb-2">Adopt a Mangrove</h4>
                       <p className="text-accent-orange font-medium mb-1">₹4,000/tree ($50)</p>
-                      <p className="text-gray-300 text-sm">Blockchain growth tracking + employee branding</p>
+                      <p className="text-gray-300 text-sm">Blockchain growth tracking as well as employee branding</p>
                     </div>
 
                     <div className="bg-dark-surface/20 p-4 rounded-lg">
                       <h4 className="text-lg font-semibold text-white mb-2">Seagrass Sponsorship</h4>
                       <p className="text-accent-orange font-medium mb-1">₹20L/acre ($25K)</p>
-                      <p className="text-gray-300 text-sm">Corporate naming rights + CO₂ credit packages</p>
+                      <p className="text-gray-300 text-sm">Corporate naming rights and CO₂ credit packages</p>
                     </div>
 
                     {/* <div>
@@ -423,19 +423,19 @@ export default function MarineRestorationPage() {
                       <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
                         <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
-                      <span className="text-white">Build turnkey marine restoration hubs</span>
+                      <span className="text-white">Build marine restoration hubs</span>
                     </li>
                     <li className="flex items-start">
                       <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
                         <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
-                      <span className="text-white">Integrate eco-tourism and citizen science</span>
+                      <span className="text-white">Integrate eco-tourism with and for citizen science</span>
                     </li>
                     <li className="flex items-start">
                       <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
                         <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
-                      <span className="text-white">Enhance compliance with COP/NDC targets</span>
+                      <span className="text-white"> Produce compliance with COP/NDC targets</span>
                     </li>
                   </ul>
 
@@ -472,13 +472,13 @@ export default function MarineRestorationPage() {
                       <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
                         <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
-                      <span className="text-white">Partnership in marine genotype research</span>
+                      <span className="text-white">Partnership in marine genotypical research</span>
                     </li>
                     <li className="flex items-start">
                       <div className="bg-accent-orange/10 p-2 rounded-full mr-3 mt-1">
                         <div className="h-4 w-4 flex items-center justify-center text-accent-orange font-bold">•</div>
                       </div>
-                      <span className="text-white">Seed bank access (120+ coastal strains)</span>
+                      <span className="text-white">Seed bank access across 120+ coastal strains</span>
                     </li>
                   </ul>
 
@@ -503,7 +503,7 @@ export default function MarineRestorationPage() {
           <ScrollReveal>
             <SectionHeading
               title="Impact Amplifiers"
-              subtitle="How we maximize the impact of our restoration efforts"
+              subtitle="How we have maximized the impact of our restoration efforts"
             />
           </ScrollReveal>
 
@@ -516,7 +516,7 @@ export default function MarineRestorationPage() {
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">500+ Women Empowered</h3>
                   <p className="text-gray-300">
-                    Coastal nursery co-operatives providing sustainable livelihoods for local communities
+                    Coastal nursery co-operatives, that provide sustainable livelihoods for local communities
                   </p>
                 </div>
               </div>
@@ -530,7 +530,7 @@ export default function MarineRestorationPage() {
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Verified Carbon Credits</h3>
                   <p className="text-gray-300">
-                    Sell to tech firms, airlines, crypto platforms to generate sustainable revenue
+                    Sellings to tech firms, airlines and crypto platforms allow to generate sustainable revenue
                   </p>
                 </div>
               </div>
@@ -544,7 +544,7 @@ export default function MarineRestorationPage() {
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Blue Schools Program</h3>
                   <p className="text-gray-300">
-                    Teaching ocean ecology to 10,000+ schoolchildren to build the next generation of ocean stewards
+                    Teaching ocean ecology to 10,000+ children would help to build the next generation of ocean stewards
                   </p>
                 </div>
               </div>
@@ -558,7 +558,7 @@ export default function MarineRestorationPage() {
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Track & Trace App</h3>
                   <p className="text-gray-300">
-                    Monitor growth, offset impact, and biodiversity changes live through our mobile application
+                    To monitor the growth, offset impact, and biodiversity changes live through our mobile application
                   </p>
                 </div>
               </div>
