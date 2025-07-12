@@ -60,12 +60,14 @@ export default function AboutPage() {
 
             <ScrollReveal animation="fade-left" delay={200}>
               <div className="relative">
-                <div className="aspect-video relative rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
+                <div className="aspect-video relative rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 flex items-center justify-center bg-black">
                   <Image
-                    src="/Seaverse.png"
+                    src="/Seaverse_new_logo.png"
                     alt="SEAVERSE Founder Shreesha H Acharya"
-                    fill
-                    className="object-cover"
+                    width={400}
+                    height={200}
+                    className="object-contain"
+                    priority
                   />
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-accent-orange/10 rounded-full animate-pulse"></div>
@@ -144,54 +146,62 @@ export default function AboutPage() {
           </ScrollReveal>
 
           <ScrollReveal animation="fade-up" className="mb-12">
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
               {[
                 {
                   name: "Shreesha H Acharya",
                   title: "Founder & CEO",
                   bio: "Visionary entrepreneur with a background in AI, robotics, and startup leadership. Leads with innovation and strategic foresight.",
-                  image: "/team/4.jpg"
+                  image: "/team/4.png"
                 },
                 {
                   name: "Lakshmish Bhandary",
                   title: "Managing Director",
                   bio: "Experienced in operations and business development. Oversees strategic execution and organizational growth.",
-                  image: "/team/5.jpg"
+                  image: "/team/5.png"
                 },
                 {
                   name: "Darshith Chandra",
                   title: "Executive Director",
                   bio: "Plays a key role in project management and coordination and also bridges engineering with execution.",
-                  image: "/team/2.jpg"
+                  image: "/team/2.png"
                 },
                 {
                   name: "Sambit Singh",
                   title: "Chief Scientist Officer @ Genix",
                   bio: "Experienced as a project scientist for marine living resources and ecology.",
-                  image: "/team/3.jpeg"
+                  image: "/team/3.png"
                 },
                 {
                   name: "Rhythm Sardana",
                   title: "Head of Communication and Science Outreach",
                   bio: "Drives science communication and outreach strategy. Passionate about tech literacy and public engagement.",
-                  image: "/team/1.jpeg"
+                  image: "/team/1.png"
+                },
+                {
+                  name: "Rachana JG",
+                  title: "Chief AI Officer",
+                  bio: "Leads AI strategy and development, driving innovation in marine technology through artificial intelligence.",
+                  image: "/team/6.jpeg"
                 },
               ].map((member, i) => (
                 <ScrollReveal key={i} animation="scale" delay={i * 100}>
-                  <div className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
-                    <div className="aspect-square relative">
+                  <div className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group h-[228px] w-full flex flex-col items-center justify-start cursor-pointer transform hover:scale-105 hover:h-[360px] max-h-[410px] relative">
+                    <div className="aspect-square relative min-h-[120px] max-h-[120px] w-full flex-shrink-0">
                       <Image
                         src={member.image}
                         alt={member.name}
-                        fill
-                        className="object-cover"
+                        width={400}
+                        height={400}
+                        className="object-contain w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500 bg-black"
+                        priority={i === 0}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-dark-surface/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <div className="p-4">
-                      <h3 className="text-lg font-bold text-white mb-1 group-hover:text-accent-orange transition-colors duration-300">{member.name}</h3>
-                      <p className="text-accent-orange text-sm mb-2">{member.title}</p>
-                      <p className="text-gray-400 text-sm">{member.bio}</p>
+                    <div className="p-4 flex-1 flex flex-col items-center justify-center w-full">
+                      <h3 className="text-lg font-bold text-white mb-1 group-hover:text-accent-orange transition-colors duration-300 text-center">{member.name}</h3>
+                      <p className="text-accent-orange text-sm mb-2 text-center">{member.title}</p>
+                      <p className="text-gray-400 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-0 group-hover:h-auto overflow-hidden flex-1 text-center mt-2">{member.bio}</p>
                     </div>
                   </div>
                 </ScrollReveal>
