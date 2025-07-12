@@ -4,38 +4,179 @@ import WaveSeparator from "@/components/wave-separator"
 import ParticleBackground from "@/components/particle-background"
 import ScrollReveal from "@/components/scroll-reveal"
 import TimelineItem from "@/components/timeline-item"
+import type { Metadata } from "next"
+
+// SEO: About page metadata with comprehensive information
+export const metadata: Metadata = {
+  title: "About Seaverse | Marine Technology Innovation Team & Company Story",
+  description: "Learn about Seaverse's mission to engineer the ocean's future through precision, innovation, and depth. Meet our expert team of marine technology pioneers, including Shreesha H Acharya (Founder & CEO), and discover our journey in underwater robotics, ocean laboratories, and sustainable marine solutions.",
+  keywords: [
+    "about Seaverse",
+    "marine technology company",
+    "Shreesha H Acharya",
+    "underwater robotics team",
+    "ocean engineering company",
+    "marine innovation team",
+    "Seaverse founders",
+    "marine technology experts",
+    "Karnataka marine tech",
+    "sustainable ocean solutions",
+    "REXWELD AI team",
+    "GENIX ocean labs team",
+    "marine biotechnology experts",
+    "ocean engineering professionals",
+    "underwater welding specialists"
+  ],
+  openGraph: {
+    title: "About Seaverse | Marine Technology Innovation Team",
+    description: "Meet the expert team behind Seaverse's revolutionary marine technology solutions. From underwater robotics to sustainable ocean cultivation, discover our mission and the people engineering the ocean's future.",
+    url: "https://seaverse.co/about",
+    images: [
+      {
+        url: "/Seaverse_new_logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Seaverse Team - Marine Technology Experts",
+      }
+    ],
+  },
+  twitter: {
+    title: "About Seaverse | Marine Technology Team",
+    description: "Meet the experts behind revolutionary marine technology: underwater robotics, ocean labs & sustainable solutions.",
+    images: ["/Seaverse_new_logo.png"],
+  },
+  alternates: {
+    canonical: "https://seaverse.co/about",
+  },
+}
 
 export default function AboutPage() {
+  // SEO: JSON-LD structured data for About page and team
+  const aboutPageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "About Seaverse",
+    url: "https://seaverse.co/about",
+    description: "Learn about Seaverse's mission to engineer the ocean's future through marine technology innovation",
+    mainEntity: {
+      "@type": "Organization",
+      name: "Seaverse Technologies"
+    }
+  }
+
+  const teamJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Seaverse Technologies",
+    employee: [
+      {
+        "@type": "Person",
+        name: "Shreesha H Acharya",
+        jobTitle: "Founder & CEO",
+        description: "Visionary entrepreneur with a background in AI, robotics, and startup leadership. Leads with innovation and strategic foresight."
+      },
+      {
+        "@type": "Person", 
+        name: "Lakshmish Bhandary",
+        jobTitle: "Managing Director",
+        description: "Experienced in operations and business development. Oversees strategic execution and organizational growth."
+      },
+      {
+        "@type": "Person",
+        name: "Darshith Chandra", 
+        jobTitle: "Executive Director",
+        description: "Plays a key role in project management and coordination and also bridges engineering with execution."
+      },
+      {
+        "@type": "Person",
+        name: "Sambit Singh",
+        jobTitle: "Chief Scientist Officer @ Genix", 
+        description: "Experienced as a project scientist for marine living resources and ecology."
+      },
+      {
+        "@type": "Person",
+        name: "Rhythm Sardana",
+        jobTitle: "Head of Communication and Science Outreach",
+        description: "Drives science communication and outreach strategy. Passionate about tech literacy and public engagement."
+      },
+      {
+        "@type": "Person",
+        name: "Rachana JG",
+        jobTitle: "Chief AI Officer",
+        description: "Leads AI strategy and development, driving innovation in marine technology through artificial intelligence."
+      }
+    ]
+  }
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://seaverse.co"
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "About",
+        item: "https://seaverse.co/about"
+      }
+    ]
+  }
+
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image src="/images/about.jpg" alt="About Seaverse" fill className="object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-surface/90 to-dark-surface/70" />
-          <ParticleBackground count={20} />
-        </div>
+      {/* SEO: JSON-LD structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(aboutPageJsonLd),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(teamJsonLd),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd),
+        }}
+      />
 
+      {/* Hero Section */}
+      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden" role="banner">
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/images/about.jpg" 
+            alt="About Seaverse" 
+            fill 
+            className="object-cover" 
+            priority
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-surface/90 to-dark-surface/70" />
+        </div>
         <div className="container mx-auto px-4 relative z-10 text-center mt-20">
-          <ScrollReveal animation="fade-up">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk bg-gradient-to-r from-accent-orange to-accent-orange-light bg-clip-text text-transparent">About Seaverse</h1>
-          </ScrollReveal>
-          <ScrollReveal animation="fade-up" delay={200}>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Engineering the Ocean's Future with Precision, Innovation, and Depth
-            </p>
-          </ScrollReveal>
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-space-grotesk bg-gradient-to-r from-accent-orange to-accent-orange-light bg-clip-text text-transparent">
+            About Us
+          </h1>
         </div>
       </section>
 
       <WaveSeparator />
 
       {/* Our Story */}
-      <section className="py-20 bg-dark-surface relative">
+      <section className="py-20 bg-dark-surface relative" role="region" aria-labelledby="our-story">
         <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
-            <SectionHeading title="Our Story" subtitle="The journey that led to Seaverse's founding and growth." />
+            <SectionHeading title="Our Story" subtitle="The journey that led to Seaverse's founding and growth in marine technology innovation." />
           </ScrollReveal>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -63,17 +204,18 @@ export default function AboutPage() {
                 <div className="aspect-video relative rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 flex items-center justify-center bg-black">
                   <Image
                     src="/Seaverse_new_logo.png"
-                    alt="SEAVERSE Founder Shreesha H Acharya"
+                    alt="Seaverse Company Logo - Marine Technology Innovation"
                     width={400}
                     height={200}
                     className="object-contain"
-                    priority
+                    loading="lazy"
                   />
                 </div>
-                <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-accent-orange/10 rounded-full animate-pulse"></div>
+                <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-accent-orange/10 rounded-full animate-pulse" aria-hidden="true"></div>
                 <div
                   className="absolute -top-6 -left-6 w-32 h-32 bg-accent-orange-light/10 rounded-full animate-pulse"
                   style={{ animationDelay: "1s" }}
+                  aria-hidden="true"
                 ></div>
               </div>
             </ScrollReveal>
@@ -84,13 +226,13 @@ export default function AboutPage() {
       <WaveSeparator />
 
       {/* Company Values */}
-      <section className="py-20 bg-dark-card relative">
+      <section className="py-20 bg-dark-card relative" role="region" aria-labelledby="company-values">
         <ParticleBackground count={10} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
             <SectionHeading
               title="Company Values"
-              subtitle="The core principles that guide our work and innovation."
+              subtitle="The core principles that guide our marine technology work and innovation."
               centered
             />
           </ScrollReveal>
@@ -117,14 +259,14 @@ export default function AboutPage() {
               },
             ].map((value, index) => (
               <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
-                <div className="bg-dark-surface/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 hover:-translate-y-1 group">
+                <article className="bg-dark-surface/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 hover:-translate-y-1 group">
                   <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">{value.title}</h3>
                   <p className="text-gray-300">{value.description}</p>
 
                   <div className="mt-4 h-1 bg-dark-border/30 rounded-full overflow-hidden">
                     <div className="h-full bg-accent-orange w-0 group-hover:w-full transition-all duration-700"></div>
                   </div>
-                </div>
+                </article>
               </ScrollReveal>
             ))}
           </div>
@@ -134,7 +276,7 @@ export default function AboutPage() {
       <WaveSeparator />
 
       {/* Meet the Team */}
-      <section className="py-20 bg-dark-surface relative">
+      <section className="py-20 bg-dark-surface relative" role="region" aria-labelledby="team">
         <ParticleBackground count={15} color="rgba(255, 140, 0, 0.05)" />
         <div className="container mx-auto px-4">
           <ScrollReveal>
@@ -186,24 +328,25 @@ export default function AboutPage() {
                 },
               ].map((member, i) => (
                 <ScrollReveal key={i} animation="scale" delay={i * 100}>
-                  <div className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group h-[228px] w-full flex flex-col items-center justify-start cursor-pointer transform hover:scale-105 hover:h-[360px] max-h-[410px] relative">
+                  <article className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group h-[260px] w-full flex flex-col items-center justify-start cursor-pointer transform hover:scale-105 hover:h-[360px] max-h-[410px] relative">
                     <div className="aspect-square relative min-h-[120px] max-h-[120px] w-full flex-shrink-0">
                       <Image
                         src={member.image}
-                        alt={member.name}
+                        alt={`${member.name} - ${member.title} at Seaverse Marine Technology`}
                         width={400}
                         height={400}
                         className="object-contain w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500 bg-black"
-                        priority={i === 0}
+                        loading="lazy"
+                        sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 16vw"
                       />
-                      <div className="absolute inset-0 bg-gradiSent-to-t from-dark-surface/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 bg-gradient-to-t from-dark-surface/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
                     <div className="p-4 flex-1 flex flex-col items-center justify-center w-full">
                       <h3 className="text-lg font-bold text-white mb-1 group-hover:text-accent-orange transition-colors duration-300 text-center">{member.name}</h3>
                       <p className="text-accent-orange text-sm mb-2 text-center">{member.title}</p>
                       <p className="text-gray-400 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 h-0 group-hover:h-auto overflow-hidden flex-1 text-center mt-2">{member.bio}</p>
                     </div>
-                  </div>
+                  </article>
                 </ScrollReveal>
               ))}
             </div>

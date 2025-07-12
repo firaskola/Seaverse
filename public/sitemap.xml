@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage - Highest priority -->
+  <url>
+    <loc>https://seaverse.co/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://seaverse.co/herophoto.jpeg</image:loc>
+      <image:title>Seaverse Marine Technology</image:title>
+      <image:caption>Engineering the Ocean's Future</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://seaverse.co/about</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://seaverse.co/Seaverse_new_logo.png</image:loc>
+      <image:title>Seaverse Team</image:title>
+      <image:caption>Marine Technology Innovation Team</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://seaverse.co/contact</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Technology Section -->
+  <url>
+    <loc>https://seaverse.co/technology</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Technology - Spirulina -->
+  <url>
+    <loc>https://seaverse.co/technology/spirulina</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://seaverse.co/images/spiri.jpg</image:loc>
+      <image:title>Spirulina Biotechnology</image:title>
+      <image:caption>Sustainable marine spirulina cultivation</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Technology - Water Quality -->
+  <url>
+    <loc>https://seaverse.co/technology/water-quality</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://seaverse.co/images/water_quality.jpg</image:loc>
+      <image:title>Water Quality Assessment</image:title>
+      <image:caption>Comprehensive water quality monitoring</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Technology - REXWELD AI -->
+  <url>
+    <loc>https://seaverse.co/technology/rexweld-ai</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://seaverse.co/images/rexweld.jpg</image:loc>
+      <image:title>REXWELD AI</image:title>
+      <image:caption>Advanced underwater welding technology</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Technology - Aqua Sentinel -->
+  <url>
+    <loc>https://seaverse.co/technology/aqua-sentinel</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Technology - Energy Projects -->
+  <url>
+    <loc>https://seaverse.co/technology/energy-projects</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Research Section -->
+  <url>
+    <loc>https://seaverse.co/research</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Research - GENIX -->
+  <url>
+    <loc>https://seaverse.co/research/genix</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://seaverse.co/images/l3.jpg</image:loc>
+      <image:title>GENIX Ocean Labs</image:title>
+      <image:caption>Artificial ocean laboratories</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Research - GENIX Astaxanthin -->
+  <url>
+    <loc>https://seaverse.co/research/genix/astaxanthin</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://seaverse.co/images/astax2.jpg</image:loc>
+      <image:title>Astaxanthin Production</image:title>
+      <image:caption>Nature's most powerful antioxidant</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Research - GENIX Carbon -->
+  <url>
+    <loc>https://seaverse.co/research/genix/carbon</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://seaverse.co/images/carbon_cap1.jpg</image:loc>
+      <image:title>Carbon Solutions</image:title>
+      <image:caption>Marine-based carbon removal technologies</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Research - Marine Restoration -->
+  <url>
+    <loc>https://seaverse.co/research/marine-restoration</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset> 

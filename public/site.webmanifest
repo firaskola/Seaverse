@@ -1,0 +1,42 @@
+{
+  "name": "Seaverse | Marine Technology & Ocean Innovation",
+  "short_name": "Seaverse",
+  "description": "Engineering the Ocean's Future with Precision, Innovation & Depth. Pioneering marine technology solutions including underwater robotics, ocean laboratories, and sustainable aquaculture.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#ff8c00",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["technology", "marine", "innovation", "sustainability"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/Seaverse_new_logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/herophoto.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Seaverse Marine Technology Homepage"
+    }
+  ]
+} 

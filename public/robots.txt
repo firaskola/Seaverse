@@ -1,0 +1,23 @@
+# SEO: Robots.txt for Seaverse.co - Marine Technology Company
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages for SEO
+Allow: /technology/
+Allow: /research/
+Allow: /about
+Allow: /contact
+
+# Sitemap location
+Sitemap: https://seaverse.co/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1 
