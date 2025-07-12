@@ -41,7 +41,7 @@ export default function RexweldAIPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <ScrollReveal animation="fade-right">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-6">What is REXWELD AI?</h2>
+                <h2 className="text-3xl font-bold text-accent-orange mb-6">What is REXWELD AI?</h2>
                 <p className="text-gray-300 mb-6">
                   REXWELD AI is Seaverse's groundbreaking underwater welding robot, developed under the Ocean Rex sector
                   to redefine exactly how critical subsea infrastructure is maintained and repaired. Powered by advanced AI
@@ -54,7 +54,7 @@ export default function RexweldAIPage() {
                 </p>
 
                 <div className="bg-dark-card/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
-                  <h3 className="text-xl font-bold text-white mb-4">Core Capabilities</h3>
+                  <h3 className="text-xl font-bold text-accent-orange mb-4">Core Capabilities</h3>
                   <ul className="space-y-4">
                     {[
                       {

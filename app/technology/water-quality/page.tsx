@@ -47,7 +47,7 @@ export default function WaterQualityPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <ScrollReveal animation="fade-right">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-6">Meet Your Water's New Best Friend</h2>
+                <h2 className="text-3xl font-bold text-accent-orange mb-6">Meet Your Water's New Best Friend</h2>
                 <div className="bg-dark-card/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 mb-6">
                   <h3 className="text-2xl font-bold text-white mb-3">
                     Your Water Is Talking. We Help You Understand It.
@@ -151,7 +151,7 @@ export default function WaterQualityPage() {
                   key={index}
                   className="bg-dark-surface/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 hover:-translate-y-1 group"
                 >
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">{service.title}</h3>
+                  <h3 className="text-xl font-bold text-accent-orange mb-3 group-hover:text-accent-orange transition-colors duration-300">{service.title}</h3>
                   <p className="text-gray-300">{service.description}</p>
                 </div>
               ))}
@@ -214,7 +214,7 @@ export default function WaterQualityPage() {
                 }
               ].map((stakeholder, index) => (
                 <div key={index} className="bg-dark-card/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
-                  <h3 className="text-xl font-bold text-white mb-4 group-hover:text-accent-orange transition-colors duration-300">{stakeholder.title}</h3>
+                  <h3 className="text-xl font-bold text-accent-orange mb-4 group-hover:text-accent-orange transition-colors duration-300">{stakeholder.title}</h3>
                   <p className="text-gray-300 mb-4">{stakeholder.subtitle}</p>
                   <ul className="space-y-3">
                     {stakeholder.features.map((feature, featureIndex) => (
@@ -267,7 +267,7 @@ export default function WaterQualityPage() {
                   <div className="w-12 h-12 bg-accent-orange/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-accent-orange/20 transition-colors duration-300">
                     <span className="text-accent-orange font-bold text-xl">{index + 1}</span>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">{step.title}</h3>
+                  <h3 className="text-xl font-bold text-accent-orange mb-3 group-hover:text-accent-orange transition-colors duration-300">{step.title}</h3>
                   <p className="text-gray-300">{step.description}</p>
                 </div>
               ))}
@@ -293,7 +293,7 @@ export default function WaterQualityPage() {
           <ScrollReveal animation="fade-up" delay={200}>
             <div className="max-w-2xl mx-auto">
               <div className="bg-dark-card/50 p-8 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
-                <h3 className="text-2xl font-bold text-white mb-6">Schedule Your Assessment</h3>
+                <h3 className="text-2xl font-bold text-accent-orange mb-6">Schedule Your Assessment</h3>
                 <div className="space-y-4">
                   <Button className="w-full bg-accent-orange hover:bg-accent-orange/80 text-white">
                     Request Consultation

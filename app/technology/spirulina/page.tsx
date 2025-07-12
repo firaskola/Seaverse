@@ -40,15 +40,15 @@ export default function SpirulinaPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <ScrollReveal animation="fade-right">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-6">The Story of Spirulina: Nature's Ancient Superfood</h2>
+                <h2 className="text-3xl font-bold text-accent-orange mb-6">The Story of Spirulina: Nature's Ancient Superfood</h2>
                 <div className="bg-dark-card/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 mb-6">
-                  <h3 className="text-2xl font-bold text-white mb-3">The OG Superfood – Now, Smarter Than Ever</h3>
+                  <h3 className="text-2xl font-bold text-accent-orange mb-3">The OG Superfood – Now, Smarter Than Ever</h3>
                   <p className="text-gray-300">
                     Transforming Earth's most nutrient-dense organism, formerly fed to Aztec warriors and investigated by NASA for space flight, to meet current difficulties.
                   </p>
                 </div>
 
-                <h3 className="text-xl font-bold text-white mb-4">What is Spirulina?</h3>
+                <h3 className="text-xl font-bold text-accent-orange mb-4">What is Spirulina?</h3>
                 <p className="text-gray-300 mb-4">
                   <em>A 3.5 billion year old cyanobacterium that:</em>
                 </p>
@@ -246,9 +246,9 @@ export default function SpirulinaPage() {
           <ScrollReveal animation="fade-up" delay={200}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Current Sites</h3>
+                <h3 className="text-2xl font-bold text-accent-orange mb-6">Current Sites</h3>
                 <div className="space-y-6">
-                  <div className="bg-dark-surface/50 p-6 rounded-lg">
+                  <div className="bg-dark-surface/50 p-6 rounded-lg border border-accent-orange">
                     <h4 className="text-xl font-bold text-white mb-2">Mangalore, IN</h4>
                     <p className="text-gray-300">An advanced technology based Spirulina Cultivation setup</p>
                   </div>
@@ -256,9 +256,9 @@ export default function SpirulinaPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">2026 Launches</h3>
+                <h3 className="text-2xl font-bold text-accent-orange mb-6">2026 Launches</h3>
                 <div className="space-y-6">
-                  <div className="bg-dark-surface/50 p-6 rounded-lg">
+                  <div className="bg-dark-surface/50 p-6 rounded-lg border border-accent-orange">
                     <h4 className="text-xl font-bold text-white mb-2">Norway</h4>
                     <p className="text-gray-300">Arctic-grown spirulina (higher Omega 3s)</p>
                   </div>
@@ -285,7 +285,7 @@ export default function SpirulinaPage() {
           <ScrollReveal animation="fade-up" delay={200}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">B2B Partners</h3>
+                <h3 className="text-2xl font-bold text-accent-orange mb-6">B2B Partners</h3>
                 <div className="space-y-4">
                   <div className="bg-dark-surface/50 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Food Brands</h4>
@@ -305,7 +305,7 @@ export default function SpirulinaPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Direct Consumers</h3>
+                <h3 className="text-2xl font-bold text-accent-orange mb-6">Direct Consumers</h3>
                 <div className="space-y-4">
                   <div className="bg-dark-surface/50 p-4 rounded-lg">
                     <h4 className="text-lg font-bold text-white mb-2">Biohackers</h4>
@@ -379,7 +379,7 @@ export default function SpirulinaPage() {
           <ScrollReveal animation="fade-up" delay={200}>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Clinical Highlights</h3>
+                <h3 className="text-2xl font-bold text-accent-orange mb-6">Clinical Highlights</h3>
                 <div className="space-y-6">
                   <div className="bg-dark-surface/50 p-6 rounded-lg">
                     <div className="flex items-center mb-4">
@@ -414,7 +414,7 @@ export default function SpirulinaPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">The Love of our Customers</h3>
+                <h3 className="text-2xl font-bold text-accent-orange mb-6">The Love of our Customers</h3>
                 <div className="space-y-6">
                   <div className="bg-dark-surface/50 p-6 rounded-lg">
                     <div className="flex items-start mb-4">

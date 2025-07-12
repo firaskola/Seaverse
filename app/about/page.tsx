@@ -196,7 +196,7 @@ export default function AboutPage() {
                         className="object-contain w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500 bg-black"
                         priority={i === 0}
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-dark-surface/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 bg-gradiSent-to-t from-dark-surface/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
                     <div className="p-4 flex-1 flex flex-col items-center justify-center w-full">
                       <h3 className="text-lg font-bold text-white mb-1 group-hover:text-accent-orange transition-colors duration-300 text-center">{member.name}</h3>

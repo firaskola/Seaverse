@@ -336,7 +336,7 @@ export default function EnergyProjectsPage() {
                   </a>
                   <a href="tel:+1234567890" className="flex items-center justify-center text-gray-300 hover:text-accent-orange transition-colors duration-300">
                     <Phone className="mr-2 h-5 w-5" />
-                    +1 (234) 567-890
+                    +91 8310862870
                   </a>
                 </div>
               </div>

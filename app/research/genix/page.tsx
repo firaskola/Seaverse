@@ -50,7 +50,7 @@ export default function GenixPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <ScrollReveal animation="fade-right">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-6">The Future of Aquaculture, Begins Here</h2>
+                <h2 className="text-3xl font-bold text-accent-orange mb-6">The Future of Aquaculture, Begins Here</h2>
                 <p className="text-gray-300 mb-6">
                   At GENIX, the research arm of SEAVERSE, we redefine the boundaries of marine science and food
                   innovation. In 2026, we would proudly launch India's first Artificial Ocean Laboratory, a pioneering
@@ -86,7 +86,7 @@ export default function GenixPage() {
 
                 <ScrollReveal animation="fade-up" delay={400}>
                   <div className="bg-dark-card/50 p-4 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-white mb-3">Vision</h3>
+                    <h3 className="text-xl font-bold text-accent-orange mb-3">Vision</h3>
                     <p className="text-gray-300">
                       To make India a global hub for sustainable high-end seafood and ethical caviar production,
                       which is engineered through controlled ocean simulation and advanced biotechnology.
@@ -156,7 +156,7 @@ export default function GenixPage() {
             ].map((feature, index) => (
               <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
                 <div className="bg-dark-surface/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 hover:-translate-y-1 group">
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">{feature.title}</h3>
+                  <h3 className="text-xl font-bold text-accent-orange mb-3 group-hover:text-accent-orange transition-colors duration-300">{feature.title}</h3>
                   <p className="text-gray-300 group-hover:text-white transition-colors duration-300">{feature.description}</p>
                 </div>
               </ScrollReveal>
@@ -263,7 +263,7 @@ export default function GenixPage() {
             ].map((item, index) => (
               <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
                 <div className="bg-dark-surface/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">{item.title}</h3>
+                  <h3 className="text-xl font-bold text-accent-orange mb-3 group-hover:text-accent-orange transition-colors duration-300">{item.title}</h3>
                   <p className="text-gray-300 group-hover:text-white transition-colors duration-300">{item.description}</p>
                 </div>
               </ScrollReveal>
@@ -281,10 +281,10 @@ export default function GenixPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <ScrollReveal animation="fade-right" className="order-2 lg:order-1">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-6">Sustainability Meets Innovation</h2>
-                <p className="text-gray-300 mb-6">We aim to eliminate:</p>
-
-                <ScrollReveal animation="stagger" className="stagger-reveal space-y-3 mb-6">
+                <h2 className="text-3xl font-bold text-accent-orange mb-4">Sustainability Meets Innovation</h2>
+                <p className="text-gray-300 mb-2">We aim to eliminate:</p>
+                <p className="text-gray-300 mb-4">Sustainability is at the core of Genix's mission. By leveraging advanced biotechnology and ethical practices, we ensure that every aspect of our aquaculture process protects marine ecosystems and supports long-term food security. Our approach minimizes environmental impact while maximizing efficiency and quality.</p>
+                <ScrollReveal animation="stagger" className="stagger-reveal space-y-3 mb-4">
                   <div className="flex items-start">
                     <Check className="text-accent-orange mr-2 mt-1 flex-shrink-0" size={18} />
                     <span className="text-gray-300">Overfishing of wild high-value species</span>
@@ -298,8 +298,7 @@ export default function GenixPage() {
                     <span className="text-gray-300">Marine ecosystem damage from uncontrolled farming</span>
                   </div>
                 </ScrollReveal>
-
-                <p className="text-gray-300 font-medium">
+                <p className="text-gray-300 font-medium mt-2">
                   Every fish that we produce is ethical, traceable, and of the highest international standard.
                 </p>
               </div>
@@ -356,7 +355,7 @@ export default function GenixPage() {
             ].map((outcome, index) => (
               <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
                 <div className="bg-dark-card/50 p-6 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 hover:-translate-y-1 group">
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-orange transition-colors duration-300">{outcome.title}</h3>
+                  <h3 className="text-xl font-bold text-accent-orange mb-3 group-hover:text-accent-orange transition-colors duration-300">{outcome.title}</h3>
                   <p className="text-gray-300 group-hover:text-white transition-colors duration-300">{outcome.description}</p>
                 </div>
               </ScrollReveal>
@@ -477,15 +476,15 @@ export default function GenixPage() {
           <ScrollReveal animation="fade-up" delay={200}>
             <div className="max-w-2xl mx-auto">
               <div className="bg-dark-card/50 p-8 rounded-lg border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300">
-                <h3 className="text-2xl font-bold text-white mb-6">Get in Touch</h3>
+                <h3 className="text-2xl font-bold text-accent-orange mb-6">Get in Touch</h3>
                 <div className="space-y-4">
                   <a href="mailto:seaversetechnology@gmail.com" className="flex items-center justify-center text-gray-300 hover:text-accent-orange transition-colors duration-300">
                     <Mail className="mr-2 h-5 w-5" />
                     seaversetechnology@gmail.com
                   </a>
-                  <a href="tel:+1234567890" className="flex items-center justify-center text-gray-300 hover:text-accent-orange transition-colors duration-300">
+                  <a href="tel:+91 8310862870" className="flex items-center justify-center text-gray-300 hover:text-accent-orange transition-colors duration-300">
                     <Phone className="mr-2 h-5 w-5" />
-                    +1 (234) 567-890
+                    +91 8310862870
                   </a>
                 </div>
               </div>
