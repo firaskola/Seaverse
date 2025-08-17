@@ -366,7 +366,7 @@ export default function RexweldAIPage() {
                 {
                   title: "Marine Construction",
                   description: "Bridge construction, port infrastructure, and underwater structural welding for marine projects.",
-                  image: "/images/rex4.webp"
+                  image: "/images/rex1.jpg"
                 },
                 {
                   title: "Underwater Pipelines",
@@ -376,12 +376,12 @@ export default function RexweldAIPage() {
                 {
                   title: "Renewable Energy",
                   description: "Offshore wind farm installation, maintenance, and underwater cable welding for renewable energy projects.",
-                  image: "/images/rex6.jpg"
+                  image: "/images/rene.jpg"
                 },
                 {
                   title: "Naval & Defense",
                   description: "Military vessel repairs, submarine maintenance, and underwater defense infrastructure welding.",
-                  image: "/images/weld.jpg"
+                  image: "/images/drone.jpg"
                 }
               ].map((application, index) => (
                 <article key={index} className="bg-dark-surface/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group">

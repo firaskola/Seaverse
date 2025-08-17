@@ -177,7 +177,7 @@ export default function Home() {
           </ScrollReveal>
           <ScrollReveal animation="fade-up" delay={200}>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Precision. Innovation. Depth. - Pioneering marine technology solutions for underwater welding, ocean laboratories, and sustainable aquaculture.
+              Precision | Innovation | Depth
             </p>
           </ScrollReveal>
         </div>

@@ -153,7 +153,7 @@ export default function WaterQualityPage() {
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden" role="banner">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/sci2.jpg"
+            src="/images/water_quality.jpg"
             alt="Seaverse Water Quality Assessment - Marine Environmental Monitoring Services"
             fill
             className="object-cover"
