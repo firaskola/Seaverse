@@ -104,6 +104,12 @@ export default function AboutPage() {
         name: "Rachana JG",
         jobTitle: "Chief AI Officer",
         description: "Leads AI strategy and development, driving innovation in marine technology through artificial intelligence."
+      },
+      {
+        "@type": "Person",
+        name: "RAJ GUPTA",
+        jobTitle: "TECH HEAD & AI PROJECTS LEAD",
+        description: "Leading technical initiatives and AI projects, driving innovation in marine technology through cutting-edge artificial intelligence solutions."
       }
     ]
   }
@@ -288,7 +294,7 @@ export default function AboutPage() {
           </ScrollReveal>
 
           <ScrollReveal animation="fade-up" className="mb-12">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+            <div className="grid grid-cols-7 gap-4 justify-items-center">
               {[
                 {
                   name: "Shreesha H Acharya",
@@ -325,6 +331,12 @@ export default function AboutPage() {
                   title: "Chief AI Officer",
                   bio: "Leads AI strategy and development, driving innovation in marine technology through artificial intelligence.",
                   image: "/team/6.jpeg"
+                },
+                {
+                  name: "Raj Gupts",
+                  title: "Tech Lead & AI Projects Lead",
+                  bio: "Leading technical initiatives and AI projects, driving innovation in marine technology through cutting-edge artificial intelligence solutions.",
+                  image: "/team/7.png"
                 },
               ].map((member, i) => (
                 <ScrollReveal key={i} animation="scale" delay={i * 100}>
