@@ -294,7 +294,7 @@ export default function AboutPage() {
           </ScrollReveal>
 
           <ScrollReveal animation="fade-up" className="mb-12">
-            <div className="grid grid-cols-7 gap-4 justify-items-center">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 justify-items-center">
               {[
                 {
                   name: "Shreesha H Acharya",
@@ -334,13 +334,13 @@ export default function AboutPage() {
                 },
                 {
                   name: "Raj Gupts",
-                  title: "Tech Lead & AI Projects Lead",
+                  title: "Tech Head & AI Projects Lead",
                   bio: "Leading technical initiatives and AI projects, driving innovation in marine technology through cutting-edge artificial intelligence solutions.",
                   image: "/team/7.png"
                 },
               ].map((member, i) => (
                 <ScrollReveal key={i} animation="scale" delay={i * 100}>
-                  <article className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group h-[260px] w-full flex flex-col items-center justify-start cursor-pointer transform hover:scale-105 hover:h-[360px] max-h-[410px] relative">
+                  <article className="bg-dark-card/50 rounded-lg overflow-hidden border border-dark-border/50 hover:border-accent-orange/30 transition-all duration-300 group h-[260px] w-full flex flex-col items-center justify-start cursor-pointer transform hover:scale-105 hover:h-[360px] max-h-[410px] relative min-w-[200px]">
                     <div className="aspect-square relative min-h-[120px] max-h-[120px] w-full flex-shrink-0">
                       <Image
                         src={member.image}
@@ -349,7 +349,7 @@ export default function AboutPage() {
                         height={400}
                         className="object-contain w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500 bg-black"
                         loading="lazy"
-                        sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 16vw"
+                        sizes="(max-width: 640px) 80vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 16vw"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-dark-surface/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
